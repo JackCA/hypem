@@ -1,0 +1,232 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/feed/jackca/json
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jpj7","artist":"Keenhouse","title":"Skyscrapers","dateposted":1331528249,"siteid":5798,"sitename":"Too
+        Many Sebastians","posturl":"http:\/\/toomanysebastians.net\/2012\/03\/12\/keenhouse-skyscrapers\/","postid":1745915,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/5798.png","time":471,"description":"We\u2019ve
+        already mentioned how great we think the new Keenhouse EP is. However, the
+        man has allowed us a free download to share, that free download is \u201cSkyscrapers\u201d
+        and it\u2019s our favourite track on the EP (click video for the win). It\u2019s
+        out now and you can gr","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Keenhouse"},"1":{"mediaid":"1jphj","artist":"Ben","title":"Kremlin","dateposted":1331524612,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/grifta-kremlin\/","postid":1745884,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1745884.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1745884_320.png","time":364,"description":"Grifta
+        - Kremlin (Artwork) Grifta - Kremlin (Artwork) Not all that into drum & bass,
+        but when it\u2019s got a melody like this, I\u2019m in. Grifta\u2019s \u201cKremlin\u201d
+        starts out like any D&B track, but the ride along melody gets better as it
+        goes. It seems to come to a pe","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ben"},"2":{"mediaid":"1jpg3","artist":"Knobsticker","title":"Four
+        II (Just Regular Guys Remix)","dateposted":1331515867,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":292,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Knobsticker"},"3":{"mediaid":"1jg0t","artist":"Yuna","title":"Live
+        your Life (Vice Remix)","dateposted":1331515818,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":83,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":379,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Yuna"},"4":{"mediaid":"1jg0w","artist":"Kill
+        The Noise & Datsik","title":"Lightspeed (Original Mix)","dateposted":1331515832,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":31,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":218,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Kill%20The%20Noise%20&%20Datsik"},"5":{"mediaid":"1jpg7","artist":"Nation","title":"Conquest
+        (Original Mix)","dateposted":1331515938,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":8,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":348,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Nation"},"6":{"mediaid":"1jpg5","artist":"Vostok-1","title":"Oceans
+        Under Enceladus Surface","dateposted":1331515903,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":278,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Vostok-1"},"7":{"mediaid":"1jdgm","artist":"Skrillex
+        feat ellie goulding","title":"skrillex feat ellie goulding - summit (clarks(fr)
+        remix)","dateposted":1331515957,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":53,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":355,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Skrillex%20feat%20ellie%20goulding"},"8":{"mediaid":"1jpfz","artist":"Bendixx","title":"Dark
+        Times","dateposted":1331515796,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":205,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bendixx"},"9":{"mediaid":"1jpg2","artist":"Reznik
+        Syndrom","title":"Ich Spiele Mit (Buttheads Rework)","dateposted":1331515850,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":323,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Reznik%20Syndrom"},"10":{"mediaid":"1jpg6","artist":"Madeon
+        vs. The Ting Tings","title":"Hang Icarus Up (Fissunix Mix)","dateposted":1331515918,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":249,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Madeon%20vs.%20The%20Ting%20Tings"},"11":{"mediaid":"1jpg4","artist":"Nero","title":"Must
+        Be The Feeling (South Central Remix)","dateposted":1331515887,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":339,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Nero"},"12":{"mediaid":"1jpgc","artist":"Feature
+        Cuts","title":"Slap Technique","dateposted":1331516030,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":323,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Feature%20Cuts"},"13":{"mediaid":"1jpg9","artist":"Justice","title":"Ohio
+        (Edgework Remix)","dateposted":1331515975,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":314,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Justice"},"14":{"mediaid":"1jpga","artist":"Scattavox","title":"Sizzle","dateposted":1331515992,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":330,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Scattavox"},"15":{"mediaid":"1jpgj","artist":"Camo
+        & Krooked","title":"Hot Pursuit (Andy Malex 2.0 Remix)","dateposted":1331516132,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":206,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Camo%20&%20Krooked"},"16":{"mediaid":"1jpge","artist":"Candyland
+        & Dirtyrock","title":"Four Loko (Original Mix)","dateposted":1331516053,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":233,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Candyland%20&%20Dirtyrock"},"17":{"mediaid":"1jpgh","artist":"Mess
+        Me","title":"Brother","dateposted":1331516118,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":363,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mess%20Me"},"18":{"mediaid":"1jpgd","artist":"DVBBS","title":"Sugar
+        Coated","dateposted":1331516039,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":170,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/DVBBS"},"19":{"mediaid":"1jpgf","artist":"SubVibe","title":"This
+        is SubVibe","dateposted":1331516073,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":396,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/SubVibe"}}'
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Mon, 12 Mar 2012 06:03:45 GMT
+      content-type:
+      - text/html
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      x-nginx-cache:
+      - active
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jpj7","artist":"Keenhouse","title":"Skyscrapers","dateposted":1331528249,"siteid":5798,"sitename":"Too
+        Many Sebastians","posturl":"http:\/\/toomanysebastians.net\/2012\/03\/12\/keenhouse-skyscrapers\/","postid":1745915,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/5798.png","time":471,"description":"We\u2019ve
+        already mentioned how great we think the new Keenhouse EP is. However, the
+        man has allowed us a free download to share, that free download is \u201cSkyscrapers\u201d
+        and it\u2019s our favourite track on the EP (click video for the win). It\u2019s
+        out now and you can gr","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Keenhouse"},"1":{"mediaid":"1jphj","artist":"Ben","title":"Kremlin","dateposted":1331524612,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/grifta-kremlin\/","postid":1745884,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1745884.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1745884_320.png","time":364,"description":"Grifta
+        - Kremlin (Artwork) Grifta - Kremlin (Artwork) Not all that into drum & bass,
+        but when it\u2019s got a melody like this, I\u2019m in. Grifta\u2019s \u201cKremlin\u201d
+        starts out like any D&B track, but the ride along melody gets better as it
+        goes. It seems to come to a pe","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ben"},"2":{"mediaid":"1jpg3","artist":"Knobsticker","title":"Four
+        II (Just Regular Guys Remix)","dateposted":1331515867,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":292,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Knobsticker"},"3":{"mediaid":"1jg0t","artist":"Yuna","title":"Live
+        your Life (Vice Remix)","dateposted":1331515818,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":83,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":379,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Yuna"},"4":{"mediaid":"1jg0w","artist":"Kill
+        The Noise & Datsik","title":"Lightspeed (Original Mix)","dateposted":1331515832,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":31,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":218,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Kill%20The%20Noise%20&%20Datsik"},"5":{"mediaid":"1jpg7","artist":"Nation","title":"Conquest
+        (Original Mix)","dateposted":1331515938,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":8,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":348,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Nation"},"6":{"mediaid":"1jpg5","artist":"Vostok-1","title":"Oceans
+        Under Enceladus Surface","dateposted":1331515903,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":278,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Vostok-1"},"7":{"mediaid":"1jdgm","artist":"Skrillex
+        feat ellie goulding","title":"skrillex feat ellie goulding - summit (clarks(fr)
+        remix)","dateposted":1331515957,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":53,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":355,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Skrillex%20feat%20ellie%20goulding"},"8":{"mediaid":"1jpfz","artist":"Bendixx","title":"Dark
+        Times","dateposted":1331515796,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":205,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bendixx"},"9":{"mediaid":"1jpg2","artist":"Reznik
+        Syndrom","title":"Ich Spiele Mit (Buttheads Rework)","dateposted":1331515850,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":323,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Reznik%20Syndrom"},"10":{"mediaid":"1jpg6","artist":"Madeon
+        vs. The Ting Tings","title":"Hang Icarus Up (Fissunix Mix)","dateposted":1331515918,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":249,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Madeon%20vs.%20The%20Ting%20Tings"},"11":{"mediaid":"1jpg4","artist":"Nero","title":"Must
+        Be The Feeling (South Central Remix)","dateposted":1331515887,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":339,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Nero"},"12":{"mediaid":"1jpgc","artist":"Feature
+        Cuts","title":"Slap Technique","dateposted":1331516030,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":323,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Feature%20Cuts"},"13":{"mediaid":"1jpg9","artist":"Justice","title":"Ohio
+        (Edgework Remix)","dateposted":1331515975,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":314,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Justice"},"14":{"mediaid":"1jpga","artist":"Scattavox","title":"Sizzle","dateposted":1331515992,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":330,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Scattavox"},"15":{"mediaid":"1jpgj","artist":"Camo
+        & Krooked","title":"Hot Pursuit (Andy Malex 2.0 Remix)","dateposted":1331516132,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":206,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Camo%20&%20Krooked"},"16":{"mediaid":"1jpge","artist":"Candyland
+        & Dirtyrock","title":"Four Loko (Original Mix)","dateposted":1331516053,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":233,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Candyland%20&%20Dirtyrock"},"17":{"mediaid":"1jpgh","artist":"Mess
+        Me","title":"Brother","dateposted":1331516118,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":363,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mess%20Me"},"18":{"mediaid":"1jpgd","artist":"DVBBS","title":"Sugar
+        Coated","dateposted":1331516039,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":170,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/DVBBS"},"19":{"mediaid":"1jpgf","artist":"SubVibe","title":"This
+        is SubVibe","dateposted":1331516073,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"loved_count":3,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":396,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/SubVibe"}}'
+    http_version: 
+  recorded_at: Mon, 12 Mar 2012 06:03:45 GMT
+recorded_with: VCR 2.0.0

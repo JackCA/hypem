@@ -7,19 +7,19 @@ module Hypem
     end
 
     def loved_playlist
-      Request.get('/playlist/loved/' + @user)
+      Playlist.get('loved',@user)
     end
 
     def feed_playlist
-      Request.get('/playlist/feed/' + @user)
+      Playlist.get('feed',@user)
     end
 
     def friends_playlist
-      Request.get('playlist/people/' + @user)
+      Playlist.get('people',@user)
     end
 
     def friends_history
-      Request.get('playlist/people_history/' + @user)
+      Playlist.get('people_history',@user)
     end
 
   end

@@ -1,0 +1,298 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/people/jackca/json
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1dpkn","artist":"Electric Guest","title":"Troubleman","dateposted":1330937853,"siteid":19,"sitename":"aurgasm","posturl":"http:\/\/aurgasm.us\/2012\/03\/electric-guest\/","postid":1738850,"loved_count":139,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/19.jpg","time":532,"description":"indie
+        pop \/\/ ecletic Cruising toward widespread status, Asa Taccone & Matthew
+        Compton are the scrumptious and charming Electric Guest from LA. A Dangerous
+        Mouse is the secret ingredient in their addictive confections; giving us a
+        catchy, carefree, Motown-","dateloved":1330993862,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Electric%20Guest"},"1":{"mediaid":"1jhfj","artist":"Ryan
+        Power","title":"02 Mondo Rush","dateposted":1330981945,"siteid":13330,"sitename":"no
+        fear of pop.","posturl":"http:\/\/nofearofpop.net\/2012\/03\/ryan-power-mondo-rush\/","postid":1739601,"loved_count":8,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1739601.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1739601_320.png","time":268,"description":"I\u2019ve
+        already said it a couple of times in a couple of places, this dude is weird
+        but totally awesome, as is his album I Don\u2019t Want to Die, which is still
+        forthcoming in spite of the fact that the mp3s on our hard drive already start
+        to wear off due to hea","dateloved":1330991581,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ryan%20Power"},"2":{"mediaid":"1hsj5","artist":"Rhye","title":"Open","dateposted":1331104063,"siteid":4616,"sitename":"AWmusic","posturl":"http:\/\/awmusic.ca\/2012\/03\/07\/rhye-open\/","postid":1741457,"loved_count":5313,"posted_count":30,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1741457.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1741457_320.png","time":222,"description":"Rhye
+        Open I must be taking a step back from my usual heavy dose of cynicism and
+        jadedness or something these days because I\u2019m listening to more feminine,
+        emotion-heavy tracks as of late. The title of the song seems to describe some
+        kind of personal openin","dateloved":1330991468,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Rhye"},"3":{"mediaid":"1f5pg","artist":"Grimes","title":"Oblivion","dateposted":1331321781,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/listendownload-233-free-mp3s-of-the-best-artists-playing-sxsw-2012\/","postid":1744565,"loved_count":4288,"posted_count":81,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565_320.png","time":252,"description":"For
+        the past few years the organisers of the SXSW festival have included an MP3
+        with each artists they feature on their site who is appearing at the festival,
+        as a wee taster of what to expect from said artist. At the same time some
+        awesome fellow organis","dateloved":1325751638,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"4":{"mediaid":"1h2q8","artist":"Grimes","title":"Genesis","dateposted":1331297783,"siteid":940,"sitename":"The
+        Blue Walrus","posturl":"http:\/\/www.thebluewalrus.com\/2012\/03\/09\/grimes-visions\/","postid":1744158,"loved_count":4800,"posted_count":88,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158_320.png","time":256,"description":"Hmm.
+        I still haven\u2019t made up my mind. About the album artwork, I mean \u2013
+        Grimes\u2019s third album is brilliant, and I\u2019ll get to that in a little
+        bit, but first I must say that I wouldn\u2019t be surprised if one was unable
+        to take Visions seriously after seeing its","dateloved":1325751516,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"5":{"mediaid":"1gj9r","artist":"Sean
+        Nicholas Savage","title":"Wasted In Snowstorm","dateposted":1324498516,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-over-carols.html","postid":1671687,"loved_count":22,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1671687.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1671687_320.png","time":227,"description":"
+        It''s that time of year where I get conflicted over Christmas carols. We only
+        have 5 more days of listening to them thankfully. But at this point, I wonder
+        if I should continue in my grinch like ways hating the nauseating carols that
+        play in every store, ","dateloved":1323974092,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sean%20Nicholas%20Savage"},"6":{"mediaid":"1gdcx","artist":"M?DE::IN::HEIGHTS","title":"Wildflowers
+        (Exhale Efreet)","dateposted":1323473349,"siteid":3683,"sitename":"Winnie
+        Cooper","posturl":"http:\/\/winniecooper.net\/2011\/12\/m%e2%88%86deinheights\/","postid":1662206,"loved_count":21,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206_320.png","time":184,"description":"::M\u2206DE::IN::HEIGHTS::
+        describe themselves as mythical filth pop which I think is quite accurate.
+        Their 808 hip hop influenced sound is unique and otherworldly. Tied together
+        nicely with the pop female vocals of Kelsey Bulkin. They\u2019re from New
+        York and a s","dateloved":1323731118,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/M?DE::IN::HEIGHTS"},"7":{"mediaid":"1fnyj","artist":"Twin
+        Sister","title":"Kimmi in a Rice Field (Balam Acab Remix)","dateposted":1327604898,"siteid":15246,"sitename":"Pants
+        Dance ","posturl":"http:\/\/www.dothepantsdance.com\/blog\/item\/412-sleepy-sundaze-11\/20","postid":1644982,"loved_count":309,"posted_count":27,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982_320.png","time":197,"description":"TgALF
+        a man is not old until regret takes the place of dreams The Bird Day :: Moody
+        Trudy Lovers :: Miami Tse Tung (Name In Lights Dub) BRAIDS :: Peach Wedding
+        Twin Sister :: Kimmi in a Rice Field (Balam Acab Remix) Trailer Trash Tracys
+        :: Dies in 55 Down","dateloved":1323730978,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Twin%20Sister"},"8":{"mediaid":"1b3fh","artist":"Tonstartssbandht","title":"Hymn
+        Eola","dateposted":1325346518,"siteid":14755,"sitename":"WEIRD MAGIC","posturl":"http:\/\/weirdmagic.biz\/2011\/12\/killed-it-2011\/","postid":1677069,"loved_count":17,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069_320.png","time":228,"description":"clams
+        casino realist alive all i need drowning omg leaf (asap rocky prod) instrumentals
+        araabmuzik streetz tonight at2 electronic dream + dozens (hundreds?) we\u2019ll
+        never hear drake marvin\u2019s room over my dead body take care john maus
+        quantum leap believer w","dateloved":1323730343,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Tonstartssbandht"},"9":{"mediaid":"1gdnn","artist":"Quilt","title":"Gome
+        Home","dateposted":1323516558,"siteid":133,"sitename":"said the gramophone","posturl":"http:\/\/www.saidthegramophone.com\/archives\/saturnalian_waistline.php","postid":1662461,"loved_count":9,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1662461.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1662461_320.png","time":277,"description":"bone-yard.jpg
+        Quilt - \"Gome Home\" I''m carving a weapon out of wood because I can''t sleep,
+        what for the moon and the motion. The other jumpers are asleep in the corners
+        and all touching for warmth, but the jostling of the bumps and sways, and
+        the glowing b","dateloved":1323730152,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Quilt"},"10":{"mediaid":"1dvr9","artist":"Matt
+        Duncan","title":"SummerSong","dateposted":1323700560,"siteid":191,"sitename":"You
+        Ain''t No Picasso","posturl":"http:\/\/www.youaintnopicasso.com\/2011\/12\/12\/mixmas-2011-matt-duncan\/","postid":1663390,"loved_count":58,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1663390.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1663390_320.png","time":212,"description":"If
+        it\u2019s December, then you know it\u2019s Mixmas time at You Ain\u2019t
+        No Picasso! Each year I get a bunch of my favorite bands to contribute themed
+        mixes and share their thoughts about each of the tracks. MP3: Matt Duncan
+        \u2013 Summer Song Matt Duncan is a nice guy, ","dateloved":1323729352,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Matt%20Duncan"},"11":{"mediaid":"1e51z","artist":"Professor
+        Penguin","title":"Pilot","dateposted":1331073743,"siteid":14392,"sitename":"Those
+        Who Dig","posturl":"http:\/\/www.thosewhodig.net\/article\/professor-penguin\/740\/","postid":1741132,"loved_count":27,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14392.jpg","time":182,"description":"Professor
+        Penguin is a walloping nine piece band based out of London. They are gearing
+        up to release their debut album Planes on April 9th of this year. The first
+        single, Pilot, has already been released to great success and even got Brian
+        Eno to gush tha","dateloved":1323729320,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Professor%20Penguin"},"12":{"mediaid":"1f7a4","artist":"Mux
+        Mool","title":"Palace Chalice","dateposted":1329145135,"siteid":10177,"sitename":"Tympanogram","posturl":"http:\/\/tympanogram.com\/music\/album-review-mux-mool-planet-high-school\/","postid":1718072,"loved_count":125,"posted_count":12,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1718072.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1718072_320.png","time":228,"description":"Tweet
+        vaso link Planet High School Mux Mool 480 [album review] Mux Mool \/\/ Planet
+        High SchoolTympanogram Grade: B+ The most telling sign that electronic artist
+        Mux Mool (a.k.a. Brian Lindgren) has matured his sound is that his style has
+        been clearly defin","dateloved":1323729133,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mux%20Mool"},"13":{"mediaid":"1b0yc","artist":"Crystal
+        Stilts","title":"Precarious Stair","dateposted":1324457028,"siteid":16206,"sitename":"Get
+        Bent!","posturl":"http:\/\/letsgetbent.tumblr.com\/post\/14538489076\/2011-top-10-best-songs-to-listen-to-whilst-watching","postid":1671215,"loved_count":37,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1671215.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1671215_320.png","time":191,"description":"By
+        Becca Capers Starting with our Reader\u2019s Poll, we\u2019re looking back
+        on 2011 with a...","dateloved":1323728731,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Crystal%20Stilts"},"14":{"mediaid":"1gexs","artist":"Conor
+        & the Stonehill Kids","title":"New England","dateposted":1323708923,"siteid":133,"sitename":"said
+        the gramophone","posturl":"http:\/\/www.saidthegramophone.com\/archives\/garden_of_shrinking_eyele.php","postid":1663505,"loved_count":17,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1663505.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1663505_320.png","time":150,"description":"I
+        think the Devil does it Conor & the Stonehill Kids - \"New England\". This
+        bassy, smothered recording - like a song recorded in a barrow, a marine trench,
+        a cavernous cellar. But it''s the song of a man who loves his gang, who skips
+        and jives with them, wh","dateloved":1323728333,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Conor%20&%20the%20Stonehill%20Kids"},"15":{"mediaid":"1g9eh","artist":"Guided
+        By Voices","title":"One, Two, Three, Four","dateposted":1325577814,"siteid":4319,"sitename":"das
+        klienicum","posturl":"http:\/\/dasklienicum.blogspot.com\/2012\/01\/neue-tone-1086-upcoming-albums-2012.html","postid":1678394,"loved_count":7,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/4319.png","time":83,"description":"nun
+        habe ich es mir doch angetan. dabei hatte ich mir fest vorgenommen, heuer
+        dieser arbeit aus dem wege zu gehen. doch was solls. mir selbst bringt die
+        \u00fcbersicht einiges, wenigstens als kleiner orientierungsfaden. ich beanspruche
+        keine vollst\u00e4ndigkeit no","dateloved":1323727983,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Guided%20By%20Voices"},"16":{"mediaid":"1fp55","artist":"Alabama
+        Shakes","title":"On Your Way","dateposted":1328717017,"siteid":200,"sitename":"My
+        Old Kentucky Blog","posturl":"http:\/\/www.myoldkentuckyblog.com\/?p=26703","postid":1713636,"loved_count":70,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/200.jpg","time":183,"description":"When
+        MOKB started yabberin\u2019 and then MOKB Presents booked and announced Alabama
+        Shakes in Indianapolis this past Fall, there was some head-scratching. Who
+        was this band, and why was there such a buzz around town surrounding them?
+        Basically, everyone wante","dateloved":1320718299,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Alabama%20Shakes"},"17":{"mediaid":"1eby5","artist":"Woodsman","title":"Specdrum","dateposted":1324766020,"siteid":14254,"sitename":"Magic
+        Teepee","posturl":"http:\/\/magicteepee.com\/2011\/12\/24\/magic-teepee-a-few-of-my-favorite-things-part-ii\/","postid":1673798,"loved_count":54,"posted_count":23,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1673798.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1673798_320.png","time":247,"description":"Favorite
+        EP\u2019s Caddywhompus ~ The Weight (Chinquapin Records) Caddywhompus \/^\\
+        The Weight Southern Shores ~ Atlantic (Cascine) Southern Shores \/^\\ Night
+        Is Young Elite Gymnastics ~ Ruin 1 & 2 (Acephale Records) Elite Gymnastics
+        \/^\\ Omamori Woodsman ~ Mysti","dateloved":1320176286,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Woodsman"},"18":{"mediaid":"1c004","artist":"Jamie
+        xx","title":"Far Nearer","dateposted":1329330206,"siteid":829,"sitename":"music
+        like dirt","posturl":"http:\/\/www.musiclikedirt.com\/2012\/02\/15\/top-200-tracks-of-2011-1-50\/","postid":1720991,"loved_count":5322,"posted_count":54,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1720991.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1720991_320.png","time":411,"description":"Like
+        a 2011 edition Annual pasted with price reduction stickers, sitting unwanted
+        in the bargain bin, my end of year list may have slightly missed its moment.
+        Nevertheless this is its 7th edition and it\u2019d be a shame to let it sit
+        in \u201cdraft\u201d status forever","dateloved":1320175853,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Jamie%20xx"},"19":{"mediaid":"1fhpk","artist":"Field
+        Music","title":"(I Keep Thinking About) A New Thing","dateposted":1330786619,"siteid":6379,"sitename":"Naive
+        Harmonies","posturl":"http:\/\/naiveharmonies.com\/2012\/03\/ive-been-trying-to-understand-fine-tune-friday\/","postid":1738066,"loved_count":63,"posted_count":22,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1738066.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1738066_320.png","time":197,"description":"Field
+        Music, \u201c(I Keep Thinking About) A New Thing\u201d get it on Plumb (2012)
+        Ugh. Seriously? Saturday? We\u2019re giving Fine Tune Friday a bad name here,
+        people. We\u2019ll need a new name for this Song of the Week biz, something
+        that doesn\u2019t\u2026you know\u2026LIE. Anyway, if","dateloved":1320175850,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Field%20Music"}}'
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Mon, 12 Mar 2012 06:04:11 GMT
+      content-type:
+      - text/javascript; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - AUTH=03%3A4deacb3b068e3f69ac5406ff94f021af%3A1331532251%3A1276002699%3ACA-US;
+        expires=Wed, 08-Mar-2028 06:04:11 GMT; path=/; domain=hypem.com
+      x-hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - ! '*'
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1dpkn","artist":"Electric Guest","title":"Troubleman","dateposted":1330937853,"siteid":19,"sitename":"aurgasm","posturl":"http:\/\/aurgasm.us\/2012\/03\/electric-guest\/","postid":1738850,"loved_count":139,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/19.jpg","time":532,"description":"indie
+        pop \/\/ ecletic Cruising toward widespread status, Asa Taccone & Matthew
+        Compton are the scrumptious and charming Electric Guest from LA. A Dangerous
+        Mouse is the secret ingredient in their addictive confections; giving us a
+        catchy, carefree, Motown-","dateloved":1330993862,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Electric%20Guest"},"1":{"mediaid":"1jhfj","artist":"Ryan
+        Power","title":"02 Mondo Rush","dateposted":1330981945,"siteid":13330,"sitename":"no
+        fear of pop.","posturl":"http:\/\/nofearofpop.net\/2012\/03\/ryan-power-mondo-rush\/","postid":1739601,"loved_count":8,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1739601.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1739601_320.png","time":268,"description":"I\u2019ve
+        already said it a couple of times in a couple of places, this dude is weird
+        but totally awesome, as is his album I Don\u2019t Want to Die, which is still
+        forthcoming in spite of the fact that the mp3s on our hard drive already start
+        to wear off due to hea","dateloved":1330991581,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ryan%20Power"},"2":{"mediaid":"1hsj5","artist":"Rhye","title":"Open","dateposted":1331104063,"siteid":4616,"sitename":"AWmusic","posturl":"http:\/\/awmusic.ca\/2012\/03\/07\/rhye-open\/","postid":1741457,"loved_count":5313,"posted_count":30,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1741457.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1741457_320.png","time":222,"description":"Rhye
+        Open I must be taking a step back from my usual heavy dose of cynicism and
+        jadedness or something these days because I\u2019m listening to more feminine,
+        emotion-heavy tracks as of late. The title of the song seems to describe some
+        kind of personal openin","dateloved":1330991468,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Rhye"},"3":{"mediaid":"1f5pg","artist":"Grimes","title":"Oblivion","dateposted":1331321781,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/listendownload-233-free-mp3s-of-the-best-artists-playing-sxsw-2012\/","postid":1744565,"loved_count":4288,"posted_count":81,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565_320.png","time":252,"description":"For
+        the past few years the organisers of the SXSW festival have included an MP3
+        with each artists they feature on their site who is appearing at the festival,
+        as a wee taster of what to expect from said artist. At the same time some
+        awesome fellow organis","dateloved":1325751638,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"4":{"mediaid":"1h2q8","artist":"Grimes","title":"Genesis","dateposted":1331297783,"siteid":940,"sitename":"The
+        Blue Walrus","posturl":"http:\/\/www.thebluewalrus.com\/2012\/03\/09\/grimes-visions\/","postid":1744158,"loved_count":4800,"posted_count":88,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158_320.png","time":256,"description":"Hmm.
+        I still haven\u2019t made up my mind. About the album artwork, I mean \u2013
+        Grimes\u2019s third album is brilliant, and I\u2019ll get to that in a little
+        bit, but first I must say that I wouldn\u2019t be surprised if one was unable
+        to take Visions seriously after seeing its","dateloved":1325751516,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"5":{"mediaid":"1gj9r","artist":"Sean
+        Nicholas Savage","title":"Wasted In Snowstorm","dateposted":1324498516,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-over-carols.html","postid":1671687,"loved_count":22,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1671687.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1671687_320.png","time":227,"description":"
+        It''s that time of year where I get conflicted over Christmas carols. We only
+        have 5 more days of listening to them thankfully. But at this point, I wonder
+        if I should continue in my grinch like ways hating the nauseating carols that
+        play in every store, ","dateloved":1323974092,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sean%20Nicholas%20Savage"},"6":{"mediaid":"1gdcx","artist":"M?DE::IN::HEIGHTS","title":"Wildflowers
+        (Exhale Efreet)","dateposted":1323473349,"siteid":3683,"sitename":"Winnie
+        Cooper","posturl":"http:\/\/winniecooper.net\/2011\/12\/m%e2%88%86deinheights\/","postid":1662206,"loved_count":21,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206_320.png","time":184,"description":"::M\u2206DE::IN::HEIGHTS::
+        describe themselves as mythical filth pop which I think is quite accurate.
+        Their 808 hip hop influenced sound is unique and otherworldly. Tied together
+        nicely with the pop female vocals of Kelsey Bulkin. They\u2019re from New
+        York and a s","dateloved":1323731118,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/M?DE::IN::HEIGHTS"},"7":{"mediaid":"1fnyj","artist":"Twin
+        Sister","title":"Kimmi in a Rice Field (Balam Acab Remix)","dateposted":1327604898,"siteid":15246,"sitename":"Pants
+        Dance ","posturl":"http:\/\/www.dothepantsdance.com\/blog\/item\/412-sleepy-sundaze-11\/20","postid":1644982,"loved_count":309,"posted_count":27,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982_320.png","time":197,"description":"TgALF
+        a man is not old until regret takes the place of dreams The Bird Day :: Moody
+        Trudy Lovers :: Miami Tse Tung (Name In Lights Dub) BRAIDS :: Peach Wedding
+        Twin Sister :: Kimmi in a Rice Field (Balam Acab Remix) Trailer Trash Tracys
+        :: Dies in 55 Down","dateloved":1323730978,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Twin%20Sister"},"8":{"mediaid":"1b3fh","artist":"Tonstartssbandht","title":"Hymn
+        Eola","dateposted":1325346518,"siteid":14755,"sitename":"WEIRD MAGIC","posturl":"http:\/\/weirdmagic.biz\/2011\/12\/killed-it-2011\/","postid":1677069,"loved_count":17,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069_320.png","time":228,"description":"clams
+        casino realist alive all i need drowning omg leaf (asap rocky prod) instrumentals
+        araabmuzik streetz tonight at2 electronic dream + dozens (hundreds?) we\u2019ll
+        never hear drake marvin\u2019s room over my dead body take care john maus
+        quantum leap believer w","dateloved":1323730343,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Tonstartssbandht"},"9":{"mediaid":"1gdnn","artist":"Quilt","title":"Gome
+        Home","dateposted":1323516558,"siteid":133,"sitename":"said the gramophone","posturl":"http:\/\/www.saidthegramophone.com\/archives\/saturnalian_waistline.php","postid":1662461,"loved_count":9,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1662461.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1662461_320.png","time":277,"description":"bone-yard.jpg
+        Quilt - \"Gome Home\" I''m carving a weapon out of wood because I can''t sleep,
+        what for the moon and the motion. The other jumpers are asleep in the corners
+        and all touching for warmth, but the jostling of the bumps and sways, and
+        the glowing b","dateloved":1323730152,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Quilt"},"10":{"mediaid":"1dvr9","artist":"Matt
+        Duncan","title":"SummerSong","dateposted":1323700560,"siteid":191,"sitename":"You
+        Ain''t No Picasso","posturl":"http:\/\/www.youaintnopicasso.com\/2011\/12\/12\/mixmas-2011-matt-duncan\/","postid":1663390,"loved_count":58,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1663390.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1663390_320.png","time":212,"description":"If
+        it\u2019s December, then you know it\u2019s Mixmas time at You Ain\u2019t
+        No Picasso! Each year I get a bunch of my favorite bands to contribute themed
+        mixes and share their thoughts about each of the tracks. MP3: Matt Duncan
+        \u2013 Summer Song Matt Duncan is a nice guy, ","dateloved":1323729352,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Matt%20Duncan"},"11":{"mediaid":"1e51z","artist":"Professor
+        Penguin","title":"Pilot","dateposted":1331073743,"siteid":14392,"sitename":"Those
+        Who Dig","posturl":"http:\/\/www.thosewhodig.net\/article\/professor-penguin\/740\/","postid":1741132,"loved_count":27,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14392.jpg","time":182,"description":"Professor
+        Penguin is a walloping nine piece band based out of London. They are gearing
+        up to release their debut album Planes on April 9th of this year. The first
+        single, Pilot, has already been released to great success and even got Brian
+        Eno to gush tha","dateloved":1323729320,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Professor%20Penguin"},"12":{"mediaid":"1f7a4","artist":"Mux
+        Mool","title":"Palace Chalice","dateposted":1329145135,"siteid":10177,"sitename":"Tympanogram","posturl":"http:\/\/tympanogram.com\/music\/album-review-mux-mool-planet-high-school\/","postid":1718072,"loved_count":125,"posted_count":12,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1718072.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1718072_320.png","time":228,"description":"Tweet
+        vaso link Planet High School Mux Mool 480 [album review] Mux Mool \/\/ Planet
+        High SchoolTympanogram Grade: B+ The most telling sign that electronic artist
+        Mux Mool (a.k.a. Brian Lindgren) has matured his sound is that his style has
+        been clearly defin","dateloved":1323729133,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mux%20Mool"},"13":{"mediaid":"1b0yc","artist":"Crystal
+        Stilts","title":"Precarious Stair","dateposted":1324457028,"siteid":16206,"sitename":"Get
+        Bent!","posturl":"http:\/\/letsgetbent.tumblr.com\/post\/14538489076\/2011-top-10-best-songs-to-listen-to-whilst-watching","postid":1671215,"loved_count":37,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1671215.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1671215_320.png","time":191,"description":"By
+        Becca Capers Starting with our Reader\u2019s Poll, we\u2019re looking back
+        on 2011 with a...","dateloved":1323728731,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Crystal%20Stilts"},"14":{"mediaid":"1gexs","artist":"Conor
+        & the Stonehill Kids","title":"New England","dateposted":1323708923,"siteid":133,"sitename":"said
+        the gramophone","posturl":"http:\/\/www.saidthegramophone.com\/archives\/garden_of_shrinking_eyele.php","postid":1663505,"loved_count":17,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1663505.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1663505_320.png","time":150,"description":"I
+        think the Devil does it Conor & the Stonehill Kids - \"New England\". This
+        bassy, smothered recording - like a song recorded in a barrow, a marine trench,
+        a cavernous cellar. But it''s the song of a man who loves his gang, who skips
+        and jives with them, wh","dateloved":1323728333,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Conor%20&%20the%20Stonehill%20Kids"},"15":{"mediaid":"1g9eh","artist":"Guided
+        By Voices","title":"One, Two, Three, Four","dateposted":1325577814,"siteid":4319,"sitename":"das
+        klienicum","posturl":"http:\/\/dasklienicum.blogspot.com\/2012\/01\/neue-tone-1086-upcoming-albums-2012.html","postid":1678394,"loved_count":7,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/4319.png","time":83,"description":"nun
+        habe ich es mir doch angetan. dabei hatte ich mir fest vorgenommen, heuer
+        dieser arbeit aus dem wege zu gehen. doch was solls. mir selbst bringt die
+        \u00fcbersicht einiges, wenigstens als kleiner orientierungsfaden. ich beanspruche
+        keine vollst\u00e4ndigkeit no","dateloved":1323727983,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Guided%20By%20Voices"},"16":{"mediaid":"1fp55","artist":"Alabama
+        Shakes","title":"On Your Way","dateposted":1328717017,"siteid":200,"sitename":"My
+        Old Kentucky Blog","posturl":"http:\/\/www.myoldkentuckyblog.com\/?p=26703","postid":1713636,"loved_count":70,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/200.jpg","time":183,"description":"When
+        MOKB started yabberin\u2019 and then MOKB Presents booked and announced Alabama
+        Shakes in Indianapolis this past Fall, there was some head-scratching. Who
+        was this band, and why was there such a buzz around town surrounding them?
+        Basically, everyone wante","dateloved":1320718299,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Alabama%20Shakes"},"17":{"mediaid":"1eby5","artist":"Woodsman","title":"Specdrum","dateposted":1324766020,"siteid":14254,"sitename":"Magic
+        Teepee","posturl":"http:\/\/magicteepee.com\/2011\/12\/24\/magic-teepee-a-few-of-my-favorite-things-part-ii\/","postid":1673798,"loved_count":54,"posted_count":23,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1673798.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1673798_320.png","time":247,"description":"Favorite
+        EP\u2019s Caddywhompus ~ The Weight (Chinquapin Records) Caddywhompus \/^\\
+        The Weight Southern Shores ~ Atlantic (Cascine) Southern Shores \/^\\ Night
+        Is Young Elite Gymnastics ~ Ruin 1 & 2 (Acephale Records) Elite Gymnastics
+        \/^\\ Omamori Woodsman ~ Mysti","dateloved":1320176286,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Woodsman"},"18":{"mediaid":"1c004","artist":"Jamie
+        xx","title":"Far Nearer","dateposted":1329330206,"siteid":829,"sitename":"music
+        like dirt","posturl":"http:\/\/www.musiclikedirt.com\/2012\/02\/15\/top-200-tracks-of-2011-1-50\/","postid":1720991,"loved_count":5322,"posted_count":54,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1720991.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1720991_320.png","time":411,"description":"Like
+        a 2011 edition Annual pasted with price reduction stickers, sitting unwanted
+        in the bargain bin, my end of year list may have slightly missed its moment.
+        Nevertheless this is its 7th edition and it\u2019d be a shame to let it sit
+        in \u201cdraft\u201d status forever","dateloved":1320175853,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Jamie%20xx"},"19":{"mediaid":"1fhpk","artist":"Field
+        Music","title":"(I Keep Thinking About) A New Thing","dateposted":1330786619,"siteid":6379,"sitename":"Naive
+        Harmonies","posturl":"http:\/\/naiveharmonies.com\/2012\/03\/ive-been-trying-to-understand-fine-tune-friday\/","postid":1738066,"loved_count":63,"posted_count":22,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1738066.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1738066_320.png","time":197,"description":"Field
+        Music, \u201c(I Keep Thinking About) A New Thing\u201d get it on Plumb (2012)
+        Ugh. Seriously? Saturday? We\u2019re giving Fine Tune Friday a bad name here,
+        people. We\u2019ll need a new name for this Song of the Week biz, something
+        that doesn\u2019t\u2026you know\u2026LIE. Anyway, if","dateloved":1320175850,"username":"jstreet","fullname":"Justin
+        Street","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Field%20Music"}}'
+    http_version: 
+  recorded_at: Mon, 12 Mar 2012 06:04:11 GMT
+recorded_with: VCR 2.0.0

@@ -1,0 +1,290 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/popular//json
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jny9","artist":"C\u0153ur De Pirate","title":"Golden
+        Baby","dateposted":1331395804,"siteid":14526,"sitename":"Pop Labyrinth","posturl":"http:\/\/poplabyrinth.wordpress.com\/2012\/03\/10\/new-video-coeur-de-pirate-golden-baby\/","postid":1745187,"dateposted_first":1331395804,"siteid_first":14526,"sitename_first":"Pop
+        Labyrinth","posturl_first":"http:\/\/poplabyrinth.wordpress.com\/2012\/03\/10\/new-video-coeur-de-pirate-golden-baby\/","postid_first":1745187,"loved_count":1908,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745187.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745187_320.png","time":187,"description":"I
+        stumbled upon C\u0153ur De Pirate\u2018s music in passing before, but the
+        Canadian chanteuse\u2019s new single \u201cGolden Baby\u201d is possibly my
+        new favorite song of hers. It is sleek and lush retro-pop, set to a cool music
+        video that\u2019s like Teenage Dream gone supernatural","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/C\u0153ur%20De%20Pirate"},"1":{"mediaid":"1jmz2","artist":"The
+        Notorious B.I.G.","title":"I Got a Story to Tell","dateposted":1331294350,"siteid":2006,"sitename":"The
+        Passion of the Weiss","posturl":"http:\/\/passionweiss.com\/2012\/03\/09\/a-story-to-tell-biggie-smalls-and-narrative-i-got-a-story-to-tell\/","postid":1744114,"dateposted_first":1331294350,"siteid_first":2006,"sitename_first":"The
+        Passion of the Weiss","posturl_first":"http:\/\/passionweiss.com\/2012\/03\/09\/a-story-to-tell-biggie-smalls-and-narrative-i-got-a-story-to-tell\/","postid_first":1744114,"loved_count":1774,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1744114.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1744114_320.png","time":282,"description":"Image
+        via Up North Trips Abe Beame would like to pay his respects\u2026. The following
+        is a list of Knicks who could\u2019ve served as the possible victim in the
+        Notorious B.I.G.\u2019s \u201cStory to tell\u201d: Doug Christie, Hubert Davis,
+        Ron Grandison, Derek Harper, Doc River","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Notorious%20B.I.G."},"2":{"mediaid":"1jkh9","artist":"Flux
+        Pavilion feat. Example","title":"Daydreamer","dateposted":1331341081,"siteid":12285,"sitename":"Sunset
+        in the Rearview","posturl":"http:\/\/sunsetintherearview.com\/friday-weekend-music-12\/","postid":1744953,"dateposted_first":1331145266,"siteid_first":5248,"sitename_first":"Prefix
+        Magazine","posturl_first":"http:\/\/www.prefixmag.com\/news\/preview-flux-pavilions-daydreamer-single-with-exam\/62878\/","postid_first":1742138,"loved_count":1018,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1744953.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1744953_320.png","time":228,"description":"It\u2019s
+        March. Spring is finally around the corner. But you know what? It\u2019s also
+        daylight savings on Sunday, which means one again that Benjamin Franklin is
+        taking away our precious time. So, let\u2019s all try extra hard this weekend
+        to have a good time, despite","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Flux%20Pavilion%20feat.%20Example"},"3":{"mediaid":"1jms9","artist":"The
+        Kickdrums","title":"Thieves In The Choir (feat. Casey Veggies)","dateposted":1331431646,"siteid":11626,"sitename":"Indie
+        Shuffle","posturl":"http:\/\/www.indieshuffle.com\/the-kickdrums-thieves-in-the-choir-ft-casey-veggies\/","postid":1745432,"dateposted_first":1331264132,"siteid_first":11067,"sitename_first":"EARMILK","posturl_first":"http:\/\/www.earmilk.com\/2012\/03\/08\/the-kickdrums-thieves-in-the-choir-feat-casey-veggies\/","postid_first":1743892,"loved_count":1374,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1745432.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1745432_320.png","time":192,"description":"
+        Visit Indie Shuffle to download. Song: The Kickdrums - Thieves in the Choir
+        (Ft. Casey Veggies) [download here] What''s so good? Off their upcoming release
+        Follow The Leaders, \u201cThieves in the Choir\u201d is the first single to
+        be released. Featuring a hip-hop ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Kickdrums"},"4":{"mediaid":"1jnym","artist":"The
+        xx","title":"Shelter (Beat Culture Remix)","dateposted":1331528224,"siteid":16373,"sitename":"Your
+        Music Radar","posturl":"http:\/\/www.yourmusicradar.com\/djs-mixes\/the-xx-shelter-beat-culture-remix.html","postid":1745909,"dateposted_first":1331398636,"siteid_first":16450,"sitename_first":"Golden
+        Scissors","posturl_first":"http:\/\/goldenscissors.info\/2012\/03\/10\/the-xx-shelter-beat-culture-remix\/","postid_first":1745198,"loved_count":789,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16373.png","time":284,"description":"Are
+        you in the mood for some dreamy dub? If you are, you definitely came to the
+        right place. The remix by Beat Culture of The XX\u2019s track \u2018Shelter\u2019
+        is a beat filled genius mix of joy that we just cannot get enough of. If you
+        like Beat Culture then check ou","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20xx"},"5":{"mediaid":"1jp7b","artist":"Wheel
+        Wells","title":"Gorillaz - Feel Good Inc (Wheel Wells ''Bats In The Belfry''
+        Remix)","dateposted":1331476325,"siteid":6988,"sitename":"Salacious Sound","posturl":"http:\/\/salacioussound.com\/2012\/03\/meet-indie-dance-duo-the-wheel-wells\/","postid":1745569,"dateposted_first":1331476325,"siteid_first":6988,"sitename_first":"Salacious
+        Sound","posturl_first":"http:\/\/salacioussound.com\/2012\/03\/meet-indie-dance-duo-the-wheel-wells\/","postid_first":1745569,"loved_count":360,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745569.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745569_320.png","time":376,"description":"Toronto
+        based Indie-Dance duo The Wheel Wells are a weekly staple at Queen Street
+        watering hole Czehoski, for their weekly dance parties and monthly Family
+        Fridays events, which bring local talent to the stage of Toronto\u2019s next
+        hidden gem. Through the suc","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wheel%20Wells"},"6":{"mediaid":"1jn1c","artist":"Loose
+        Lips Records","title":"I Tried So Hard (Extended Mix)","dateposted":1331411475,"siteid":14384,"sitename":"ACE","posturl":"http:\/\/klubbace.se\/2012\/03\/fore-detta-metronomy-medlemmen-gabriel-stebbings-nya-projekt\/","postid":1745306,"dateposted_first":1331301576,"siteid_first":11110,"sitename_first":"Abeano
+        Music","posturl_first":"http:\/\/www.abeano.com\/night-works-i-tried-so-hard\/11298","postid_first":1744202,"loved_count":798,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745306.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745306_320.png","time":410,"description":"F\u00f6re
+        detta Metronomy-medlemmen Gabriel Stebbing har ett nytt mysigt projekt p\u00e5
+        g\u00e5ng som heter Night Works. Debutsingeln I Tried So Hard \u00e4r en vacker
+        och sexig historia som g\u00f6r att man vill h\u00f6ra mer. \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584
+        \u2193\u2193\u2193DOWNLOAD\u2193\u2193\u2193 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Loose%20Lips%20Records"},"7":{"mediaid":"1jnj3","artist":"Lana
+        Del Rey","title":"This Is What Makes Us Girls","dateposted":1331323920,"siteid":2490,"sitename":"ninebullets","posturl":"http:\/\/ninebullets.net\/archives\/lana-del-rey-born-to-die","postid":1744638,"dateposted_first":1331323920,"siteid_first":2490,"sitename_first":"ninebullets","posturl_first":"http:\/\/ninebullets.net\/archives\/lana-del-rey-born-to-die","postid_first":1744638,"loved_count":739,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744638.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744638_320.png","time":239,"description":"It\u2019s
+        confession time. I\u2019m a sucker for a torch singer. Put me in a dark, smokey
+        lounge, sitting in a high back chair, whiskey in hand, with a lovely chanteuse
+        on stage, and I\u2019m practically in Heaven. There aren\u2019t enough singers
+        keeping this style alive th","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Lana%20Del%20Rey"},"8":{"mediaid":"1jpbe","artist":"Wild
+        Child","title":"The Tale Of You & Me","dateposted":1331496063,"siteid":15604,"sitename":"Earplugs
+        Not Included","posturl":"http:\/\/earplugsnotincluded.com\/wild-child-someone-else\/","postid":1745707,"dateposted_first":1331496063,"siteid_first":15604,"sitename_first":"Earplugs
+        Not Included","posturl_first":"http:\/\/earplugsnotincluded.com\/wild-child-someone-else\/","postid_first":1745707,"loved_count":296,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745707.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745707_320.png","time":340,"description":"Despite
+        the name, Wild Child, this group is such a swoon-worthy, laid back, good time.
+        Love drunk lyrics, easy vocals make Wild Child one of my must see bands for
+        SXSW 2012. This Austin based group has completely won me over with their playfulness..
+        they ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wild%20Child"},"9":{"mediaid":"1jns2","artist":"Usher","title":"Climax
+        (Prod. Diplo)","dateposted":1331348272,"siteid":11376,"sitename":"blahblahblahscience","posturl":"http:\/\/blahblahblahscience.com\/track-reviews\/usher-climax-prod-diplo","postid":1745008,"dateposted_first":1331348272,"siteid_first":11376,"sitename_first":"blahblahblahscience","posturl_first":"http:\/\/blahblahblahscience.com\/track-reviews\/usher-climax-prod-diplo","postid_first":1745008,"loved_count":801,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745008.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745008_320.png","time":236,"description":"usher
+        We couldn\u2019t be more in love with this song right now (knocks so soft).
+        Usher opened up the purse and dropped a little of that Bieber $$$$ on a new
+        vid which you can watch below. If b3sci has a wish for 2012, it\u2019s for
+        these two to do a whole album. A","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Usher"},"10":{"mediaid":"1jp4t","artist":"Fullhaus","title":"Gucci
+        Gucci Gucci (Kito, Kreayshawn, Gucci Mane)","dateposted":1331432956,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/kreayshawn-gucci-mane-fullhaus\/","postid":1745450,"dateposted_first":1331432956,"siteid_first":13271,"sitename_first":"Silence
+        Nogood","posturl_first":"http:\/\/silencenogood.net\/kreayshawn-gucci-mane-fullhaus\/","postid_first":1745450,"loved_count":367,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1745450.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1745450_320.png","time":188,"description":"Kreayshawn
+        (coolin) This beat sure as hell doesn\u2019t need Kreayshawn or Gucci Mane,
+        would actually love to see some original vocals on it, but I can\u2019t say
+        it ruins it either. This bass buzzin, lazer crunkin\u2019 beat is right where
+        my music taste is headin and ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Fullhaus"},"11":{"mediaid":"1jphx","artist":"Swedish
+        House Mafia","title":"Greyhound (Original Mix)","dateposted":1331525396,"siteid":14384,"sitename":"ACE","posturl":"http:\/\/klubbace.se\/2012\/03\/swedish-house-mafias-nya-singel-greyhound\/","postid":1745898,"dateposted_first":1331525396,"siteid_first":14384,"sitename_first":"ACE","posturl_first":"http:\/\/klubbace.se\/2012\/03\/swedish-house-mafias-nya-singel-greyhound\/","postid_first":1745898,"loved_count":49,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745898.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745898_320.png","time":411,"description":"\u2022
+        SWEDISH HOUSE MAFIA \u2013 GREYHOUND \u2022 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584
+        \u2193\u2193\u2193DOWNLOAD\u2193\u2193\u2193 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Swedish%20House%20Mafia"},"12":{"mediaid":"1jfs0","artist":"Sam
+        Sparro","title":"Happiness","dateposted":1331331096,"siteid":4021,"sitename":"Off
+        the Radar","posturl":"http:\/\/www.offtheradarmusic.com\/2012\/03\/magician-sam-sparro-remix.html","postid":1744778,"dateposted_first":1330700490,"siteid_first":16450,"sitename_first":"Golden
+        Scissors","posturl_first":"http:\/\/goldenscissors.info\/2012\/03\/02\/sam-sparro-happiness-the-magician-remix\/","postid_first":1737126,"loved_count":1460,"posted_count":14,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744778.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744778_320.png","time":218,"description":"
+        Waiting for Sam to show up so we can do a couple posts for you guys when my
+        friend Sevim posted this amazing Magician remix for Sam Sparro''s track \"Happiness\"
+        on my facebook wall. Such a sick remix! The Magician is truly one bad ass
+        mother fucker. Seems ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sam%20Sparro"},"13":{"mediaid":"1j59b","artist":"Fun.","title":"Some
+        Nights","dateposted":1331299928,"siteid":1056,"sitename":"surviving the golden
+        age","posturl":"http:\/\/survivingthegoldenage.com\/fun-some-nights\/","postid":1744166,"dateposted_first":1329485435,"siteid_first":5506,"sitename_first":"T
+        S U R U R A D I O","posturl_first":"http:\/\/tsururadio.com\/2012\/02\/some-nights-by-fun\/","postid_first":1723143,"loved_count":6938,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1056.jpg","time":277,"description":"fun,
+        some nights, the formatfun.: Some Nights The mainstreamo boom of the early-to-mid-2000s
+        was hard to classify because each band that benefited from the boom had such
+        a different sound. There was the post-punk sound of Thursday verses the pop\/rock
+        soun","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Fun."},"14":{"mediaid":"1jnww","artist":"Beck
+        and Charlotte Gainsbourg","title":"Beck and Charlotte Gainsbourg - Paradisco
+        (Cruz Lee remix)","dateposted":1331384214,"siteid":6373,"sitename":"House
+        Music with Love","posturl":"http:\/\/www.hmwl.org\/2012\/beck-and-charlotte-gainsbourg-paradisco-cruz-lee-remix-mp3-download","postid":1745139,"dateposted_first":1331384214,"siteid_first":6373,"sitename_first":"House
+        Music with Love","posturl_first":"http:\/\/www.hmwl.org\/2012\/beck-and-charlotte-gainsbourg-paradisco-cruz-lee-remix-mp3-download","postid_first":1745139,"loved_count":401,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745139.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745139_320.png","time":438,"description":"Deep
+        disco-house remix by Cruz Lee. With some floating chords and acid inspired
+        loops coming in in the first brake. In spring 2012 everyone wants to sound
+        like either Aeroplane, Hot Creations or Crosstown Rebels. Mexico based Cruz
+        Lee makes it sound even ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Beck%20and%20Charlotte%20Gainsbourg"},"15":{"mediaid":"1jpec","artist":"sbtrkt","title":"surely","dateposted":1331515721,"siteid":11626,"sitename":"Indie
+        Shuffle","posturl":"http:\/\/www.indieshuffle.com\/sbtrkt-surely\/","postid":1745852,"dateposted_first":1331507289,"siteid_first":6796,"sitename_first":"nutriot","posturl_first":"http:\/\/nutriot.com\/tracks\/sbtrkt-surely","postid_first":1745793,"loved_count":45,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11626.png","time":190,"description":"
+        Visit Indie Shuffle to download. Sounds like: Moscow, Pyramid Song: SBTRKT
+        - Surely [download here] What''s so good? My Sunday just got a whole lot better.
+        SBTRKT was kind enough to drop off a new track for us over on his SoundCloud.
+        The UK producer\u2019s rel","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/sbtrkt"},"16":{"mediaid":"1jmj1","artist":"Alpine","title":"Hands
+        (Goldroom Remix)","dateposted":1331362575,"siteid":6302,"sitename":"circle.square.triangle","posturl":"http:\/\/circlesquaretriangle.tv\/2012\/03\/10\/alpine-goldroom\/","postid":1745049,"dateposted_first":1331241725,"siteid_first":12387,"sitename_first":"TILT","posturl_first":"http:\/\/tiltla.blogspot.com\/2012\/03\/alpine-hands-goldroom-remix-perseus.html","postid_first":1743584,"loved_count":558,"posted_count":10,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745049.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745049_320.png","time":350,"description":"LA\u2019s
+        Goldroom is going from strength to strength and is fast becoming one to watch
+        out for. His newest remix touches up Alpine\u2019s latest single, \u2018Hands\u2018.
+        Goldroom\u2019s dreamy soundscapes create a perfect atmosphere of tropical
+        vibes and easily compliment Alpi","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Alpine"},"17":{"mediaid":"1jnwt","artist":"St.
+        Lucia","title":"Before The Dive","dateposted":1331382554,"siteid":15749,"sitename":"AudioCred","posturl":"http:\/\/www.audiocred.com\/2012\/03\/st-lucia-st-lucia-ep\/","postid":1745125,"dateposted_first":1331382554,"siteid_first":15749,"sitename_first":"AudioCred","posturl_first":"http:\/\/www.audiocred.com\/2012\/03\/st-lucia-st-lucia-ep\/","postid_first":1745125,"loved_count":334,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1745125.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1745125_320.png","time":279,"description":"St.
+        Lucia is a pretty awesome indie pop \u201cgroup\u201d consisting of one dude
+        with a really French name. Jean-Philip Grobler has a knack for making poppy
+        beats with catchy melodic singing. From St. Lucia\u2019s EP, I\u2019ll introduce
+        you to two of his tracks. First, \u201cClo","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/St.%20Lucia"},"18":{"mediaid":"1jm5k","artist":"Lemonade","title":"Neptune","dateposted":1331461821,"siteid":13895,"sitename":"Nite
+        Versions","posturl":"http:\/\/niteversions.com\/audio\/lemonade-neptune\/","postid":1745536,"dateposted_first":1331212249,"siteid_first":10912,"sitename_first":"No
+        Modest Bear","posturl_first":"http:\/\/www.nomodestbear.com\/blog\/mp3-lemonade-neptune\/","postid_first":1742964,"loved_count":559,"posted_count":19,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745536.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745536_320.png","time":243,"description":"INCREDIBLE.
+        INCREDIBLE. INCREDIBLE. INCREDIBLE. IN-CRE-DI-BLE. \u2018Neptune\u2019 is
+        the first single off \u2018Diver\u2019, the upcoming album of San Francisco-rooted\/Brooklyn-based
+        polyglot dance outfit trio Lemonade. The song comes with remixes by Mike Simonetti,
+        Jacques","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Lemonade"},"19":{"mediaid":"1jmnb","artist":"Black
+        Strobe","title":"Blackstrobe Records, Italian Fireflies (Hey Today! Remix)","dateposted":1331516213,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"dateposted_first":1331249591,"siteid_first":10739,"sitename_first":"The
+        Music Ninja","posturl_first":"http:\/\/www.themusicninja.com\/electroclash-black-strobe-italian-fireflies-hey-today-remix\/","postid_first":1742296,"loved_count":382,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":325,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Black%20Strobe"}}'
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Mon, 12 Mar 2012 06:09:16 GMT
+      content-type:
+      - text/javascript; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - AUTH=03%3A9038710c94465cfc4f619184cbd08941%3A1331532556%3A1276002699%3ACA-US;
+        expires=Wed, 08-Mar-2028 06:09:16 GMT; path=/; domain=hypem.com
+      x-hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      last-modified:
+      - Mon, 12 Mar 2012 06:05:02 GMT
+      cache-control:
+      - max-age=300
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - ! '*'
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jny9","artist":"C\u0153ur De Pirate","title":"Golden
+        Baby","dateposted":1331395804,"siteid":14526,"sitename":"Pop Labyrinth","posturl":"http:\/\/poplabyrinth.wordpress.com\/2012\/03\/10\/new-video-coeur-de-pirate-golden-baby\/","postid":1745187,"dateposted_first":1331395804,"siteid_first":14526,"sitename_first":"Pop
+        Labyrinth","posturl_first":"http:\/\/poplabyrinth.wordpress.com\/2012\/03\/10\/new-video-coeur-de-pirate-golden-baby\/","postid_first":1745187,"loved_count":1908,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745187.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745187_320.png","time":187,"description":"I
+        stumbled upon C\u0153ur De Pirate\u2018s music in passing before, but the
+        Canadian chanteuse\u2019s new single \u201cGolden Baby\u201d is possibly my
+        new favorite song of hers. It is sleek and lush retro-pop, set to a cool music
+        video that\u2019s like Teenage Dream gone supernatural","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/C\u0153ur%20De%20Pirate"},"1":{"mediaid":"1jmz2","artist":"The
+        Notorious B.I.G.","title":"I Got a Story to Tell","dateposted":1331294350,"siteid":2006,"sitename":"The
+        Passion of the Weiss","posturl":"http:\/\/passionweiss.com\/2012\/03\/09\/a-story-to-tell-biggie-smalls-and-narrative-i-got-a-story-to-tell\/","postid":1744114,"dateposted_first":1331294350,"siteid_first":2006,"sitename_first":"The
+        Passion of the Weiss","posturl_first":"http:\/\/passionweiss.com\/2012\/03\/09\/a-story-to-tell-biggie-smalls-and-narrative-i-got-a-story-to-tell\/","postid_first":1744114,"loved_count":1774,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1744114.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1744114_320.png","time":282,"description":"Image
+        via Up North Trips Abe Beame would like to pay his respects\u2026. The following
+        is a list of Knicks who could\u2019ve served as the possible victim in the
+        Notorious B.I.G.\u2019s \u201cStory to tell\u201d: Doug Christie, Hubert Davis,
+        Ron Grandison, Derek Harper, Doc River","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Notorious%20B.I.G."},"2":{"mediaid":"1jkh9","artist":"Flux
+        Pavilion feat. Example","title":"Daydreamer","dateposted":1331341081,"siteid":12285,"sitename":"Sunset
+        in the Rearview","posturl":"http:\/\/sunsetintherearview.com\/friday-weekend-music-12\/","postid":1744953,"dateposted_first":1331145266,"siteid_first":5248,"sitename_first":"Prefix
+        Magazine","posturl_first":"http:\/\/www.prefixmag.com\/news\/preview-flux-pavilions-daydreamer-single-with-exam\/62878\/","postid_first":1742138,"loved_count":1018,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1744953.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1744953_320.png","time":228,"description":"It\u2019s
+        March. Spring is finally around the corner. But you know what? It\u2019s also
+        daylight savings on Sunday, which means one again that Benjamin Franklin is
+        taking away our precious time. So, let\u2019s all try extra hard this weekend
+        to have a good time, despite","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Flux%20Pavilion%20feat.%20Example"},"3":{"mediaid":"1jms9","artist":"The
+        Kickdrums","title":"Thieves In The Choir (feat. Casey Veggies)","dateposted":1331431646,"siteid":11626,"sitename":"Indie
+        Shuffle","posturl":"http:\/\/www.indieshuffle.com\/the-kickdrums-thieves-in-the-choir-ft-casey-veggies\/","postid":1745432,"dateposted_first":1331264132,"siteid_first":11067,"sitename_first":"EARMILK","posturl_first":"http:\/\/www.earmilk.com\/2012\/03\/08\/the-kickdrums-thieves-in-the-choir-feat-casey-veggies\/","postid_first":1743892,"loved_count":1374,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1745432.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1745432_320.png","time":192,"description":"
+        Visit Indie Shuffle to download. Song: The Kickdrums - Thieves in the Choir
+        (Ft. Casey Veggies) [download here] What''s so good? Off their upcoming release
+        Follow The Leaders, \u201cThieves in the Choir\u201d is the first single to
+        be released. Featuring a hip-hop ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Kickdrums"},"4":{"mediaid":"1jnym","artist":"The
+        xx","title":"Shelter (Beat Culture Remix)","dateposted":1331528224,"siteid":16373,"sitename":"Your
+        Music Radar","posturl":"http:\/\/www.yourmusicradar.com\/djs-mixes\/the-xx-shelter-beat-culture-remix.html","postid":1745909,"dateposted_first":1331398636,"siteid_first":16450,"sitename_first":"Golden
+        Scissors","posturl_first":"http:\/\/goldenscissors.info\/2012\/03\/10\/the-xx-shelter-beat-culture-remix\/","postid_first":1745198,"loved_count":789,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16373.png","time":284,"description":"Are
+        you in the mood for some dreamy dub? If you are, you definitely came to the
+        right place. The remix by Beat Culture of The XX\u2019s track \u2018Shelter\u2019
+        is a beat filled genius mix of joy that we just cannot get enough of. If you
+        like Beat Culture then check ou","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20xx"},"5":{"mediaid":"1jp7b","artist":"Wheel
+        Wells","title":"Gorillaz - Feel Good Inc (Wheel Wells ''Bats In The Belfry''
+        Remix)","dateposted":1331476325,"siteid":6988,"sitename":"Salacious Sound","posturl":"http:\/\/salacioussound.com\/2012\/03\/meet-indie-dance-duo-the-wheel-wells\/","postid":1745569,"dateposted_first":1331476325,"siteid_first":6988,"sitename_first":"Salacious
+        Sound","posturl_first":"http:\/\/salacioussound.com\/2012\/03\/meet-indie-dance-duo-the-wheel-wells\/","postid_first":1745569,"loved_count":360,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745569.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745569_320.png","time":376,"description":"Toronto
+        based Indie-Dance duo The Wheel Wells are a weekly staple at Queen Street
+        watering hole Czehoski, for their weekly dance parties and monthly Family
+        Fridays events, which bring local talent to the stage of Toronto\u2019s next
+        hidden gem. Through the suc","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wheel%20Wells"},"6":{"mediaid":"1jn1c","artist":"Loose
+        Lips Records","title":"I Tried So Hard (Extended Mix)","dateposted":1331411475,"siteid":14384,"sitename":"ACE","posturl":"http:\/\/klubbace.se\/2012\/03\/fore-detta-metronomy-medlemmen-gabriel-stebbings-nya-projekt\/","postid":1745306,"dateposted_first":1331301576,"siteid_first":11110,"sitename_first":"Abeano
+        Music","posturl_first":"http:\/\/www.abeano.com\/night-works-i-tried-so-hard\/11298","postid_first":1744202,"loved_count":798,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745306.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745306_320.png","time":410,"description":"F\u00f6re
+        detta Metronomy-medlemmen Gabriel Stebbing har ett nytt mysigt projekt p\u00e5
+        g\u00e5ng som heter Night Works. Debutsingeln I Tried So Hard \u00e4r en vacker
+        och sexig historia som g\u00f6r att man vill h\u00f6ra mer. \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584
+        \u2193\u2193\u2193DOWNLOAD\u2193\u2193\u2193 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Loose%20Lips%20Records"},"7":{"mediaid":"1jnj3","artist":"Lana
+        Del Rey","title":"This Is What Makes Us Girls","dateposted":1331323920,"siteid":2490,"sitename":"ninebullets","posturl":"http:\/\/ninebullets.net\/archives\/lana-del-rey-born-to-die","postid":1744638,"dateposted_first":1331323920,"siteid_first":2490,"sitename_first":"ninebullets","posturl_first":"http:\/\/ninebullets.net\/archives\/lana-del-rey-born-to-die","postid_first":1744638,"loved_count":739,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744638.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744638_320.png","time":239,"description":"It\u2019s
+        confession time. I\u2019m a sucker for a torch singer. Put me in a dark, smokey
+        lounge, sitting in a high back chair, whiskey in hand, with a lovely chanteuse
+        on stage, and I\u2019m practically in Heaven. There aren\u2019t enough singers
+        keeping this style alive th","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Lana%20Del%20Rey"},"8":{"mediaid":"1jpbe","artist":"Wild
+        Child","title":"The Tale Of You & Me","dateposted":1331496063,"siteid":15604,"sitename":"Earplugs
+        Not Included","posturl":"http:\/\/earplugsnotincluded.com\/wild-child-someone-else\/","postid":1745707,"dateposted_first":1331496063,"siteid_first":15604,"sitename_first":"Earplugs
+        Not Included","posturl_first":"http:\/\/earplugsnotincluded.com\/wild-child-someone-else\/","postid_first":1745707,"loved_count":296,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745707.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1745707_320.png","time":340,"description":"Despite
+        the name, Wild Child, this group is such a swoon-worthy, laid back, good time.
+        Love drunk lyrics, easy vocals make Wild Child one of my must see bands for
+        SXSW 2012. This Austin based group has completely won me over with their playfulness..
+        they ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wild%20Child"},"9":{"mediaid":"1jns2","artist":"Usher","title":"Climax
+        (Prod. Diplo)","dateposted":1331348272,"siteid":11376,"sitename":"blahblahblahscience","posturl":"http:\/\/blahblahblahscience.com\/track-reviews\/usher-climax-prod-diplo","postid":1745008,"dateposted_first":1331348272,"siteid_first":11376,"sitename_first":"blahblahblahscience","posturl_first":"http:\/\/blahblahblahscience.com\/track-reviews\/usher-climax-prod-diplo","postid_first":1745008,"loved_count":801,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745008.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745008_320.png","time":236,"description":"usher
+        We couldn\u2019t be more in love with this song right now (knocks so soft).
+        Usher opened up the purse and dropped a little of that Bieber $$$$ on a new
+        vid which you can watch below. If b3sci has a wish for 2012, it\u2019s for
+        these two to do a whole album. A","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Usher"},"10":{"mediaid":"1jp4t","artist":"Fullhaus","title":"Gucci
+        Gucci Gucci (Kito, Kreayshawn, Gucci Mane)","dateposted":1331432956,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/kreayshawn-gucci-mane-fullhaus\/","postid":1745450,"dateposted_first":1331432956,"siteid_first":13271,"sitename_first":"Silence
+        Nogood","posturl_first":"http:\/\/silencenogood.net\/kreayshawn-gucci-mane-fullhaus\/","postid_first":1745450,"loved_count":367,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1745450.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1745450_320.png","time":188,"description":"Kreayshawn
+        (coolin) This beat sure as hell doesn\u2019t need Kreayshawn or Gucci Mane,
+        would actually love to see some original vocals on it, but I can\u2019t say
+        it ruins it either. This bass buzzin, lazer crunkin\u2019 beat is right where
+        my music taste is headin and ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Fullhaus"},"11":{"mediaid":"1jphx","artist":"Swedish
+        House Mafia","title":"Greyhound (Original Mix)","dateposted":1331525396,"siteid":14384,"sitename":"ACE","posturl":"http:\/\/klubbace.se\/2012\/03\/swedish-house-mafias-nya-singel-greyhound\/","postid":1745898,"dateposted_first":1331525396,"siteid_first":14384,"sitename_first":"ACE","posturl_first":"http:\/\/klubbace.se\/2012\/03\/swedish-house-mafias-nya-singel-greyhound\/","postid_first":1745898,"loved_count":49,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745898.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1745898_320.png","time":411,"description":"\u2022
+        SWEDISH HOUSE MAFIA \u2013 GREYHOUND \u2022 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584
+        \u2193\u2193\u2193DOWNLOAD\u2193\u2193\u2193 \u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Swedish%20House%20Mafia"},"12":{"mediaid":"1jfs0","artist":"Sam
+        Sparro","title":"Happiness","dateposted":1331331096,"siteid":4021,"sitename":"Off
+        the Radar","posturl":"http:\/\/www.offtheradarmusic.com\/2012\/03\/magician-sam-sparro-remix.html","postid":1744778,"dateposted_first":1330700490,"siteid_first":16450,"sitename_first":"Golden
+        Scissors","posturl_first":"http:\/\/goldenscissors.info\/2012\/03\/02\/sam-sparro-happiness-the-magician-remix\/","postid_first":1737126,"loved_count":1460,"posted_count":14,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744778.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744778_320.png","time":218,"description":"
+        Waiting for Sam to show up so we can do a couple posts for you guys when my
+        friend Sevim posted this amazing Magician remix for Sam Sparro''s track \"Happiness\"
+        on my facebook wall. Such a sick remix! The Magician is truly one bad ass
+        mother fucker. Seems ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sam%20Sparro"},"13":{"mediaid":"1j59b","artist":"Fun.","title":"Some
+        Nights","dateposted":1331299928,"siteid":1056,"sitename":"surviving the golden
+        age","posturl":"http:\/\/survivingthegoldenage.com\/fun-some-nights\/","postid":1744166,"dateposted_first":1329485435,"siteid_first":5506,"sitename_first":"T
+        S U R U R A D I O","posturl_first":"http:\/\/tsururadio.com\/2012\/02\/some-nights-by-fun\/","postid_first":1723143,"loved_count":6938,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1056.jpg","time":277,"description":"fun,
+        some nights, the formatfun.: Some Nights The mainstreamo boom of the early-to-mid-2000s
+        was hard to classify because each band that benefited from the boom had such
+        a different sound. There was the post-punk sound of Thursday verses the pop\/rock
+        soun","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Fun."},"14":{"mediaid":"1jnww","artist":"Beck
+        and Charlotte Gainsbourg","title":"Beck and Charlotte Gainsbourg - Paradisco
+        (Cruz Lee remix)","dateposted":1331384214,"siteid":6373,"sitename":"House
+        Music with Love","posturl":"http:\/\/www.hmwl.org\/2012\/beck-and-charlotte-gainsbourg-paradisco-cruz-lee-remix-mp3-download","postid":1745139,"dateposted_first":1331384214,"siteid_first":6373,"sitename_first":"House
+        Music with Love","posturl_first":"http:\/\/www.hmwl.org\/2012\/beck-and-charlotte-gainsbourg-paradisco-cruz-lee-remix-mp3-download","postid_first":1745139,"loved_count":401,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745139.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745139_320.png","time":438,"description":"Deep
+        disco-house remix by Cruz Lee. With some floating chords and acid inspired
+        loops coming in in the first brake. In spring 2012 everyone wants to sound
+        like either Aeroplane, Hot Creations or Crosstown Rebels. Mexico based Cruz
+        Lee makes it sound even ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Beck%20and%20Charlotte%20Gainsbourg"},"15":{"mediaid":"1jpec","artist":"sbtrkt","title":"surely","dateposted":1331515721,"siteid":11626,"sitename":"Indie
+        Shuffle","posturl":"http:\/\/www.indieshuffle.com\/sbtrkt-surely\/","postid":1745852,"dateposted_first":1331507289,"siteid_first":6796,"sitename_first":"nutriot","posturl_first":"http:\/\/nutriot.com\/tracks\/sbtrkt-surely","postid_first":1745793,"loved_count":45,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11626.png","time":190,"description":"
+        Visit Indie Shuffle to download. Sounds like: Moscow, Pyramid Song: SBTRKT
+        - Surely [download here] What''s so good? My Sunday just got a whole lot better.
+        SBTRKT was kind enough to drop off a new track for us over on his SoundCloud.
+        The UK producer\u2019s rel","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/sbtrkt"},"16":{"mediaid":"1jmj1","artist":"Alpine","title":"Hands
+        (Goldroom Remix)","dateposted":1331362575,"siteid":6302,"sitename":"circle.square.triangle","posturl":"http:\/\/circlesquaretriangle.tv\/2012\/03\/10\/alpine-goldroom\/","postid":1745049,"dateposted_first":1331241725,"siteid_first":12387,"sitename_first":"TILT","posturl_first":"http:\/\/tiltla.blogspot.com\/2012\/03\/alpine-hands-goldroom-remix-perseus.html","postid_first":1743584,"loved_count":558,"posted_count":10,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745049.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1745049_320.png","time":350,"description":"LA\u2019s
+        Goldroom is going from strength to strength and is fast becoming one to watch
+        out for. His newest remix touches up Alpine\u2019s latest single, \u2018Hands\u2018.
+        Goldroom\u2019s dreamy soundscapes create a perfect atmosphere of tropical
+        vibes and easily compliment Alpi","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Alpine"},"17":{"mediaid":"1jnwt","artist":"St.
+        Lucia","title":"Before The Dive","dateposted":1331382554,"siteid":15749,"sitename":"AudioCred","posturl":"http:\/\/www.audiocred.com\/2012\/03\/st-lucia-st-lucia-ep\/","postid":1745125,"dateposted_first":1331382554,"siteid_first":15749,"sitename_first":"AudioCred","posturl_first":"http:\/\/www.audiocred.com\/2012\/03\/st-lucia-st-lucia-ep\/","postid_first":1745125,"loved_count":334,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1745125.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1745125_320.png","time":279,"description":"St.
+        Lucia is a pretty awesome indie pop \u201cgroup\u201d consisting of one dude
+        with a really French name. Jean-Philip Grobler has a knack for making poppy
+        beats with catchy melodic singing. From St. Lucia\u2019s EP, I\u2019ll introduce
+        you to two of his tracks. First, \u201cClo","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/St.%20Lucia"},"18":{"mediaid":"1jm5k","artist":"Lemonade","title":"Neptune","dateposted":1331461821,"siteid":13895,"sitename":"Nite
+        Versions","posturl":"http:\/\/niteversions.com\/audio\/lemonade-neptune\/","postid":1745536,"dateposted_first":1331212249,"siteid_first":10912,"sitename_first":"No
+        Modest Bear","posturl_first":"http:\/\/www.nomodestbear.com\/blog\/mp3-lemonade-neptune\/","postid_first":1742964,"loved_count":559,"posted_count":19,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745536.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1745536_320.png","time":243,"description":"INCREDIBLE.
+        INCREDIBLE. INCREDIBLE. INCREDIBLE. IN-CRE-DI-BLE. \u2018Neptune\u2019 is
+        the first single off \u2018Diver\u2019, the upcoming album of San Francisco-rooted\/Brooklyn-based
+        polyglot dance outfit trio Lemonade. The song comes with remixes by Mike Simonetti,
+        Jacques","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Lemonade"},"19":{"mediaid":"1jmnb","artist":"Black
+        Strobe","title":"Blackstrobe Records, Italian Fireflies (Hey Today! Remix)","dateposted":1331516213,"siteid":11067,"sitename":"EARMILK","posturl":"http:\/\/www.earmilk.com\/2012\/03\/11\/suicide-sundaes-week-92\/","postid":1745851,"dateposted_first":1331249591,"siteid_first":10739,"sitename_first":"The
+        Music Ninja","posturl_first":"http:\/\/www.themusicninja.com\/electroclash-black-strobe-italian-fireflies-hey-today-remix\/","postid_first":1742296,"loved_count":382,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11067.png","time":325,"description":"Suicide
+        Sundaes - Stop your grinnin'' and drop your linen, Sunday is back. Greg is
+        here to bring you the week''s dirty servings, and some old favorites through
+        a throwdown-throwback to simpler times. A time when bangers were big, remixes
+        were bigger, the ba","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Black%20Strobe"}}'
+    http_version: 
+  recorded_at: Mon, 12 Mar 2012 06:09:16 GMT
+recorded_with: VCR 2.0.0

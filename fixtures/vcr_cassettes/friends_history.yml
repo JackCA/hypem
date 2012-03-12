@@ -1,0 +1,260 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/people_history/jackca/json
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jh0t","artist":"Burial + Four Tet","title":"Nova","dateposted":1331337367,"siteid":6764,"sitename":"We
+        All Want Someone To Shout For","posturl":"http:\/\/www.weallwantsomeone.org\/2012\/03\/09\/burial-four-tet-nova\/","postid":1744908,"loved_count":3308,"posted_count":46,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744908.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744908_320.png","time":355,"description":"Burial
+        + Four Tet have teamed up for a new track called \u201cNova\u201d. It brings
+        the best of both of their worlds creating a stunning track that breaths emotional
+        transport through moments of electronic bliss. It\u2019s more sincere than
+        any crap the radio is feeding","dateplayed":1330993220,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Burial%20+%20Four%20Tet"},"1":{"mediaid":"1f5pg","artist":"Grimes","title":"Oblivion","dateposted":1331321781,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/listendownload-233-free-mp3s-of-the-best-artists-playing-sxsw-2012\/","postid":1744565,"loved_count":4288,"posted_count":81,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565_320.png","time":252,"description":"For
+        the past few years the organisers of the SXSW festival have included an MP3
+        with each artists they feature on their site who is appearing at the festival,
+        as a wee taster of what to expect from said artist. At the same time some
+        awesome fellow organis","dateplayed":1325751580,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"2":{"mediaid":"1h2q8","artist":"Grimes","title":"Genesis","dateposted":1331297783,"siteid":940,"sitename":"The
+        Blue Walrus","posturl":"http:\/\/www.thebluewalrus.com\/2012\/03\/09\/grimes-visions\/","postid":1744158,"loved_count":4800,"posted_count":88,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158_320.png","time":256,"description":"Hmm.
+        I still haven\u2019t made up my mind. About the album artwork, I mean \u2013
+        Grimes\u2019s third album is brilliant, and I\u2019ll get to that in a little
+        bit, but first I must say that I wouldn\u2019t be surprised if one was unable
+        to take Visions seriously after seeing its","dateplayed":1325751501,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"3":{"mediaid":"16mnz","artist":"The
+        Mynabirds","title":"All I Want is Truth (for Christmas)","dateposted":1324583906,"siteid":14702,"sitename":"vocal
+        nerd rodeo","posturl":"http:\/\/www.vocalnerdrodeo.com\/2011\/12\/22\/vnrs-indie-christmas\/","postid":1672591,"loved_count":69,"posted_count":11,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14702.jpg","time":232,"description":"Post
+        image for VNR\u2019s Indie Christmas Did you notice? VNR is all pimped out
+        for the Holidays. Thought I\u2019d go ahead and post just a few indie Christmas
+        tunes that I enjoy\u2026not necessarily new, but who cares right? VNR is about
+        the music, not scrambling to be","dateplayed":1324598660,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Mynabirds"},"4":{"mediaid":"ycv4","artist":"Run
+        DMC","title":"Christmas In Hollis","dateposted":1324787610,"siteid":12872,"sitename":"POSTMUSIC","posturl":"http:\/\/www.postmusic.org\/wordpress\/2011\/12\/24\/a-postmusic-christmas\/","postid":1673880,"loved_count":123,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1673880.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1673880_320.png","time":178,"description":"Merry
+        Christmas. Joyeux No\u00c3\u00abl. \u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0083\u009e\u00e3\u0082\u00b9.
+        \u00d0\u00a1 \u00d0 \u00d0\u00be\u00d0\u00b6\u00d0\u00b4\u00d0\u00b5\u00d1\u0081\u00d1\u0082\u00d0\u00b2\u00d0\u00be\u00d0\u00bc
+        \u00d0\u00a5\u00d1\u0080\u00d0\u00b8\u00d1\u0081\u00d1\u0082\u00d0\u00be\u00d0\u00b2\u00d1\u008b\u00d0\u00bc.
+        \u00e8\u0081\u0096\u00e8\u00aa\u0095\u00e5\u00bf\u00ab\u00e6\u00a8\u0082.
+        Feliz Navidad. Etc., Etc., Etc., w\/e \u201cHappy Holidays!\u201d from POSTMUSIC.ORG.
+        Here are some of my favorite songs to listen to this time of year","dateplayed":1324598454,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Run%20DMC"},"5":{"mediaid":"xyhp","artist":"The
+        Drifters","title":"White Christmas","dateposted":1324560881,"siteid":16880,"sitename":"Jenny''s
+        Song Of The Day ","posturl":"http:\/\/jennyssongoftheday.com\/2011\/12\/22\/holiday-special-the-drifters-white-christmas\/","postid":1672262,"loved_count":24,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16880.png","time":162,"description":"THREE
+        days until Christmas is finally upon us, folks, and today I\u2019ve decided
+        to go back even further\u2026 to 1954! white christmas the drifters The Drifters
+        were a great quintet of soul singers who recorded and debuted this cover of
+        \u201cWhite Christmas\u201d in 1954.","dateplayed":1324598297,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Drifters"},"6":{"mediaid":"xkzw","artist":"The
+        Raveonettes","title":"Come On Santa","dateposted":1324568184,"siteid":5218,"sitename":"Big
+        Rock Candy Mountain","posturl":"http:\/\/therealbigrockcandymountain.blogspot.com\/2011\/12\/santas-midnight-run.html","postid":1672316,"loved_count":52,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/5218.jpg","time":221,"description":"
+        Just about made it.","dateplayed":1324598078,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Raveonettes"},"7":{"mediaid":"dkz8","artist":"Blitzen
+        Trapper","title":"Christmas Is Coming Soon","dateposted":1324583890,"siteid":14702,"sitename":"vocal
+        nerd rodeo","posturl":"http:\/\/www.vocalnerdrodeo.com\/2011\/12\/22\/vnrs-indie-christmas\/","postid":1672591,"loved_count":112,"posted_count":20,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14702.jpg","time":184,"description":"Post
+        image for VNR\u2019s Indie Christmas Did you notice? VNR is all pimped out
+        for the Holidays. Thought I\u2019d go ahead and post just a few indie Christmas
+        tunes that I enjoy\u2026not necessarily new, but who cares right? VNR is about
+        the music, not scrambling to be","dateplayed":1324597625,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Blitzen%20Trapper"},"8":{"mediaid":"xka1","artist":"Over
+        The Rhine","title":"Darlin'' (Christmas Is Coming)","dateposted":1324584155,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-by-carols-ii-very-indie-xmas.html","postid":1672594,"loved_count":21,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/15341.jpg","time":219,"description":"
+        Here it is, the cheery classic carols and a handful of christmas originals
+        from your favorite indie and folky bands. I hope it''s enjoyed by those that
+        like christmas songs because it was a bit of a struggle to put all this good
+        cheer and songs of joy and","dateplayed":1324596692,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Over%20The%20Rhine"},"9":{"mediaid":"ydkr","artist":"DJ
+        John","title":"The Christmas Massacre of Charlie Brown","dateposted":1324584410,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-by-carols-ii-very-indie-xmas.html","postid":1672594,"loved_count":51,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/15341.jpg","time":201,"description":"
+        Here it is, the cheery classic carols and a handful of christmas originals
+        from your favorite indie and folky bands. I hope it''s enjoyed by those that
+        like christmas songs because it was a bit of a struggle to put all this good
+        cheer and songs of joy and","dateplayed":1324596631,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/DJ%20John"},"10":{"mediaid":"1gjxt","artist":"Summer
+        Camp","title":"All I Wonderful Christmas Is You","dateposted":1326135684,"siteid":1278,"sitename":"brooklynvegan","posturl":"http:\/\/www.brooklynvegan.com\/archives\/2012\/01\/summer_camp_ann.html","postid":1683695,"loved_count":56,"posted_count":16,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1683695.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1683695_320.png","time":172,"description":"DOWNLOAD:
+        Summer Camp - \"All I Wonderful Christmas Is You\" (MP3) Summer Camp UK duo
+        Summer Camp released their catchy debut LP, Welcome to Condale this past October
+        via Moshi Moshi (you can buy it on eMusic), and followed the release with
+        a European tour.","dateplayed":1324596555,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Summer%20Camp"},"11":{"mediaid":"1gdbs","artist":"Ghibli","title":"Aubrey
+        de Grey (Jessica Jalbert remixed)","dateposted":1324341555,"siteid":11577,"sitename":"Friends
+        With Both Arms","posturl":"http:\/\/www.friendswithbotharms.com\/2011\/12\/19\/ghibli-remixes-jessica-jalbert\/","postid":1669982,"loved_count":7,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1669982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1669982_320.png","time":280,"description":"I
+        recently came across Edmonton artist, Ghibli after discovering his remix of
+        Jessica Jalbert\u2018s Aubrey De Grey and it is fantastic. He\u2019s got a
+        knack for combining electronic vibes with a bit of soul. His take on Aubrey
+        De Gray feels almost like it\u2019s got t","dateplayed":1324336099,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ghibli"},"12":{"mediaid":"1gh80","artist":"Sean
+        Nicholas Savage","title":"Chin Chin","dateposted":1327586491,"siteid":11262,"sitename":"weird
+        canada","posturl":"http:\/\/weirdcanada.com\/2012\/01\/new-canadiana-sean-nicholas-savage-flamingo\/","postid":1700642,"loved_count":22,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11262.png","time":199,"description":"Sean
+        Nicholas Savage - Flamingo Sean Nicholas Savage Flamingo (Arbutus Records)
+        Montreal, QC ::web\/sounds::  From the carnie games of Pam Haasen: If small
+        town fairs were hip to the culture of cheap thrills and cheese appeal that
+        speaks to my inner child,","dateplayed":1323973869,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sean%20Nicholas%20Savage"},"13":{"mediaid":"1gda2","artist":"Cloud
+        Nothings","title":"Stay Useless","dateposted":1330911177,"siteid":11376,"sitename":"blahblahblahscience","posturl":"http:\/\/blahblahblahscience.com\/liveshowreviews\/live-review-cloud-nothings-the-echo-march-2nd-2012","postid":1738687,"loved_count":423,"posted_count":42,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11376.png","time":166,"description":"cloutnothingsmerch
+        The venue was already near max capax by the time I arrived at The Echo Friday
+        night for Cloud Nothing\u2019s sold out affair, their first headlining show
+        in Los Angeles (they opened for Toro y Moi at The Troubadour last March).
+        The Dylan Bal","dateplayed":1323735450,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Cloud%20Nothings"},"14":{"mediaid":"1gdcx","artist":"M?DE::IN::HEIGHTS","title":"Wildflowers
+        (Exhale Efreet)","dateposted":1323473349,"siteid":3683,"sitename":"Winnie
+        Cooper","posturl":"http:\/\/winniecooper.net\/2011\/12\/m%e2%88%86deinheights\/","postid":1662206,"loved_count":21,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206_320.png","time":184,"description":"::M\u2206DE::IN::HEIGHTS::
+        describe themselves as mythical filth pop which I think is quite accurate.
+        Their 808 hip hop influenced sound is unique and otherworldly. Tied together
+        nicely with the pop female vocals of Kelsey Bulkin. They\u2019re from New
+        York and a s","dateplayed":1323731067,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/M?DE::IN::HEIGHTS"},"15":{"mediaid":"1fnyj","artist":"Twin
+        Sister","title":"Kimmi in a Rice Field (Balam Acab Remix)","dateposted":1327604898,"siteid":15246,"sitename":"Pants
+        Dance ","posturl":"http:\/\/www.dothepantsdance.com\/blog\/item\/412-sleepy-sundaze-11\/20","postid":1644982,"loved_count":309,"posted_count":27,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982_320.png","time":197,"description":"TgALF
+        a man is not old until regret takes the place of dreams The Bird Day :: Moody
+        Trudy Lovers :: Miami Tse Tung (Name In Lights Dub) BRAIDS :: Peach Wedding
+        Twin Sister :: Kimmi in a Rice Field (Balam Acab Remix) Trailer Trash Tracys
+        :: Dies in 55 Down","dateplayed":1323730937,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Twin%20Sister"},"16":{"mediaid":"1b3fh","artist":"Tonstartssbandht","title":"Hymn
+        Eola","dateposted":1325346518,"siteid":14755,"sitename":"WEIRD MAGIC","posturl":"http:\/\/weirdmagic.biz\/2011\/12\/killed-it-2011\/","postid":1677069,"loved_count":17,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069_320.png","time":228,"description":"clams
+        casino realist alive all i need drowning omg leaf (asap rocky prod) instrumentals
+        araabmuzik streetz tonight at2 electronic dream + dozens (hundreds?) we\u2019ll
+        never hear drake marvin\u2019s room over my dead body take care john maus
+        quantum leap believer w","dateplayed":1323730306,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Tonstartssbandht"},"17":{"mediaid":"1fsbh","artist":"Slothbear","title":"Ex-teen","dateposted":1324142007,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/introducing-slothbear\/","postid":1668450,"loved_count":16,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1668450.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1668450_320.png","time":219,"description":"Tweet
+        Slothbear It doesn\u2019t take long to pick up on the crisp autumnal backdrop
+        that was taking place while Slothbear was recording its latest EP \u201cCanter
+        On\u201d. Recorded during one weekend in the fall of this year and released
+        1st November, Slothbear\u2019 s haun","dateplayed":1323729865,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Slothbear"},"18":{"mediaid":"1e7xa","artist":"Blouse","title":"Videotapes","dateposted":1331161488,"siteid":16898,"sitename":"Not
+        Final ","posturl":"http:\/\/notfinalmusic.blogspot.com\/2012\/01\/songs-of-year-2011.html","postid":1742492,"loved_count":349,"posted_count":47,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16898.png","time":181,"description":"
+        Making a list of the 20 best albums was challenging due to the massive amounts
+        of music awesomeness released in 2k11. Narrowing down a list of the 30 best
+        songs proved to be even more difficult. This second list is a painstakingly
+        put together account of","dateplayed":1323729435,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Blouse"},"19":{"mediaid":"1g9d9","artist":"Mux
+        Mool","title":"Raw Gore","dateposted":1328700580,"siteid":1734,"sitename":"Tonspion","posturl":"http:\/\/www.tonspion.de\/musik\/mux-mool\/musik\/2402629","postid":1713365,"loved_count":108,"posted_count":13,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1734.png","time":177,"description":"Nach
+        einige Eps f\u00fcr Moodgadget ist Mux Mool im Scho\u00df der Ghostly Familie
+        gelandet. Dort geh\u00f6rt er neben Com Truise und Deastro zu einer neuen
+        Generation von Instrumental Hip-Hop-Produzenten, die \u00e4hnlich furchtlos
+        mit Kicks und Snares umgehen wie Labelmate","dateplayed":1323728783,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mux%20Mool"}}'
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Mon, 12 Mar 2012 06:04:34 GMT
+      content-type:
+      - text/javascript; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - AUTH=03%3A895ba1d6409acfa5a13b9a516a64d3de%3A1331532274%3A1276002699%3ACA-US;
+        expires=Wed, 08-Mar-2028 06:04:34 GMT; path=/; domain=hypem.com
+      x-hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - ! '*'
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jh0t","artist":"Burial + Four Tet","title":"Nova","dateposted":1331337367,"siteid":6764,"sitename":"We
+        All Want Someone To Shout For","posturl":"http:\/\/www.weallwantsomeone.org\/2012\/03\/09\/burial-four-tet-nova\/","postid":1744908,"loved_count":3308,"posted_count":46,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744908.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744908_320.png","time":355,"description":"Burial
+        + Four Tet have teamed up for a new track called \u201cNova\u201d. It brings
+        the best of both of their worlds creating a stunning track that breaths emotional
+        transport through moments of electronic bliss. It\u2019s more sincere than
+        any crap the radio is feeding","dateplayed":1330993220,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Burial%20+%20Four%20Tet"},"1":{"mediaid":"1f5pg","artist":"Grimes","title":"Oblivion","dateposted":1331321781,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/listendownload-233-free-mp3s-of-the-best-artists-playing-sxsw-2012\/","postid":1744565,"loved_count":4288,"posted_count":81,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1744565_320.png","time":252,"description":"For
+        the past few years the organisers of the SXSW festival have included an MP3
+        with each artists they feature on their site who is appearing at the festival,
+        as a wee taster of what to expect from said artist. At the same time some
+        awesome fellow organis","dateplayed":1325751580,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"2":{"mediaid":"1h2q8","artist":"Grimes","title":"Genesis","dateposted":1331297783,"siteid":940,"sitename":"The
+        Blue Walrus","posturl":"http:\/\/www.thebluewalrus.com\/2012\/03\/09\/grimes-visions\/","postid":1744158,"loved_count":4800,"posted_count":88,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1744158_320.png","time":256,"description":"Hmm.
+        I still haven\u2019t made up my mind. About the album artwork, I mean \u2013
+        Grimes\u2019s third album is brilliant, and I\u2019ll get to that in a little
+        bit, but first I must say that I wouldn\u2019t be surprised if one was unable
+        to take Visions seriously after seeing its","dateplayed":1325751501,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Grimes"},"3":{"mediaid":"16mnz","artist":"The
+        Mynabirds","title":"All I Want is Truth (for Christmas)","dateposted":1324583906,"siteid":14702,"sitename":"vocal
+        nerd rodeo","posturl":"http:\/\/www.vocalnerdrodeo.com\/2011\/12\/22\/vnrs-indie-christmas\/","postid":1672591,"loved_count":69,"posted_count":11,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14702.jpg","time":232,"description":"Post
+        image for VNR\u2019s Indie Christmas Did you notice? VNR is all pimped out
+        for the Holidays. Thought I\u2019d go ahead and post just a few indie Christmas
+        tunes that I enjoy\u2026not necessarily new, but who cares right? VNR is about
+        the music, not scrambling to be","dateplayed":1324598660,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Mynabirds"},"4":{"mediaid":"ycv4","artist":"Run
+        DMC","title":"Christmas In Hollis","dateposted":1324787610,"siteid":12872,"sitename":"POSTMUSIC","posturl":"http:\/\/www.postmusic.org\/wordpress\/2011\/12\/24\/a-postmusic-christmas\/","postid":1673880,"loved_count":123,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1673880.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1673880_320.png","time":178,"description":"Merry
+        Christmas. Joyeux No\u00c3\u00abl. \u00e3\u0083\u00a1\u00e3\u0083\u00aa\u00e3\u0083\u00bc\u00e3\u0082\u00af\u00e3\u0083\u00aa\u00e3\u0082\u00b9\u00e3\u0083\u009e\u00e3\u0082\u00b9.
+        \u00d0\u00a1 \u00d0 \u00d0\u00be\u00d0\u00b6\u00d0\u00b4\u00d0\u00b5\u00d1\u0081\u00d1\u0082\u00d0\u00b2\u00d0\u00be\u00d0\u00bc
+        \u00d0\u00a5\u00d1\u0080\u00d0\u00b8\u00d1\u0081\u00d1\u0082\u00d0\u00be\u00d0\u00b2\u00d1\u008b\u00d0\u00bc.
+        \u00e8\u0081\u0096\u00e8\u00aa\u0095\u00e5\u00bf\u00ab\u00e6\u00a8\u0082.
+        Feliz Navidad. Etc., Etc., Etc., w\/e \u201cHappy Holidays!\u201d from POSTMUSIC.ORG.
+        Here are some of my favorite songs to listen to this time of year","dateplayed":1324598454,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Run%20DMC"},"5":{"mediaid":"xyhp","artist":"The
+        Drifters","title":"White Christmas","dateposted":1324560881,"siteid":16880,"sitename":"Jenny''s
+        Song Of The Day ","posturl":"http:\/\/jennyssongoftheday.com\/2011\/12\/22\/holiday-special-the-drifters-white-christmas\/","postid":1672262,"loved_count":24,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16880.png","time":162,"description":"THREE
+        days until Christmas is finally upon us, folks, and today I\u2019ve decided
+        to go back even further\u2026 to 1954! white christmas the drifters The Drifters
+        were a great quintet of soul singers who recorded and debuted this cover of
+        \u201cWhite Christmas\u201d in 1954.","dateplayed":1324598297,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Drifters"},"6":{"mediaid":"xkzw","artist":"The
+        Raveonettes","title":"Come On Santa","dateposted":1324568184,"siteid":5218,"sitename":"Big
+        Rock Candy Mountain","posturl":"http:\/\/therealbigrockcandymountain.blogspot.com\/2011\/12\/santas-midnight-run.html","postid":1672316,"loved_count":52,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/5218.jpg","time":221,"description":"
+        Just about made it.","dateplayed":1324598078,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Raveonettes"},"7":{"mediaid":"dkz8","artist":"Blitzen
+        Trapper","title":"Christmas Is Coming Soon","dateposted":1324583890,"siteid":14702,"sitename":"vocal
+        nerd rodeo","posturl":"http:\/\/www.vocalnerdrodeo.com\/2011\/12\/22\/vnrs-indie-christmas\/","postid":1672591,"loved_count":112,"posted_count":20,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14702.jpg","time":184,"description":"Post
+        image for VNR\u2019s Indie Christmas Did you notice? VNR is all pimped out
+        for the Holidays. Thought I\u2019d go ahead and post just a few indie Christmas
+        tunes that I enjoy\u2026not necessarily new, but who cares right? VNR is about
+        the music, not scrambling to be","dateplayed":1324597625,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Blitzen%20Trapper"},"8":{"mediaid":"xka1","artist":"Over
+        The Rhine","title":"Darlin'' (Christmas Is Coming)","dateposted":1324584155,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-by-carols-ii-very-indie-xmas.html","postid":1672594,"loved_count":21,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/15341.jpg","time":219,"description":"
+        Here it is, the cheery classic carols and a handful of christmas originals
+        from your favorite indie and folky bands. I hope it''s enjoyed by those that
+        like christmas songs because it was a bit of a struggle to put all this good
+        cheer and songs of joy and","dateplayed":1324596692,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Over%20The%20Rhine"},"9":{"mediaid":"ydkr","artist":"DJ
+        John","title":"The Christmas Massacre of Charlie Brown","dateposted":1324584410,"siteid":15341,"sitename":"New
+        Music Collaborative","posturl":"http:\/\/www.newmusicco.com\/2011\/12\/conflicted-by-carols-ii-very-indie-xmas.html","postid":1672594,"loved_count":51,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/15341.jpg","time":201,"description":"
+        Here it is, the cheery classic carols and a handful of christmas originals
+        from your favorite indie and folky bands. I hope it''s enjoyed by those that
+        like christmas songs because it was a bit of a struggle to put all this good
+        cheer and songs of joy and","dateplayed":1324596631,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/DJ%20John"},"10":{"mediaid":"1gjxt","artist":"Summer
+        Camp","title":"All I Wonderful Christmas Is You","dateposted":1326135684,"siteid":1278,"sitename":"brooklynvegan","posturl":"http:\/\/www.brooklynvegan.com\/archives\/2012\/01\/summer_camp_ann.html","postid":1683695,"loved_count":56,"posted_count":16,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1683695.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1683695_320.png","time":172,"description":"DOWNLOAD:
+        Summer Camp - \"All I Wonderful Christmas Is You\" (MP3) Summer Camp UK duo
+        Summer Camp released their catchy debut LP, Welcome to Condale this past October
+        via Moshi Moshi (you can buy it on eMusic), and followed the release with
+        a European tour.","dateplayed":1324596555,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Summer%20Camp"},"11":{"mediaid":"1gdbs","artist":"Ghibli","title":"Aubrey
+        de Grey (Jessica Jalbert remixed)","dateposted":1324341555,"siteid":11577,"sitename":"Friends
+        With Both Arms","posturl":"http:\/\/www.friendswithbotharms.com\/2011\/12\/19\/ghibli-remixes-jessica-jalbert\/","postid":1669982,"loved_count":7,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1669982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1669982_320.png","time":280,"description":"I
+        recently came across Edmonton artist, Ghibli after discovering his remix of
+        Jessica Jalbert\u2018s Aubrey De Grey and it is fantastic. He\u2019s got a
+        knack for combining electronic vibes with a bit of soul. His take on Aubrey
+        De Gray feels almost like it\u2019s got t","dateplayed":1324336099,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ghibli"},"12":{"mediaid":"1gh80","artist":"Sean
+        Nicholas Savage","title":"Chin Chin","dateposted":1327586491,"siteid":11262,"sitename":"weird
+        canada","posturl":"http:\/\/weirdcanada.com\/2012\/01\/new-canadiana-sean-nicholas-savage-flamingo\/","postid":1700642,"loved_count":22,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11262.png","time":199,"description":"Sean
+        Nicholas Savage - Flamingo Sean Nicholas Savage Flamingo (Arbutus Records)
+        Montreal, QC ::web\/sounds::  From the carnie games of Pam Haasen: If small
+        town fairs were hip to the culture of cheap thrills and cheese appeal that
+        speaks to my inner child,","dateplayed":1323973869,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sean%20Nicholas%20Savage"},"13":{"mediaid":"1gda2","artist":"Cloud
+        Nothings","title":"Stay Useless","dateposted":1330911177,"siteid":11376,"sitename":"blahblahblahscience","posturl":"http:\/\/blahblahblahscience.com\/liveshowreviews\/live-review-cloud-nothings-the-echo-march-2nd-2012","postid":1738687,"loved_count":423,"posted_count":42,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/11376.png","time":166,"description":"cloutnothingsmerch
+        The venue was already near max capax by the time I arrived at The Echo Friday
+        night for Cloud Nothing\u2019s sold out affair, their first headlining show
+        in Los Angeles (they opened for Toro y Moi at The Troubadour last March).
+        The Dylan Bal","dateplayed":1323735450,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Cloud%20Nothings"},"14":{"mediaid":"1gdcx","artist":"M?DE::IN::HEIGHTS","title":"Wildflowers
+        (Exhale Efreet)","dateposted":1323473349,"siteid":3683,"sitename":"Winnie
+        Cooper","posturl":"http:\/\/winniecooper.net\/2011\/12\/m%e2%88%86deinheights\/","postid":1662206,"loved_count":21,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1662206_320.png","time":184,"description":"::M\u2206DE::IN::HEIGHTS::
+        describe themselves as mythical filth pop which I think is quite accurate.
+        Their 808 hip hop influenced sound is unique and otherworldly. Tied together
+        nicely with the pop female vocals of Kelsey Bulkin. They\u2019re from New
+        York and a s","dateplayed":1323731067,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/M?DE::IN::HEIGHTS"},"15":{"mediaid":"1fnyj","artist":"Twin
+        Sister","title":"Kimmi in a Rice Field (Balam Acab Remix)","dateposted":1327604898,"siteid":15246,"sitename":"Pants
+        Dance ","posturl":"http:\/\/www.dothepantsdance.com\/blog\/item\/412-sleepy-sundaze-11\/20","postid":1644982,"loved_count":309,"posted_count":27,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1644982_320.png","time":197,"description":"TgALF
+        a man is not old until regret takes the place of dreams The Bird Day :: Moody
+        Trudy Lovers :: Miami Tse Tung (Name In Lights Dub) BRAIDS :: Peach Wedding
+        Twin Sister :: Kimmi in a Rice Field (Balam Acab Remix) Trailer Trash Tracys
+        :: Dies in 55 Down","dateplayed":1323730937,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Twin%20Sister"},"16":{"mediaid":"1b3fh","artist":"Tonstartssbandht","title":"Hymn
+        Eola","dateposted":1325346518,"siteid":14755,"sitename":"WEIRD MAGIC","posturl":"http:\/\/weirdmagic.biz\/2011\/12\/killed-it-2011\/","postid":1677069,"loved_count":17,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1677069_320.png","time":228,"description":"clams
+        casino realist alive all i need drowning omg leaf (asap rocky prod) instrumentals
+        araabmuzik streetz tonight at2 electronic dream + dozens (hundreds?) we\u2019ll
+        never hear drake marvin\u2019s room over my dead body take care john maus
+        quantum leap believer w","dateplayed":1323730306,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Tonstartssbandht"},"17":{"mediaid":"1fsbh","artist":"Slothbear","title":"Ex-teen","dateposted":1324142007,"siteid":13413,"sitename":"Listen
+        Before You Buy","posturl":"http:\/\/www.listenbeforeyoubuy.net\/listen\/introducing-slothbear\/","postid":1668450,"loved_count":16,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1668450.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1668450_320.png","time":219,"description":"Tweet
+        Slothbear It doesn\u2019t take long to pick up on the crisp autumnal backdrop
+        that was taking place while Slothbear was recording its latest EP \u201cCanter
+        On\u201d. Recorded during one weekend in the fall of this year and released
+        1st November, Slothbear\u2019 s haun","dateplayed":1323729865,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Slothbear"},"18":{"mediaid":"1e7xa","artist":"Blouse","title":"Videotapes","dateposted":1331161488,"siteid":16898,"sitename":"Not
+        Final ","posturl":"http:\/\/notfinalmusic.blogspot.com\/2012\/01\/songs-of-year-2011.html","postid":1742492,"loved_count":349,"posted_count":47,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16898.png","time":181,"description":"
+        Making a list of the 20 best albums was challenging due to the massive amounts
+        of music awesomeness released in 2k11. Narrowing down a list of the 30 best
+        songs proved to be even more difficult. This second list is a painstakingly
+        put together account of","dateplayed":1323729435,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Blouse"},"19":{"mediaid":"1g9d9","artist":"Mux
+        Mool","title":"Raw Gore","dateposted":1328700580,"siteid":1734,"sitename":"Tonspion","posturl":"http:\/\/www.tonspion.de\/musik\/mux-mool\/musik\/2402629","postid":1713365,"loved_count":108,"posted_count":13,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1734.png","time":177,"description":"Nach
+        einige Eps f\u00fcr Moodgadget ist Mux Mool im Scho\u00df der Ghostly Familie
+        gelandet. Dort geh\u00f6rt er neben Com Truise und Deastro zu einer neuen
+        Generation von Instrumental Hip-Hop-Produzenten, die \u00e4hnlich furchtlos
+        mit Kicks und Snares umgehen wie Labelmate","dateplayed":1323728783,"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mux%20Mool"}}'
+    http_version: 
+  recorded_at: Mon, 12 Mar 2012 06:04:34 GMT
+recorded_with: VCR 2.0.0
