@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Jack Anderson"]
   s.email       = ["jackcanderson@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = "a light Ruby wrapper for the Hype Machine public API"
 
   s.rubyforge_project = "hypem"
 
@@ -24,7 +23,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'multi_json', '~> 1.1'
   s.add_dependency 'hashie', '~> 1.2'
 
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
 end
