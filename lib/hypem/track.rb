@@ -27,6 +27,7 @@ module Hypem
     property :date_loved, from: :dateloved
     property :user_name, from: :username
     property :full_name, from: :fullname
+    property :via_query
 
   end
 

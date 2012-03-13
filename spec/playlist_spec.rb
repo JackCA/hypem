@@ -17,11 +17,11 @@ describe Hypem::Playlist do
   end
 
   it "throws an error with invalid parameters" do
-    expect { Hypem::Playlist.new(:not_a_hash) }.to raise_error(ArgumentError)
+    expect { Hypem::Playlist.new(:symbol) }.to raise_error(ArgumentError)
   end
 
   it "gets a generic playlist" do
-    VCR.use_cassette('popular_playlist') { Hypem::Playlist.get('popular') }.should be_a Hypem::Playlist
+    VCR.use_cassette('popular_playlist') { Hypem::Playlist.get('popular/3day') }.should be_a Hypem::Playlist
   end
 
 end
