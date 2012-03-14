@@ -8,9 +8,8 @@ module Hypem
       response.body.each_value{|v| @tracks << Track.new(v)}
     end
 
-    def self.get(route, user = nil)
-      url = "playlist/#{route}"
-      url << "/#{user}" unless user.nil?
+    def self.get(type, arg)
+      url = "playlist/#{type}/#{arg}"
       self.new Request.new(url).get.response
     end
   end

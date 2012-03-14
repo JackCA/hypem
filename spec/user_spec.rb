@@ -3,8 +3,8 @@ require 'spec_helper'
 describe Hypem::User do
   let(:user) { Hypem::User.new('jackca') }
 
-  it "initializes with a user parameter" do
-    user.instance_variable_get(:@user).should_not be_nil
+  it "initializes with a name parameter" do
+    user.instance_variable_get(:@name).should_not be_nil
   end
 
   it "throws an error with an invalid username" do
