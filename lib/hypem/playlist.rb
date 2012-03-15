@@ -1,16 +1,41 @@
 module Hypem
   class Playlist
-    attr_accessor :tracks
+    attr_accessor :url, :tracks
+    attr_reader :extended
 
-    def initialize(response)
-      raise ArgumentError unless response.is_a? Response
-      @tracks = []
-      response.body.each_value{|v| @tracks << Track.new(v)}
+    def initialize(type,arg)
+      @url = ['playlist',type,arg].join('/')
     end
 
-    def self.get(type, arg)
-      url = "playlist/#{type}/#{arg}"
-      self.new Request.new(url).get.response
+    def get
+      response = Request.new(url).get.response
+      @tracks = []
+      response.body.each_value{|v| @tracks << Track.new(v)}
+      return self
+    end
+    
+    def self.latest
+      Playlist.new(:time,:today)
+    end
+
+    def self.popular(arg='3day')
+      Playlist.new(:popular,arg)
+    end
+
+    def self.blog(arg)
+      Playlist.new(:blog,arg)
+    end
+
+    def self.tags(arg)
+      Playlist.new(:tags,arg)
+    end
+
+    def self.search(arg)
+      Playlist.new(:search,arg)
+    end
+
+    def self.artist(arg)
+      Playlist.new(:artist,arg)
     end
   end
 end

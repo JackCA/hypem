@@ -22,7 +22,6 @@ module Hypem
       @@conn ||= Faraday.new(url: 'http://hypem.com') do |builder|
         builder.request :url_encoded
         builder.response :logger
-        builder.use VCR::Middleware::Faraday
         builder.adapter :net_http
       end
     end
