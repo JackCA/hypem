@@ -37,5 +37,25 @@ module Hypem
     def self.artist(arg)
       Playlist.new(:artist,arg)
     end
+
+    def self.friends_history(user)
+      Playlist.new(:people_history,user)
+    end
+
+    def self.friends_favorites(user)
+      Playlist.new(:people,user)
+    end
+
+    def self.feed(user)
+      Playlist.new(:feed,user)
+    end
+
+    def self.loved(user)
+      Playlist.new(:loved,user)
+    end
+
+    def self.obsessed(user)
+      Playlist.new(:obsessed,user)
+    end
   end
 end

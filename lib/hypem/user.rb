@@ -7,19 +7,23 @@ module Hypem
     end
 
     def loved_playlist
-      Playlist.new(:loved,@name).get
+      Playlist.loved(@name).get
+    end
+
+    def obsessed_playlist
+      Playlist.obsessed(@name).get
     end
 
     def feed_playlist
-      Playlist.new(:feed,@name).get
+      Playlist.feed(@name).get
     end
 
-    def friends_playlist
-      Playlist.new(:people,@name).get
+    def friends_favorites_playlist
+      Playlist.friends_favorites(@name).get
     end
 
-    def friends_history
-      Playlist.new(:people_history,@name).get
+    def friends_history_playlist
+      Playlist.friends_history(@name).get
     end
 
   end

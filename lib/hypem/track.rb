@@ -28,6 +28,7 @@ module Hypem
     property :user_name, from: :username
     property :full_name, from: :fullname
     property :via_query
+    property :plays #used by obsessed playlist
 
   end
 

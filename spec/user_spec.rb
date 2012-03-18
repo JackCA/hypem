@@ -17,6 +17,12 @@ describe Hypem::User do
     end
   end
 
+  it "gets an obsessed playlist" do
+    VCR.use_cassette('obsessed_playlist') do
+      user.obsessed_playlist.should be_a Hypem::Playlist
+    end
+  end
+
   it "gets a feed playlist" do
     VCR.use_cassette('feed_playlist') do
       user.feed_playlist.should be_a Hypem::Playlist
@@ -25,13 +31,13 @@ describe Hypem::User do
 
   it "gets friends' playlist" do
     VCR.use_cassette('friends_playlist') do
-      user.friends_playlist.should be_a Hypem::Playlist
+      user.friends_favorites_playlist.should be_a Hypem::Playlist
     end
   end
 
   it "gets a friends' history playlist" do
     VCR.use_cassette('friends_history') do
-      user.friends_history.should be_a Hypem::Playlist
+      user.friends_history_playlist.should be_a Hypem::Playlist
     end
   end
 

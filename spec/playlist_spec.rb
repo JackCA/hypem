@@ -100,5 +100,4 @@ describe Hypem::Playlist do
     end
   end
 
-
 end
