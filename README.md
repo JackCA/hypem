@@ -4,20 +4,20 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
 
 ## Usage ##
 
-> ### Playlist ###
-> `Hypem::Playlist` is the center of the Hypem API as it stands. It supports the following calls:
+### Playlist ###
+`Hypem::Playlist` is the center of the Hypem API as it stands. It supports the following calls:
 
-> - `Hypem.playlist.artist('artist_name')` --- the latest tracks from a given artist
+- `Hypem.playlist.artist('artist_name')` --- the latest tracks from a given artist
 
-> - `Hypem.playlist.blog('blog_name')` --- the latest tracks from a given blog
+- `Hypem.playlist.blog('blog_name')` --- the latest tracks from a given blog
 
-> - `Hypem.playlist.search('query_string')` --- searches for tracks matching given string
+- `Hypem.playlist.search('query_string')` --- searches for tracks matching given string
 
-> - `Hypem.playlist.tags('tag_name,electro,indie')` --- tracks matching given comma-delimited tags. *The API warns against combining too many different tags*
+- `Hypem.playlist.tags('tag_name,electro,indie')` --- tracks matching given comma-delimited tags. *The API warns against combining too many different tags*
 
-> - `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts one of the following arguments:
+- `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts one of the following arguments:
 
->> <table>
+<table>
   <thead>
     <tr>
       <th> Argument </th>
@@ -48,27 +48,27 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
   </tbody>
 </table>
 
-> ******
+******
 
-> ### User ###
-> `Hypem::User` offers several convenience methods for accessing a particular user's personalized playlists:
+### User ###
+`Hypem::User` offers several convenience methods for accessing a particular user's personalized playlists:
 
-> - `Hypem.user('name').loved_playlist` --- a user's loved tracks
+- `Hypem.user('name').loved_playlist` --- a user's loved tracks
 
-> - `Hypem.user('name').obsessed_playlist` --- a user's obsessed tracks
+- `Hypem.user('name').obsessed_playlist` --- a user's obsessed tracks
 
-> - `Hypem.user('name').feed_playlist` --- a user's tracks from all followed entities
+- `Hypem.user('name').feed_playlist` --- a user's tracks from all followed entities
 
-> - `Hypem.user('name').friends_favorites_playlist` --- a user's friends' favorited tracks
+- `Hypem.user('name').friends_favorites_playlist` --- a user's friends' favorited tracks
 
-> - `Hypem.user('name').friends_history_playlist` --- tracks from a user's friends' listening histories
+- `Hypem.user('name').friends_history_playlist` --- tracks from a user's friends' listening histories
 
-> ******
+******
 
-> ### Track ###
-> All of the above methods return an array of `Hypem::Track`'s. A sample object inspect is as follows:
+### Track ###
+All of the above methods return an array of `Hypem::Track`'s. A sample object inspect is as follows:
 
->>     #<Hypem::Track
+      #<Hypem::Track
         artist="Hot Chip"
         date_loved=1332109580
         date_posted=1332252311
@@ -84,4 +84,9 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
         thumb_url="http://static-ak.hypem.net/images/albumart4.gif"
         thumb_url_large="http://static-ak.hypem.net/images/blog_images/14635.png"
         time=425
-        title="Flutes"> 
+        title="Flutes">
+
+****** 
+
+### TODO ###
+  - Add single track retrieval ability
