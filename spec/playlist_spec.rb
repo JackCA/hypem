@@ -46,7 +46,7 @@ describe Hypem::Playlist do
       end
 
       it "retrieves 3day by default" do
-        Hypem::Playlist.should_receive(:new).with(:popular,'3day')
+        Hypem::Playlist.should_receive(:new).with(:popular,%s(3day))
         Hypem::Playlist.popular
       end
 
@@ -68,6 +68,10 @@ describe Hypem::Playlist do
       it "accepts twitter" do
         Hypem::Playlist.should_receive(:new).with(:popular,:twitter)
         Hypem::Playlist.popular(:twitter)
+      end
+
+      it "rejects anything else" do
+        expect {Hypem::Playlist.popular(:no_no)}.to raise_error(ArgumentError)
       end
     end
   end

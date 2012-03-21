@@ -1,5 +1,6 @@
 module Hypem
   class Playlist
+    POPULAR_ARGS = [%s(3day),:lastweek,:noremix,:artists,:twitter]
     attr_accessor :url, :tracks
     attr_reader :extended
 
@@ -18,7 +19,8 @@ module Hypem
       Playlist.new(:time,:today)
     end
 
-    def self.popular(arg='3day')
+    def self.popular(arg=POPULAR_ARGS.first)
+      raise ArgumentError unless POPULAR_ARGS.include?(arg)
       Playlist.new(:popular,arg)
     end
 
