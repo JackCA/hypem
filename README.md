@@ -17,6 +17,7 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
 
 - `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts one of the following arguments:
 
+
 <table>
   <thead>
     <tr>
@@ -48,6 +49,8 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
   </tbody>
 </table>
 
+Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s. Pagination is supported with the `.next_page` and `.prev_page` methods.
+
 ******
 
 ### User ###
@@ -66,7 +69,7 @@ This is an unoffical Ruby gem for the **Hype Machine** public API. It supports a
 ******
 
 ### Track ###
-All of the above methods return an array of `Hypem::Track`'s. A sample object inspect is as follows:
+All of the above methods return an Playlist object with an attribute `tracks` containing an array of `Hypem::Track`'s. A sample object inspect is as follows:
 
       #<Hypem::Track
         artist="Hot Chip"

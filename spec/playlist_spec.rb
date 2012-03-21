@@ -104,4 +104,22 @@ describe Hypem::Playlist do
     end
   end
 
+  describe "pagination" do
+    before do
+      playlist
+      Hypem::Playlist.stub_chain(:new,:get)
+    end
+
+    it "can get next page" do
+      Hypem::Playlist.should_receive(:new).with(:time,:today,2)
+      playlist.next_page
+    end
+
+    it "also gets previous page" do
+      Hypem::Playlist.should_receive(:new).with(:time,:today,0)
+      playlist.prev_page
+    end
+
+  end
+
 end
