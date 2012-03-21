@@ -1,4 +1,4 @@
-# Hypem Ruby Gem #
+# Hypem Ruby Gem ![travis](https://secure.travis-ci.org/JackCA/hypem.png?branch=master) #
 ## Introduction ##
 This is an unoffical Ruby gem for the **Hype Machine** public API. It supports all of the supported Playlist requests and wraps all responses in custom Ruby objects. It currently only supports Ruby `1.9.x`.
 
@@ -91,5 +91,5 @@ All of the above methods return an Playlist object with an attribute `tracks` co
 
 ****** 
 
-### TODO ###
+## TODO ###
   - Add single track retrieval ability
