@@ -1,10 +1,17 @@
 require 'spec_helper'
 
 describe Hypem::Playlist do
-  let(:playlist) {Hypem::Playlist.latest}
-  let(:blog_playlist) {Hypem::Playlist.blog(1)}
-
+  let(:playlist) do
+    VCR.use_cassette('latest_playlist'){Hypem::Playlist.latest}
+  end
+  
+  let(:blog_playlist) do
+    VCR.use_cassette('blog_playlist'){Hypem::Playlist.blog(1)}
+  end
+  
+  
   context "when initialized" do
+    
     it "assigns the url attribute" do
       playlist.url.should == "playlist/time/today"
     end
@@ -16,22 +23,24 @@ describe Hypem::Playlist do
   end
 
   describe "after get" do
-    let(:gotten_playlist) {VCR.use_cassette('latest_playlist'){playlist.get}}
 
     it "should be a playlist" do
-      gotten_playlist.should be_a Hypem::Playlist
+      playlist.should be_a Hypem::Playlist
     end
 
     describe "tracks" do
       it "should assign tracks attribute" do
-        gotten_playlist.tracks.should_not be_nil
+        playlist.tracks.should_not be_nil
       end
     end
   end
 
   describe ".latest" do
+    
+    
+    
     it "returns a playlist" do
-      Hypem::Playlist.latest.should be_a Hypem::Playlist
+      playlist.should be_a Hypem::Playlist
     end
   end
 
@@ -42,7 +51,7 @@ describe Hypem::Playlist do
 
     describe "parameters" do
       before do
-        Hypem::Playlist.stub(:new)
+        Hypem::Playlist.any_instance.stub(:get)
       end
 
       it "retrieves 3day by default" do
@@ -76,34 +85,38 @@ describe Hypem::Playlist do
     end
   end
 
-  describe ".blog" do
-    it "calls new with type blog" do
-      Hypem::Playlist.should_receive(:new).with(:blog,1)
-      Hypem::Playlist.blog(1)
+  context "class methods" do
+    before {Hypem::Playlist.stub_chain(:new, :get)}
+    
+    describe ".blog" do  
+      it "calls new with type blog" do
+        Hypem::Playlist.should_receive(:new).with(:blog,1)
+        Hypem::Playlist.blog(1)
+      end
+    end
+  
+    describe ".tags" do
+      it "calls new with type tags" do
+        Hypem::Playlist.should_receive(:new).with(:tags,'tag')
+        Hypem::Playlist.tags('tag')
+      end
+    end
+  
+    describe ".search" do
+      it "calls new with type search" do
+        Hypem::Playlist.should_receive(:new).with(:search,'query')
+        Hypem::Playlist.search('query')
+      end
+    end
+  
+    describe ".artist" do
+      it "calls new with type artist" do
+        Hypem::Playlist.should_receive(:new).with(:artist,'name')
+        Hypem::Playlist.artist('name')
+      end
     end
   end
-
-  describe ".tags" do
-    it "calls new with type tags" do
-      Hypem::Playlist.should_receive(:new).with(:tags,'tag')
-      Hypem::Playlist.tags('tag')
-    end
-  end
-
-  describe ".search" do
-    it "calls new with type search" do
-      Hypem::Playlist.should_receive(:new).with(:search,'query')
-      Hypem::Playlist.search('query')
-    end
-  end
-
-  describe ".artist" do
-    it "calls new with type artist" do
-      Hypem::Playlist.should_receive(:new).with(:artist,'name')
-      Hypem::Playlist.artist('name')
-    end
-  end
-
+  
   describe "pagination" do
     before do
       playlist
