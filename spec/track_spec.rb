@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Hypem::Track do
   let(:track_hash) do
     VCR.use_cassette('latest_playlist') do
-      Hypem::Playlist.latest.get.tracks.first
+      Hypem::Playlist.latest.tracks.first
     end
   end
 
