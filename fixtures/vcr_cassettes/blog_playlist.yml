@@ -1,0 +1,156 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/blog/1/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Thu, 22 Mar 2012 02:31:34 GMT
+      content-type:
+      - text/javascript; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - AUTH=03%3Ab547ac2dad473841b070802ac5097624%3A1332383494%3A1176825060%3ACA-US;
+        expires=Sat, 18-Mar-2028 02:31:34 GMT; path=/; domain=hypem.com
+      x-hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - ! '*'
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jems","artist":"Slowdim","title":"Money","dateposted":1332155325,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3188","postid":1752371,"loved_count":3,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1752371.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1752371_320.png","time":230,"description":"Slowdim
+        \u2013 Money. That cover up there is exactly right, isn\u2019t it? This is
+        FM music from a hazy past, from road trips with your family, car trips with
+        the windows down and the sun about to set. It\u2019s not that Slowdim is a
+        nostalgia act, it\u2019s just that these ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Slowdim"},"1":{"mediaid":"1azv0","artist":"Apache
+        Dropout","title":"I''m So Glad","dateposted":1331834222,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3193","postid":1749878,"loved_count":6,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":156,"description":"Apache
+        Dropout \u2013 I\u2019m So Glad What can I say about these guys that hasn\u2019t
+        already been said about the Count Five, The Troggs, The Stones, The Black
+        Lips, The Strange Boys\u2026","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Apache%20Dropout"},"2":{"mediaid":"1fwjg","artist":"Hospitality","title":"Betty
+        Wang","dateposted":1330952173,"siteid":1,"sitename":"Music ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3177","postid":1738974,"loved_count":74,"posted_count":26,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1738974.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1738974_320.png","time":133,"description":"Hospitality
+        \u2013 Betty Wang. What is it about Hospitality that reminds me of the \u201990s?
+        It certainly doesn\u2019t sound grungy. Maybe it\u2019s the resemblance to
+        bands like Belle & Sebastian, even though they were aiming for something from
+        the \u201960s. Either way, this s","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Hospitality"},"3":{"mediaid":"1herd","artist":"The
+        Pharmacy","title":"Dig Your Grave","dateposted":1330432397,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3161","postid":1733239,"loved_count":28,"posted_count":9,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart1.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":122,"description":"The
+        Pharmacy \u2013 Dig Your Grave. I took a sick day a few weeks ago, after I
+        was saddled with my baby\u2019s umpteenth cold. It was actually a really nice
+        day; I hadn\u2019t had that much time to myself in ages. I watched most of
+        Moneyball until the internet gave out\u2013","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Pharmacy"},"4":{"mediaid":"1g1eq","artist":"Sharon
+        Van Etten","title":"Serpents","dateposted":1329855603,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3153","postid":1726773,"loved_count":1203,"posted_count":103,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":182,"description":"Sharon
+        Van Etten \u2013 Serpents I\u2019d love to write about Give Out. I\u2019d
+        love to write about the way the song builds quietly, internally like a low
+        grade anxiety attack. Treading the same ground over and over, convincing herself
+        one minute, full of doubt the nex","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sharon%20Van%20Etten"},"5":{"mediaid":"1hajq","artist":"Now,
+        Now","title":"school friends","dateposted":1329744503,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=3127","postid":1725128,"loved_count":58,"posted_count":4,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":173,"description":"Now,
+        Now \u2013 School Friends. Now, Now used to be called Now Now Every Children,
+        and I vastly prefer their new, shorter name. Their sound, too, is more condensed\u2013there\u2019s
+        a rawness from their debut Cars missing from their latest, Threads, but in
+        its place is ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Now,%20Now"},"6":{"mediaid":"1fe5p","artist":"Clem
+        Snide","title":"Anyway You Want It","dateposted":1321302506,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2985","postid":1639716,"loved_count":380,"posted_count":6,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1639716.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1639716_320.png","time":226,"description":"It\u2019s
+        hard to pull off something like this. Clem Snide \u2013 Any Way You Want It.
+        Indie covers of mainstream hits are tough, because you don\u2019t want to
+        seem too condescending. But Clem Snide\u2019s Eef Barzelay can do it, because
+        he knows what\u2019s great about this son","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Clem%20Snide"},"7":{"mediaid":"1e8xe","artist":"Girl
+        in a Coma","title":"Smart","dateposted":1317382105,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2862","postid":1599253,"loved_count":87,"posted_count":19,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":201,"description":"Girl
+        In A Coma \u2013 Smart. There\u2019s something about bands that wear influences
+        on their sleeves while sounding like themselves. Girl In A Coma not only cops
+        the Smiths\u2019 jangle but adapts one of Moz\u2019s song titles for their
+        band name. But this is no imitation; ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Girl%20in%20a%20Coma"},"8":{"mediaid":"1d71t","artist":"Geoffrey
+        O''Connor","title":"Whatever Leads Me To You","dateposted":1316629902,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2838","postid":1591230,"loved_count":125,"posted_count":20,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":211,"description":"Geoffrey
+        O\u2019Connor \u2013 Whatever Leads Me To You I\u2019m not as in touch with
+        Australia as I used to be, having lost touch with its superior coffee and
+        southern california-style beaches. It\u2019s been more than three years Corey
+        Delaney finally brought the continent ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Geoffrey%20O''Connor"},"9":{"mediaid":"1ehbz","artist":"Lightning
+        Dust","title":"Never Again","dateposted":1316557949,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2828","postid":1590440,"loved_count":32,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":190,"description":"When
+        you\u2019re looking for a place to spend your music dollars this month, I
+        would highly suggest you set aside seven dollars for this wonderful little
+        single from the freshly launched Storyboard Label 7\u2033 series. It\u2019s
+        been a quiet few years for Joshua and Am","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Lightning%20Dust"},"10":{"mediaid":"1ea0r","artist":"Villa
+        Rosa","title":"Leader of the Pack","dateposted":1315826956,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2814","postid":1582261,"loved_count":9,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":190,"description":"Villa
+        Rosa \u2013 Leader of the Pack. There\u2019s something about Midwest hip-hop
+        that\u2019s so pure and wholesome, so without hubris and overconfidence, that
+        I find totally charming. Don\u2019t get me wrong, I love Kanye\u2019s ridiculous
+        boasting and Jay-Z\u2019s outrageous claims","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Villa%20Rosa"},"11":{"mediaid":"vcvc","artist":"Visqueen","title":"Hand
+        Me Down","dateposted":1314017800,"siteid":1,"sitename":"Music ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2779","postid":1564708,"loved_count":30,"posted_count":13,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1564708.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1564708_320.png","time":202,"description":"Visqueen
+        \u2013 Hand Me Down. Oh brother, it has been a LONG TIME since I have posted
+        anything. Sorry, Robots. I have no good excuse. Not that I\u2019ve been gone
+        for two years, but perhaps it\u2019s fitting that I\u2019m posting a track
+        from 2009. But Visqueen, purveyors of","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Visqueen"},"12":{"mediaid":"1d4kz","artist":"Muscles","title":"I''ll
+        Follow You (2011)","dateposted":1311817663,"siteid":1,"sitename":"Music (
+        for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2759","postid":1544288,"loved_count":74,"posted_count":3,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1544288.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1544288_320.png","time":248,"description":"I
+        can\u2019t explain why Muscles hits me so deeply, but his songs just floor
+        me. I would like to be able to purchase this in America, but Modular seems
+        to only release his music in Australia these days. The rest of my countrymen
+        do not share the love. Forever ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Muscles"},"13":{"mediaid":"1cxwq","artist":"The
+        War on Drugs","title":"Come to the City","dateposted":1311705016,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2755","postid":1542705,"loved_count":829,"posted_count":74,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1542705.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/5\/1542705_320.png","time":270,"description":"The
+        War on Drugs \u2013 Come To The City Not nearly enough is being said about
+        The War on Drugs and their new album Slave Ambient.","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20War%20on%20Drugs"},"14":{"mediaid":"17z1e","artist":"Sleeping
+        Bag","title":"Slime","dateposted":1311341530,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2737","postid":1539201,"loved_count":70,"posted_count":21,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1539201.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1539201_320.png","time":202,"description":"Sleeping
+        Bag \u2013 Slime. Holy balls is it hot. It\u2019s supposed to reach 100 in
+        Boston today, and I am not looking forward to it. But just look at these dudes
+        in their khakis and dress shirts, standing in the sunlight, without a care
+        in the world. Sometimes I f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sleeping%20Bag"},"15":{"mediaid":"1bjs5","artist":"Radical
+        Dads","title":"Walking Wires","dateposted":1310735792,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2718","postid":1532754,"loved_count":34,"posted_count":12,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":224,"description":"Radical
+        Dads @ Shea Stadium 7.7.2011 from Jessica Amaya on Vimeo. It\u2019s easy to
+        forget how simple music can be. This probably sounds like the faintest of
+        praise and the most backhanded of compliments, but bands like Radical Dads
+        \u2013 bands who cater in three-","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Radical%20Dads"},"16":{"mediaid":"1c6zr","artist":"Peter
+        Wolf Crier","title":"Right Away","dateposted":1310384235,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2698","postid":1528488,"loved_count":149,"posted_count":31,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":188,"description":"Peter
+        Wolf Crier \u2013 Right Away. Hey guys, Peter Wolf Crier is back! These dudes
+        are always up to something interesting, and it\u2019s good to see them around
+        again. Their music is largely acoustic, but it always sounds like a jigsaw
+        puzzle. I like bands that ta","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Peter%20Wolf%20Crier"},"17":{"mediaid":"18p0p","artist":"Milk
+        Music","title":"Beyond Living","dateposted":1309534786,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2688","postid":1521596,"loved_count":38,"posted_count":9,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":214,"description":"Milk
+        Music \u2013 Beyond Living I have heard lots of fuzz rock comparisons for
+        this band\u2026 the wipers, dinosaur jr, husker du. But I hear two American
+        bands when I listen to this 12\u2033: The Replacements and Milk Music. There
+        is just something so pop about the voc","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Milk%20Music"},"18":{"mediaid":"1c1qm","artist":"Sun
+        Airway","title":"Wild Palms","dateposted":1308573037,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2612","postid":1511366,"loved_count":180,"posted_count":23,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1511366.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1511366_320.png","time":230,"description":"Sun
+        Airway \u2013 Wild Palms. I\u2019ll be honest: I have no idea what Jon Barthmus
+        is saying. It\u2019s loud where I am right now, with screaming children, elderly
+        people yawping about Filene\u2019s Basement, a barking dog. But that somehow
+        only enhances the experience; tra","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Sun%20Airway"},"19":{"mediaid":"1b736","artist":"SBTRKT","title":"Wildfire
+        (feat. Little Dragon)","dateposted":1308145044,"siteid":1,"sitename":"Music
+        ( for robots)","posturl":"http:\/\/music.for-robots.com\/?p=2592","postid":1507525,"loved_count":15213,"posted_count":62,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1.png","time":206,"description":"SBTRKT
+        \u2013 Wildfire. I don\u2019t usually write about music that people dance
+        to. Sure, sometimes the kids dance to the indie rock, but c\u2019mon. That\u2019s
+        not exactly dancing. That\u2019s spilling beer. The truth is, I don\u2019t
+        really know the vocabulary or the background fo","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/SBTRKT"}}'
+    http_version: 
+  recorded_at: Thu, 22 Mar 2012 02:31:34 GMT
+recorded_with: VCR 2.0.0
