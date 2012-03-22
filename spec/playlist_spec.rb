@@ -36,23 +36,15 @@ describe Hypem::Playlist do
   end
 
   describe ".latest" do
-    
-    
-    
     it "returns a playlist" do
       playlist.should be_a Hypem::Playlist
     end
   end
 
   describe ".popular" do
-    it "returns a playlist" do
-      Hypem::Playlist.popular.should be_a Hypem::Playlist
-    end
+    before {Hypem::Playlist.stub_chain(:new, :get)}
 
     describe "parameters" do
-      before do
-        Hypem::Playlist.any_instance.stub(:get)
-      end
 
       it "retrieves 3day by default" do
         Hypem::Playlist.should_receive(:new).with(:popular,%s(3day))
