@@ -32,6 +32,7 @@ module Hypem
     end
 
     def self.popular(arg=POPULAR_ARGS.first)
+      arg = arg.to_sym if arg.is_a? String
       raise ArgumentError unless POPULAR_ARGS.include?(arg)
       Playlist.new(:popular,arg).get
     end

@@ -44,36 +44,38 @@ describe Hypem::Playlist do
   describe ".popular" do
     before {Hypem::Playlist.stub_chain(:new, :get)}
 
-    describe "parameters" do
+    it "converts strings to symbols" do
+      Hypem::Playlist.should_receive(:new).with(:popular,%s(3day))
+      Hypem::Playlist.popular('3day')
+    end
 
-      it "retrieves 3day by default" do
-        Hypem::Playlist.should_receive(:new).with(:popular,%s(3day))
-        Hypem::Playlist.popular
-      end
+    it "retrieves 3day by default" do
+      Hypem::Playlist.should_receive(:new).with(:popular,%s(3day))
+      Hypem::Playlist.popular
+    end
 
-      it "accepts lastweek" do
-        Hypem::Playlist.should_receive(:new).with(:popular,:lastweek)
-        Hypem::Playlist.popular(:lastweek)
-      end
+    it "accepts lastweek" do
+      Hypem::Playlist.should_receive(:new).with(:popular,:lastweek)
+      Hypem::Playlist.popular(:lastweek)
+    end
 
-      it "accepts noremix" do
-        Hypem::Playlist.should_receive(:new).with(:popular,:noremix)
-        Hypem::Playlist.popular(:noremix)
-      end
+    it "accepts noremix" do
+      Hypem::Playlist.should_receive(:new).with(:popular,:noremix)
+      Hypem::Playlist.popular(:noremix)
+    end
 
-      it "accepts artists" do
-        Hypem::Playlist.should_receive(:new).with(:popular,:artists)
-        Hypem::Playlist.popular(:artists)
-      end
+    it "accepts artists" do
+      Hypem::Playlist.should_receive(:new).with(:popular,:artists)
+      Hypem::Playlist.popular(:artists)
+    end
 
-      it "accepts twitter" do
-        Hypem::Playlist.should_receive(:new).with(:popular,:twitter)
-        Hypem::Playlist.popular(:twitter)
-      end
+    it "accepts twitter" do
+      Hypem::Playlist.should_receive(:new).with(:popular,:twitter)
+      Hypem::Playlist.popular(:twitter)
+    end
 
-      it "rejects anything else" do
-        expect {Hypem::Playlist.popular(:no_no)}.to raise_error(ArgumentError)
-      end
+    it "rejects anything else" do
+      expect {Hypem::Playlist.popular(:no_no)}.to raise_error(ArgumentError)
     end
   end
 
