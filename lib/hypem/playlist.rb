@@ -8,13 +8,15 @@ module Hypem
     def initialize(type,arg,page=1)
       @type = type
       @arg = arg
-      @url = ['playlist',type,arg].join('/')
       @page = page
+      @url = "/playlist/#{@type}/#{@arg}/json/#{@page}"
     end
 
     def get
-      response = Request.new(url,page: @page).get.response
+      response = Request.new(url).get.response
       @tracks = []
+      # getting rid of version cell
+      response.body.shift
       response.body.each_value{|v| @tracks << Track.new(v)}
       return self
     end

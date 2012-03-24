@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Hypem::Request do
 
   let(:request) do
-    Hypem::Request.new('/playlist/latest/fresh')
+    Hypem::Request.new('/playlist/latest/fresh/json/1')
   end
 
   let(:response) do
@@ -16,15 +16,6 @@ describe Hypem::Request do
 
     it "must have a url string parameter" do
       expect { Hypem::Request.new }.to raise_error ArgumentError
-    end
-
-    it "assigns the correct default url" do
-      request.url.should == '/playlist/latest/fresh/json/1'
-    end
-
-    it "accepts a page option" do
-      response = Hypem::Request.new('/url', page: 2)
-      response.url.should == '/url/json/2'
     end
 
     it "assigns the response attribute" do

@@ -5,9 +5,8 @@ module Hypem
     attr_accessor :response
     attr_reader :url
 
-    def initialize(url, options={})
-      @page = options[:page] || 1
-      @url = url+"/json/#{@page}"
+    def initialize(url)
+      @url = url
     end
 
     def get

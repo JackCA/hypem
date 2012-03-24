@@ -5,7 +5,7 @@ describe Hypem::Response do
   context "at initialization" do
     let(:response) do
       VCR.use_cassette('fresh_playlist') do
-        Hypem::Request.new('/playlist/latest/fresh').get.response
+        Hypem::Request.new('/playlist/latest/fresh/json/1').get.response
       end
     end
 

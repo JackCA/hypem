@@ -13,11 +13,11 @@ describe Hypem::Playlist do
   context "when initialized" do
     
     it "assigns the url attribute" do
-      playlist.url.should == "playlist/time/today"
+      playlist.url.should == "/playlist/time/today/json/1"
     end
 
     it "assigns proper url for blog" do
-      blog_playlist.url.should == "playlist/blog/1"
+      blog_playlist.url.should == "/playlist/blog/1/json/1"
     end
 
   end

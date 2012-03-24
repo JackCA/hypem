@@ -7,7 +7,7 @@ describe Hypem::User do
     user.instance_variable_get(:@name).should_not be_nil
   end
 
-  it "throws an error with an invalid username" do
+  it "throws an error with an invalid username argument" do
     expect { Hypem::User.new(:not_a_string) }.to raise_error(ArgumentError)
   end
 
@@ -38,6 +38,12 @@ describe Hypem::User do
   it "gets a friends' history playlist" do
     VCR.use_cassette('friends_history') do
       user.friends_history_playlist.should be_a Hypem::Playlist
+    end
+  end
+
+  it "gets profile stats" do
+    VCR.use_cassette('user_profile') do
+      user.profile.should be_a Hash
     end
   end
 

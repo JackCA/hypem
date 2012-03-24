@@ -6,6 +6,12 @@ module Hypem
       @name = name
     end
 
+    def profile
+      Request.new("/api/get_profile?username=#{@name}").get.response.body
+    end
+
+    #playlist requests
+
     def loved_playlist
       Playlist.loved(@name)
     end
