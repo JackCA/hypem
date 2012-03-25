@@ -41,10 +41,22 @@ describe Hypem::User do
     end
   end
 
-  it "gets profile stats" do
-    VCR.use_cassette('user_profile') do
-      user.profile.should be_a Hash
+  describe ".get_profile" do
+    let(:user_with_profile) do
+      VCR.use_cassette('user_profile') {Hypem::User.new('jackca').get_profile}
     end
+
+    subject {user_with_profile}
+
+    its(:full_name) {should == "Jack Anderson"}
+    its(:joined_at) {should == Time.parse('2009-03-29 17:06:55 -0700')}
+    its(:location) {should == 'San Francisco, CA, US'}
+    its(:twitter_username) {should == 'janderson'}
+    its(:image_url) {should == 'http://faces-s3.hypem.com/123376863051420_75.png'}
+    its(:followed_users_count) {should == 4}
+    its(:followed_items_count) {should == 430}
+    its(:followed_sites_count) {should == 32}
+    its(:followed_queries_count) {should == 15}
   end
 
 end

@@ -1,13 +1,26 @@
 module Hypem
   class User
+    attr_reader :full_name, :joined_at, :location, :twitter_username, :image_url,
+                :followed_users_count, :followed_items_count, :followed_sites_count,
+                :followed_queries_count
 
     def initialize(name)
       raise ArgumentError unless name.is_a? String
       @name = name
     end
 
-    def profile
-      Request.new("/api/get_profile?username=#{@name}").get.response.body
+    def get_profile
+      response = Request.new("/api/get_profile?username=#{@name}").get.response.body
+      @full_name = response['fullname']
+      @joined_at = Time.at response['joined_ts']
+      @location = response['location']
+      @twitter_username = response['twitter_username']
+      @image_url = response['userpic']
+      @followed_users_count = response['favorites_count']['user']
+      @followed_items_count = response['favorites_count']['item']
+      @followed_sites_count = response['favorites_count']['site']
+      @followed_queries_count = response['favorites_count']['query']
+      return self
     end
 
     #playlist requests
