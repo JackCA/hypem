@@ -1,6 +1,6 @@
 # Hypem Ruby Gem ![travis](https://secure.travis-ci.org/JackCA/hypem.png?branch=master) #
 ## Introduction ##
-This is an unoffical Ruby gem for the **Hype Machine** public API. It supports all of the supported Playlist requests and wraps all responses in custom Ruby objects. It currently only supports Ruby `1.9.x`.
+This is an unoffical Ruby gem for the **Hype Machine** read-only API. It supports all of the Playlist request methods and a growing number of User methods. It currently only supports Ruby `1.9.x`.
 
 ## Usage ##
 
@@ -54,22 +54,29 @@ Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s.
 ******
 
 ### User ###
-`Hypem::User` offers several convenience methods for accessing a particular user's personalized playlists:
+Users can be accessed via `Hypem.user('username')` and have various methods:
+#### General Methods ####
+- `user.get_profile` updates the user object with the following attributes: `full_name`, `location`, `image_url`, `followed_users_count`, `followed_items_count`, `followed_sites_blog`, and `followed_queries_count`
 
-- `Hypem.user('name').loved_playlist` --- a user's loved tracks
+- `user.get_friends` retrieves the users's friends and sets the `friends` attribute to an array of `Hypem::User` objects with extended information (similar to `get_profile`)
 
-- `Hypem.user('name').obsessed_playlist` --- a user's obsessed tracks
+#### Playlist Methods ####
+`Hypem::User` offers several methods for accessing a particular user's personalized playlists:
 
-- `Hypem.user('name').feed_playlist` --- a user's tracks from all followed entities
+- `user.loved_playlist` --- a user's loved tracks
 
-- `Hypem.user('name').friends_favorites_playlist` --- a user's friends' favorited tracks
+- `user.obsessed_playlist` --- a user's obsessed tracks
 
-- `Hypem.user('name').friends_history_playlist` --- tracks from a user's friends' listening histories
+- `user.feed_playlist` --- a user's tracks from all followed entities
+
+- `user.friends_favorites_playlist` --- a user's friends' favorited tracks
+
+- `user.friends_history_playlist` --- tracks from a user's friends' listening histories
 
 ******
 
 ### Track ###
-All of the above methods return an Playlist object with an attribute `tracks` containing an array of `Hypem::Track`'s. A sample object inspect is as follows:
+All Playlist objects have a `tracks` attribute containing an array of `Hypem::Track`s. A sample object inspect is as follows:
 
       #<Hypem::Track
         artist="Hot Chip"
