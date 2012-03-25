@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.version     = Hypem::VERSION
   s.authors     = ["Jack Anderson"]
   s.email       = ["jackcanderson@gmail.com"]
-  s.homepage    = ""
-  s.summary     = "a light Ruby wrapper for the Hype Machine public API"
+  s.homepage    = "https://github.com/JackCA/hypem"
+  s.summary     = "a Ruby wrapper for the Hype Machine read-only API"
 
   s.rubyforge_project = "hypem"
 
