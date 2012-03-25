@@ -43,7 +43,7 @@ describe Hypem::User do
 
   describe ".get_profile" do
     let(:user_with_profile) do
-      VCR.use_cassette('user_profile') {Hypem::User.new('jackca').get_profile}
+      VCR.use_cassette('user_profile') {user.get_profile}
     end
 
     subject {user_with_profile}
@@ -57,6 +57,20 @@ describe Hypem::User do
     its(:followed_items_count) {should == 430}
     its(:followed_sites_count) {should == 32}
     its(:followed_queries_count) {should == 15}
+  end
+
+  describe ".get_friends" do
+    let(:user_with_friends) do
+      VCR.use_cassette('user_friends') {user.get_friends}
+    end
+
+    subject {user_with_friends}
+
+    its(:friends) {should be_an Array}
+
+    it "has an array of users" do
+      user_with_friends.friends.first.should be_a Hypem::User
+    end
   end
 
 end
