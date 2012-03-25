@@ -73,4 +73,18 @@ describe Hypem::User do
     end
   end
 
+  describe ".get_favorite_blogs" do
+    let(:user_with_favorite_blogs) do
+      VCR.use_cassette('user_favorite_blogs') {user.get_favorite_blogs}
+    end
+
+    subject {user_with_favorite_blogs}
+    its(:favorite_blogs) {should be_an Array}
+
+    it "should have an array of Blogs" do
+      subject.favorite_blogs.first.should be_a Hypem::Blog
+    end
+
+  end
+
 end

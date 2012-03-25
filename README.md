@@ -1,6 +1,6 @@
 # Hypem Ruby Gem ![travis](https://secure.travis-ci.org/JackCA/hypem.png?branch=master) #
 ## Introduction ##
-This is an unoffical Ruby gem for the **Hype Machine** read-only API. It supports all of the Playlist request methods and a growing number of User methods. It currently only supports Ruby `1.9.x`.
+This is an unoffical Ruby gem for the **Hype Machine** read-only API. It supports all of the Playlist request methods and a growing number of User and Blog methods. It currently only supports Ruby `1.9.x`.
 
 ## Usage ##
 
@@ -58,7 +58,9 @@ Users can be accessed via `Hypem.user('username')` and have various methods:
 #### General Methods ####
 - `user.get_profile` updates the user object with the following attributes: `full_name`, `location`, `image_url`, `followed_users_count`, `followed_items_count`, `followed_sites_blog`, and `followed_queries_count`
 
-- `user.get_friends` retrieves the users's friends and sets the `friends` attribute to an array of `Hypem::User` objects with extended information (similar to `get_profile`)
+- `user.get_friends` retrieves the user's friends and sets the `friends` attribute to an array of `Hypem::User` objects
+
+- `user.get_favorite_blogs` retrieves the user's favorite blogs and sets the `favorite_blogs` attribute to an array of `Hypem::Blog` objects
 
 #### Playlist Methods ####
 `Hypem::User` offers several methods for accessing a particular user's personalized playlists:
@@ -72,6 +74,13 @@ Users can be accessed via `Hypem.user('username')` and have various methods:
 - `user.friends_favorites_playlist` --- a user's friends' favorited tracks
 
 - `user.friends_history_playlist` --- tracks from a user's friends' listening histories
+
+******
+
+### Blog ###
+Blogs can be retrieved using a blog's unique id via `Hypem.blog(1234)` and has the following methods:
+
+- `blog.get_info` -- retrieves extended information about a blog and sets `blog_image`, `blog_image_small`, `first_posted`, `followers`, `last_posted`, `site_name`, `site_url`, `total_tracks`, and `id`
 
 ******
 
@@ -99,8 +108,6 @@ All Playlist objects have a `tracks` attribute containing an array of `Hypem::Tr
 ****** 
 
 ## TODO ###
-- User's favorite blogs
-- Single Blog stats
 - Blogs with given tag
 - Single track info
 - Authenticated Requests

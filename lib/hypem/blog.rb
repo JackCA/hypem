@@ -18,16 +18,18 @@ module Hypem
       return self
     end
 
-    def update_from_response(response)
-      @blog_image ||= response['blog_image']
-      @blog_image_small ||= response['blog_image_small']
-      @followers ||= response['followers']
-      @first_posted ||= Time.at(response['first_posted'])
-      @id ||= response['siteid']
-      @last_posted ||= Time.at(response['last_posted'])
-      @site_name ||= response['sitename']
-      @site_url ||= response['siteurl']
-      @total_tracks ||= response['total_tracks']
+    def update_from_response(rsp)
+      @blog_image ||= rsp['blog_image']
+      @blog_image_small ||= rsp['blog_image_small']
+      @followers ||= rsp['followers']
+      @id ||= rsp['siteid']
+      @site_name ||= rsp['sitename']
+      @site_url ||= rsp['siteurl']
+      @total_tracks ||= rsp['total_tracks']
+
+      # only from get_info
+      @first_posted ||= Time.at(rsp['first_posted']) unless rsp['first_posted'].nil?
+      @last_posted ||= Time.at(rsp['last_posted']) unless rsp['last_posted'].nil?
 
     end
   end

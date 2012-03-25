@@ -2,24 +2,37 @@ module Hypem
   class User
     attr_reader :full_name, :joined_at, :location, :twitter_username, :image_url,
                 :followed_users_count, :followed_items_count, :followed_sites_count,
-                :followed_queries_count, :friends
+                :followed_queries_count, :friends, :favorite_blogs
 
     def initialize(name)
       raise ArgumentError unless name.is_a? String
       @name = name
     end
 
+    def api_request(path)
+      Request.new("/api/#{path}?username=#{@name}").get.response.body
+    end
+
     def get_profile
-      response = Request.new("/api/get_profile?username=#{@name}").get.response.body
+      response = api_request('get_profile')
       update_from_response(response)
       return self
     end
 
+    def get_favorite_blogs
+      response = api_request('get_favorite_blogs')
+      @favorite_blogs = response.map do |r|
+        blog = Hypem::Blog.new(r['siteid'])
+        blog.update_from_response(r)
+        blog
+      end
+      return self
+    end
+
     def get_friends
-      array_response = Request.new("/api/get_friends?username=#{@name}").get.response.body
-      @friends = array_response.map do |r|
-        name = r['username']
-        user = User.new(name)
+      response = api_request('get_friends')
+      @friends = response.map do |r|
+        user = User.new(r['username'])
         user.update_from_response(r)
         user
       end

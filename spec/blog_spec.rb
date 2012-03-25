@@ -35,5 +35,4 @@ describe Hypem::Blog do
     end
   end
 
-
 end
