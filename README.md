@@ -99,4 +99,10 @@ All Playlist objects have a `tracks` attribute containing an array of `Hypem::Tr
 ****** 
 
 ## TODO ###
-  - Add single track retrieval ability
+- User's favorite blogs
+- Single Blog stats
+- Blogs with given tag
+- Single track info
+- Authenticated Requests
+- Favorite a track
+- Log Playback
