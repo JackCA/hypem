@@ -15,39 +15,41 @@ This is an unoffical Ruby gem for the **Hype Machine** read-only API. It support
 
 - `Hypem.playlist.tags('tag_name,electro,indie')` --- tracks matching given comma-delimited tags. *The API warns against combining too many different tags*
 
+- `Hypem.playlist.create_url([hypem_track1,hypem_track2])` --- create a custom Hypem-based playlist URL using array of `Hypem::Track`'s
+
 - `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts one of the following arguments:
 
 
-<table>
-  <thead>
-    <tr>
-      <th> Argument </th>
-      <th> Response (Most Popular...) </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>'3day'</code> <em>default</em></td>
-      <td>tracks over the last 3 days</td>
-    </tr>
-    <tr>
-      <td><code>:lastweek</code></td>
-      <td>tracks over the last 7 days</td>
-    </tr>
-    <tr>
-      <td><code>:noremix</code></td>
-      <td>non-remixed tracks, over last 3 days</td>
-    </tr>
-    <tr>
-      <td><code>:artists</code></td>
-      <td>tracks by most-blogged artists over last 3 days</td>
-    </tr>
-    <tr>
-      <td><code>:twitter</code></td>
-      <td>tweeted tracks over last 3 days</td>
-    </tr>
-  </tbody>
-</table>
+      <table>
+        <thead>
+          <tr>
+            <th> Argument </th>
+            <th> Response (Most Popular...) </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>'3day'</code> <em>default</em></td>
+            <td>tracks over the last 3 days</td>
+          </tr>
+          <tr>
+            <td><code>:lastweek</code></td>
+            <td>tracks over the last 7 days</td>
+          </tr>
+          <tr>
+            <td><code>:noremix</code></td>
+            <td>non-remixed tracks, over last 3 days</td>
+          </tr>
+          <tr>
+            <td><code>:artists</code></td>
+            <td>tracks by most-blogged artists over last 3 days</td>
+          </tr>
+          <tr>
+            <td><code>:twitter</code></td>
+            <td>tweeted tracks over last 3 days</td>
+          </tr>
+        </tbody>
+      </table>
 
 Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s. Pagination is supported with the `.next_page` and `.prev_page` methods.
 
@@ -65,15 +67,15 @@ Users can be accessed via `Hypem.user('username')` and have various methods:
 #### Playlist Methods ####
 `Hypem::User` offers several methods for accessing a particular user's personalized playlists:
 
-- `user.loved_playlist` --- a user's loved tracks
+  - `user.loved_playlist` --- a user's loved tracks
 
-- `user.obsessed_playlist` --- a user's obsessed tracks
+  - `user.obsessed_playlist` --- a user's obsessed tracks
 
-- `user.feed_playlist` --- a user's tracks from all followed entities
+  - `user.feed_playlist` --- a user's tracks from all followed entities
 
-- `user.friends_favorites_playlist` --- a user's friends' favorited tracks
+  - `user.friends_favorites_playlist` --- a user's friends' favorited tracks
 
-- `user.friends_history_playlist` --- tracks from a user's friends' listening histories
+  - `user.friends_history_playlist` --- tracks from a user's friends' listening histories
 
 ******
 
@@ -85,7 +87,7 @@ Blogs can be retrieved using a blog's unique id via `Hypem.blog(1234)` and has t
 ******
 
 ### Track ###
-All Playlist objects have a `tracks` attribute containing an array of `Hypem::Track`s. A sample object inspect is as follows:
+All Playlist objects have a `tracks` attribute containing an array of `Hypem::Track`'s. A sample object inspect is as follows:
 
       #<Hypem::Track
         artist="Hot Chip"
