@@ -2,18 +2,18 @@ module Hypem
   class Playlist
     POPULAR_ARGS = [%s(3day),:lastweek,:noremix,:artists,:twitter]
     GENERIC_METHODS = [:blog, :tags, :search, :artist, :feed, :loved, :obsessed]
-    attr_accessor :url, :tracks
+    attr_accessor :path, :tracks
     attr_reader :extended
 
     def initialize(type,arg,page=1)
       @type = type
       @arg = arg
       @page = page
-      @url = "/playlist/#{@type}/#{@arg}/json/#{@page}"
+      @path = "/playlist/#{@type}/#{@arg}/json/#{@page}"
     end
 
     def get
-      response = Request.new(url).get.response
+      response = Request.new(@path).get.response
       @tracks = []
       # getting rid of version cell
       response.body.shift
@@ -27,6 +27,13 @@ module Hypem
 
     def prev_page
       Playlist.new(@type,@arg,@page-1).get
+    end
+
+    def self.create_url(tracks)
+      raise ArgumentError if (!tracks.is_a? Array) || (!tracks.first.is_a? Hypem::Track)
+      track_params = tracks.map(&:id).join(',')
+      playlist = Playlist.new('set',track_params)
+      return Hypem::ROOT_PATH + playlist.path
     end
 
     def self.latest

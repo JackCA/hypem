@@ -1,6 +1,7 @@
 require 'faraday'
 
 module Hypem
+  ROOT_PATH = 'http://hypem.com'
   class Request
     attr_accessor :response
     attr_reader :url
@@ -18,7 +19,7 @@ module Hypem
     private
     
     def connection
-      @@conn ||= Faraday.new(url: 'http://hypem.com') do |builder|
+      @@conn ||= Faraday.new(url: ROOT_PATH) do |builder|
         builder.request :url_encoded
         #builder.response :logger
         builder.adapter :net_http

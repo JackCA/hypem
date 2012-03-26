@@ -12,12 +12,12 @@ describe Hypem::Playlist do
   
   context "when initialized" do
     
-    it "assigns the url attribute" do
-      playlist.url.should == "/playlist/time/today/json/1"
+    it "assigns the path attribute" do
+      playlist.path.should == "/playlist/time/today/json/1"
     end
 
-    it "assigns proper url for blog" do
-      blog_playlist.url.should == "/playlist/blog/1/json/1"
+    it "assigns proper path for blog" do
+      blog_playlist.path.should == "/playlist/blog/1/json/1"
     end
 
   end
@@ -32,6 +32,19 @@ describe Hypem::Playlist do
       it "should assign tracks attribute" do
         playlist.tracks.should_not be_nil
       end
+    end
+  end
+
+  describe ".create" do
+    let(:tracks) {[mock('Hypem::Track',id: 'track1',), mock('Hypem::Track',id:'track2')]}
+
+    it "requires an array of tracks" do
+      expect { Hypem::Playlist.create_url(['not_a_track'])}.to raise_error ArgumentError
+    end
+
+    it "returns the correct playlist url " do
+      tracks.first.stub(:is_a?).and_return(true)
+      Hypem::Playlist.create_url(tracks).should == 'http://hypem.com/playlist/set/track1,track2/json/1'
     end
   end
 
