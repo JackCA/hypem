@@ -59,32 +59,32 @@ describe Hypem::User do
     its(:followed_queries_count) {should == 15}
   end
 
-  describe ".get_friends" do
+  describe ".friends" do
     let(:user_with_friends) do
-      VCR.use_cassette('user_friends') {user.get_friends}
+      VCR.use_cassette('user_friends') {user.friends}
     end
 
     subject {user_with_friends}
 
-    its(:friends) {should be_an Array}
+    it {should be_an Array}
 
-    it "has an array of users" do
-      user_with_friends.friends.first.should be_a Hypem::User
+    it "be an array of users" do
+      subject.first.should be_a Hypem::User
     end
   end
 
-  describe ".get_favorite_blogs" do
+  describe ".favorite_blogs" do
     let(:user_with_favorite_blogs) do
-      VCR.use_cassette('user_favorite_blogs') {user.get_favorite_blogs}
+      VCR.use_cassette('user_favorite_blogs') {user.favorite_blogs}
     end
 
     subject {user_with_favorite_blogs}
-    its(:favorite_blogs) {should be_an Array}
 
-    it "should have an array of Blogs" do
-      subject.favorite_blogs.first.should be_a Hypem::Blog
+    it {should be_an Array}
+
+    it "should be an array of Blogs" do
+      subject.first.should be_a Hypem::Blog
     end
-
   end
 
 end

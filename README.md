@@ -60,9 +60,9 @@ Users can be accessed via `Hypem.user('username')` and have various methods:
 #### General Methods ####
 - `user.get_profile` updates the user object with the following attributes: `full_name`, `location`, `image_url`, `followed_users_count`, `followed_items_count`, `followed_sites_blog`, and `followed_queries_count`
 
-- `user.get_friends` retrieves the user's friends and sets the `friends` attribute to an array of `Hypem::User` objects
+- `user.friends` retrieves the user's friends as an array of `Hypem::User` objects
 
-- `user.get_favorite_blogs` retrieves the user's favorite blogs and sets the `favorite_blogs` attribute to an array of `Hypem::Blog` objects
+- `user.favorite_blogs` retrieves the user's favorite blogs as an array of `Hypem::Blog` objects
 
 #### Playlist Methods ####
 `Hypem::User` offers several methods for accessing a particular user's personalized playlists:
