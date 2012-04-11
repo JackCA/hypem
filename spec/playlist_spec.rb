@@ -9,7 +9,6 @@ describe Hypem::Playlist do
     VCR.use_cassette('blog_playlist'){Hypem::Playlist.blog(1)}
   end
   
-  
   context "when initialized" do
     
     it "assigns the path attribute" do
@@ -103,9 +102,13 @@ describe Hypem::Playlist do
     end
   
     describe ".tags" do
-      it "calls new with type tags" do
-        Hypem::Playlist.should_receive(:new).with(:tags,'tag')
-        Hypem::Playlist.tags('tag')
+      it "creates a tag playlist from a string" do
+        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2')
+        Hypem::Playlist.tags('tag1,tag2')
+      end
+      it "creates a tag playlist from an array of strings" do
+        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2')
+        Hypem::Playlist.tags(['tag1','tag2'])
       end
     end
   

@@ -13,7 +13,7 @@ This is an unoffical Ruby gem for the **Hype Machine** read-only API. It support
 
 - `Hypem.playlist.search('query_string')` --- searches for tracks matching given string
 
-- `Hypem.playlist.tags('tag_name,electro,indie')` --- tracks matching given comma-delimited tags. *The API warns against combining too many different tags*
+- `Hypem.playlist.tags(['tag_name','electro','indie'])` --- tracks matching given array of tags. *The API warns against combining too many different tags*
 
 - `Hypem.playlist.create_url([hypem_track1,hypem_track2])` --- create a custom Hypem-based playlist URL using array of `Hypem::Track`'s
 

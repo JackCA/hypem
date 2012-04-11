@@ -1,7 +1,7 @@
 module Hypem
   class Playlist
     POPULAR_ARGS = [%s(3day),:lastweek,:noremix,:artists,:twitter]
-    GENERIC_METHODS = [:blog, :tags, :search, :artist, :feed, :loved, :obsessed]
+    GENERIC_METHODS = [:blog, :search, :artist, :feed, :loved, :obsessed]
     attr_accessor :path, :tracks
     attr_reader :extended
 
@@ -53,6 +53,12 @@ module Hypem
     def self.friends_favorites(user)
       Playlist.new(:people,user).get
     end
+
+    def self.tags(input)
+      input = input.join(',') if input.is_a? Array
+      Playlist.new(:tags,input)
+    end
+    
 
     # meta method definitions for generic playlists
     GENERIC_METHODS.each do |method|
