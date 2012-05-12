@@ -1,6 +1,6 @@
 module Hypem
   class User
-    attr_reader :full_name, :joined_at, :location, :twitter_username, :image_url,
+    attr_reader :name, :full_name, :joined_at, :location, :twitter_username, :image_url,
                 :followed_users_count, :followed_items_count, :followed_sites_count,
                 :followed_queries_count, :friends
 
