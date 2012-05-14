@@ -18,7 +18,7 @@ describe Hypem::Blog do
       Hypem::Blog.new('4632').id.should === 4632
     end
 
-    describe ".get_info" do
+    describe "#get_info" do
       subject do
         VCR.use_cassette('blog') {blog.get_info}
       end
@@ -31,6 +31,12 @@ describe Hypem::Blog do
       specify {subject.first_posted.should be_a Time}
       specify {subject.last_posted.should be_a Time}
       specify {subject.followers.should == 1345}
+
+      it "caches its response" do
+        subject
+        Hypem::Request.should_not_receive :new
+        VCR.use_cassette('blog') { blog.get_info }
+      end
 
     end
   end

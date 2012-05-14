@@ -13,8 +13,11 @@ module Hypem
     end
 
     def get_info
-      response = Request.new("/api/get_site_info?siteid=#{@id}").get.response.body
-      update_from_response(response)
+      unless @has_info
+        response = Request.new("/api/get_site_info?siteid=#{@id}").get.response.body
+        update_from_response(response)
+        @has_info = true
+      end
       return self
     end
 
