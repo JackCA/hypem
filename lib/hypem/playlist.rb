@@ -29,6 +29,10 @@ module Hypem
       Playlist.new(@type,@arg,@page-1).get
     end
 
+    def page(num)
+      Playlist.new(@type,@arg,num).get
+    end
+
     def self.create_url(tracks)
       raise ArgumentError if (!tracks.is_a? Array) || (!tracks.first.is_a? Hypem::Track)
       track_params = tracks.map(&:id).join(',')

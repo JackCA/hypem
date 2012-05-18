@@ -133,14 +133,25 @@ describe Hypem::Playlist do
       Hypem::Playlist.stub_chain(:new,:get)
     end
 
-    it "can get next page" do
-      Hypem::Playlist.should_receive(:new).with(:time,:today,2)
-      playlist.next_page
+    describe "#next_page" do
+      it "gets next page" do
+        Hypem::Playlist.should_receive(:new).with(anything,anything,2)
+        playlist.next_page
+      end
     end
 
-    it "also gets previous page" do
-      Hypem::Playlist.should_receive(:new).with(:time,:today,0)
-      playlist.prev_page
+    describe "#prev_page" do
+      it "gets previous page" do
+        Hypem::Playlist.should_receive(:new).with(anything,anything,0)
+        playlist.prev_page
+      end
+    end
+
+    describe "#page" do
+      it "gets any page number" do
+        Hypem::Playlist.should_receive(:new).with(anything,anything,5)
+        playlist.page(5)
+      end
     end
 
   end
