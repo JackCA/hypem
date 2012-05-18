@@ -96,33 +96,33 @@ describe Hypem::Playlist do
     
     describe ".blog" do  
       it "calls new with type blog" do
-        Hypem::Playlist.should_receive(:new).with(:blog,1)
-        Hypem::Playlist.blog(1)
+        Hypem::Playlist.should_receive(:new).with(:blog,1,5)
+        Hypem::Playlist.blog(1,5)
       end
     end
   
     describe ".tags" do
       it "creates a tag playlist from a string" do
-        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2')
-        Hypem::Playlist.tags('tag1,tag2')
+        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2',5)
+        Hypem::Playlist.tags('tag1,tag2',5)
       end
       it "creates a tag playlist from an array of strings" do
-        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2')
-        Hypem::Playlist.tags(['tag1','tag2'])
+        Hypem::Playlist.should_receive(:new).with(:tags,'tag1,tag2',5)
+        Hypem::Playlist.tags(['tag1','tag2'],5)
       end
     end
   
     describe ".search" do
       it "calls new with type search" do
-        Hypem::Playlist.should_receive(:new).with(:search,'query')
-        Hypem::Playlist.search('query')
+        Hypem::Playlist.should_receive(:new).with(:search,'query',5)
+        Hypem::Playlist.search('query',5)
       end
     end
   
     describe ".artist" do
       it "calls new with type artist" do
-        Hypem::Playlist.should_receive(:new).with(:artist,'name')
-        Hypem::Playlist.artist('name')
+        Hypem::Playlist.should_receive(:new).with(:artist,'name',5)
+        Hypem::Playlist.artist('name',5)
       end
     end
   end

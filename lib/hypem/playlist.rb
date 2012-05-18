@@ -5,7 +5,8 @@ module Hypem
     attr_accessor :path, :tracks
     attr_reader :extended
 
-    def initialize(type,arg,page=1)
+    def initialize(type,arg,page=nil)
+      page = 1 if page.nil?
       @type = type
       @arg = arg
       @page = page
@@ -40,33 +41,35 @@ module Hypem
       return Hypem::ROOT_PATH + playlist.path
     end
 
-    def self.latest
-      Playlist.new(:time,:today).get
+    def self.latest(page=nil)
+      Playlist.new(:time,:today,page).get
     end
 
-    def self.popular(arg=POPULAR_ARGS.first)
+    def self.popular(arg=POPULAR_ARGS.first,page=nil)
       arg = arg.to_sym if arg.is_a? String
       raise ArgumentError unless POPULAR_ARGS.include?(arg)
-      Playlist.new(:popular,arg).get
+      Playlist.new(:popular,arg,page).get
     end
 
-    def self.friends_history(user)
-      Playlist.new(:people_history,user).get
+    def self.friends_history(user,page=nil)
+      Playlist.new(:people_history,user,page).get
     end
 
-    def self.friends_favorites(user)
-      Playlist.new(:people,user).get
+    def self.friends_favorites(user,page=nil)
+      Playlist.new(:people,user,page).get
     end
 
-    def self.tags(input)
-      input = input.join(',') if input.is_a? Array
-      Playlist.new(:tags,input)
+    def self.tags(list,page)
+      list = list.join(',') if list.is_a? Array
+      Playlist.new(:tags,list,page)
     end
     
 
     # meta method definitions for generic playlists
     GENERIC_METHODS.each do |method|
-      define_singleton_method(method) {|arg| Playlist.new(method,arg).get }
+      define_singleton_method(method) do |arg,page=nil|
+        Playlist.new(method,arg,page).get
+      end
     end
 
   end

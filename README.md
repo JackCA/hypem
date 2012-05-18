@@ -51,7 +51,7 @@ This is an unoffical Ruby gem for the **Hype Machine** read-only API. It support
         </tbody>
       </table>
 
-Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s. Pagination is supported with the `.next_page` and `.prev_page` methods.
+Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s. Pagination is supported with the `.next_page` and `.prev_page`, `page(num)` methods.
 
 ******
 
