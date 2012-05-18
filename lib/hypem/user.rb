@@ -66,24 +66,24 @@ module Hypem
 
     #playlist requests
 
-    def loved_playlist
-      @l_p ||= Playlist.loved(@name)
+    def loved_playlist(page=1)
+      @l_p ||= Playlist.loved(@name,page)
     end
 
-    def obsessed_playlist
-      @o_p ||= Playlist.obsessed(@name)
+    def obsessed_playlist(page=1)
+      @o_p ||= Playlist.obsessed(@name,page)
     end
 
-    def feed_playlist
-      @f_p ||= Playlist.feed(@name)
+    def feed_playlist(page=1)
+      @f_p ||= Playlist.feed(@name,page)
     end
 
-    def friends_favorites_playlist
-      @f_f_p ||= Playlist.friends_favorites(@name)
+    def friends_favorites_playlist(page=1)
+      @f_f_p ||= Playlist.friends_favorites(@name,page)
     end
 
-    def friends_history_playlist
-      @f_h_p ||= Playlist.friends_history(@name)
+    def friends_history_playlist(page=1)
+      @f_h_p ||= Playlist.friends_history(@name,page)
     end
   end
 end
