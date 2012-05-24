@@ -5,8 +5,8 @@ module Hypem
     attr_accessor :body
 
     def initialize(raw_response)
-      raise ArgumentError if raw_response.nil?
-      # raise on body error here
+      raise RequestError if raw_response.body == 'null'
+
       @body = MultiJson.decode raw_response.body
     end
 

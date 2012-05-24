@@ -20,7 +20,7 @@ describe Hypem::Blog do
 
     describe "#get_info" do
       subject do
-        VCR.use_cassette('blog') {blog.get_info}
+        VCR.use_cassette('blog') {blog.tap(&:get_info)}
       end
       specify {subject.should be_a Hypem::Blog}
       specify {subject.site_name.should == 'Pasta Primavera'}

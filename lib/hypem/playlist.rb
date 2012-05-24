@@ -14,24 +14,23 @@ module Hypem
     end
 
     def get
-      response = Request.new(@path).get.response
+      response = Request.new(@path).tap(&:get).response
       @tracks = []
       # getting rid of version cell
       response.body.shift
       response.body.each_value{|v| @tracks << Track.new(v)}
-      return self
     end
 
     def next_page
-      Playlist.new(@type,@arg,@page+1).get
+      Playlist.new(@type,@arg,@page+1).tap(&:get)
     end
 
     def prev_page
-      Playlist.new(@type,@arg,@page-1).get
+      Playlist.new(@type,@arg,@page-1).tap(&:get)
     end
 
     def page(num)
-      Playlist.new(@type,@arg,num).get
+      Playlist.new(@type,@arg,num).tap(&:get)
     end
 
     def self.create_url(tracks)
@@ -42,21 +41,21 @@ module Hypem
     end
 
     def self.latest(page=nil)
-      Playlist.new(:time,:today,page).get
+      Playlist.new(:time,:today,page).tap(&:get)
     end
 
     def self.popular(arg=POPULAR_ARGS.first,page=nil)
       arg = arg.to_sym if arg.is_a? String
       raise ArgumentError unless POPULAR_ARGS.include?(arg)
-      Playlist.new(:popular,arg,page).get
+      Playlist.new(:popular,arg,page).tap(&:get)
     end
 
     def self.friends_history(user,page=nil)
-      Playlist.new(:people_history,user,page).get
+      Playlist.new(:people_history,user,page).tap(&:get)
     end
 
     def self.friends_favorites(user,page=nil)
-      Playlist.new(:people,user,page).get
+      Playlist.new(:people,user,page).tap(&:get)
     end
 
     def self.tags(list,page)
@@ -68,7 +67,7 @@ module Hypem
     # meta method definitions for generic playlists
     GENERIC_METHODS.each do |method|
       define_singleton_method(method) do |arg,page=nil|
-        Playlist.new(method,arg,page).get
+        Playlist.new(method,arg,page).tap(&:get)
       end
     end
 

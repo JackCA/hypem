@@ -14,11 +14,10 @@ module Hypem
 
     def get_info
       unless @has_info
-        response = Request.new("/api/get_site_info?siteid=#{@id}").get.response.body
+        response = Request.new("/api/get_site_info?siteid=#{@id}").tap(&:get).response.body
         update_from_response(response)
         @has_info = true
       end
-      return self
     end
 
     def update_from_response(rsp)

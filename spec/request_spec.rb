@@ -8,7 +8,7 @@ describe Hypem::Request do
 
   let(:response) do
     VCR.use_cassette('fresh_playlist') do
-      request.get.response
+      request.tap(&:get).response
     end
   end
 

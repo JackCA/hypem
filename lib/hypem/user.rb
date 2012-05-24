@@ -10,7 +10,9 @@ module Hypem
     end
 
     def api_request(path)
-      Request.new("/api/#{path}?username=#{@name}").get.response.body
+      request = Request.new("/api/#{path}?username=#{@name}")
+      request.get
+      request.response.body
     end
 
     def get_profile
