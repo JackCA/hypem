@@ -1,7 +1,6 @@
 module Hypem
   class Playlist
     POPULAR_ARGS = [%s(3day),:lastweek,:noremix,:artists,:twitter]
-    GENERIC_METHODS = [:blog, :search, :artist, :feed, :loved, :obsessed]
     attr_accessor :path, :tracks
     attr_reader :extended
 
@@ -64,6 +63,7 @@ module Hypem
     end
     
 
+    GENERIC_METHODS = [:blog, :search, :artist, :feed, :loved, :obsessed]
     # meta method definitions for generic playlists
     GENERIC_METHODS.each do |method|
       define_singleton_method(method) do |arg,page=nil|

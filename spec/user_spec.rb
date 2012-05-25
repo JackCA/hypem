@@ -2,46 +2,50 @@ require 'spec_helper'
 
 describe Hypem::User do
   let(:user) { Hypem::User.new('jackca') }
+  subject { user }
 
-  it "initializes with a name parameter" do
-    user.instance_variable_get(:@name).should_not be_nil
-  end
+  its(:name) { should_not be_nil }
 
   it "throws an error with an invalid username argument" do
     expect { Hypem::User.new(:not_a_string) }.to raise_error(ArgumentError)
   end
 
-  it "gets a loved playlist" do
-    VCR.use_cassette('loved_playlist') do
-      user.loved_playlist.should be_a Hypem::Playlist
+  describe "#loved_playlist" do
+    specify do
+      Hypem::Playlist.should_receive(:loved).with(subject.name,anything)
+      subject.loved_playlist
     end
   end
 
-  it "gets an obsessed playlist" do
-    VCR.use_cassette('obsessed_playlist') do
-      user.obsessed_playlist.should be_a Hypem::Playlist
+  describe "#obsessed_playlist" do
+    specify do
+      Hypem::Playlist.should_receive(:obsessed).with(subject.name,anything)
+      subject.obsessed_playlist
     end
   end
 
-  it "gets a feed playlist" do
-    VCR.use_cassette('feed_playlist') do
-      user.feed_playlist.should be_a Hypem::Playlist
+  describe "#feed_playlist" do
+    specify do
+      Hypem::Playlist.should_receive(:feed).with(subject.name,anything)
+      subject.feed_playlist
     end
   end
 
-  it "gets friends' playlist" do
-    VCR.use_cassette('friends_playlist') do
-      user.friends_favorites_playlist.should be_a Hypem::Playlist
+  describe "#friends_favorites_playlist" do
+    specify do
+      Hypem::Playlist.should_receive(:friends_favorites).with(subject.name,anything)
+      subject.friends_favorites_playlist
     end
   end
 
-  it "gets a friends' history playlist" do
-    VCR.use_cassette('friends_history') do
-      user.friends_history_playlist.should be_a Hypem::Playlist
+  describe "#friends_history_playlist" do
+    specify do
+      Hypem::Playlist.should_receive(:friends_history).with(subject.name,anything)
+      subject.friends_history_playlist
     end
   end
 
-  describe ".get_profile" do
+  describe "#get_profile" do
     let(:user_with_profile) do
       VCR.use_cassette('user_profile') {user.get_profile}
     end
@@ -59,7 +63,7 @@ describe Hypem::User do
     its(:followed_queries_count) {should == 15}
   end
 
-  describe ".friends" do
+  describe "#friends" do
     let(:user_with_friends) do
       VCR.use_cassette('user_friends') {user.friends}
     end
@@ -73,7 +77,7 @@ describe Hypem::User do
     end
   end
 
-  describe ".favorite_blogs" do
+  describe "#favorite_blogs" do
     let(:user_with_favorite_blogs) do
       VCR.use_cassette('user_favorite_blogs') {user.favorite_blogs}
     end
