@@ -6,13 +6,7 @@ describe Hypem::Blog do
       Hypem::Blog.new(4632)
     end
 
-    it "is successfully initialized" do
-      blog.should be_a Hypem::Blog
-    end
-
-    it "sets id attribute" do
-      blog.id.should == 4632
-    end
+    specify { blog.id.should == 4632 }
 
     it "converts strings to integers" do
       Hypem::Blog.new('4632').id.should === 4632
@@ -38,6 +32,12 @@ describe Hypem::Blog do
         VCR.use_cassette('blog') { blog.get_info }
       end
 
+    end
+
+    describe ".all" do
+      subject { VCR.use_cassette('blog_all') { described_class.all } }
+      it { should be_an Array }
+      its(:first) { should be_a described_class }
     end
   end
 

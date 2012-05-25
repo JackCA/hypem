@@ -21,6 +21,7 @@ module Hypem
     end
 
     def update_from_response(rsp)
+      @id ||= rsp[:site_id]
       @blog_image ||= rsp['blog_image']
       @blog_image_small ||= rsp['blog_image_small']
       @followers ||= rsp['followers']
@@ -33,6 +34,11 @@ module Hypem
       @first_posted ||= Time.at(rsp['first_posted']) unless rsp['first_posted'].nil?
       @last_posted ||= Time.at(rsp['last_posted']) unless rsp['last_posted'].nil?
 
+    end
+
+    def self.all
+      response = Request.new("/api/get_all_blogs").tap(&:get).response.body
+      response.map { |b| self.new.tap {|blog| blog.update_from_response(b) } }
     end
   end
 end
