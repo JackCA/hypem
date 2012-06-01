@@ -1,57 +1,40 @@
 # Hypem Ruby Gem ![travis](https://secure.travis-ci.org/JackCA/hypem.png?branch=master) #
 ## Introduction ##
-This is an unoffical Ruby gem for the **Hype Machine** read-only API. It supports all of the Playlist request methods and a growing number of User and Blog methods. It currently only supports Ruby `1.9.x`.
+This is an unoffical Ruby gem for the **Hype Machine** read-only API. It currently only supports Ruby `1.9.x`.
 
 ## Usage ##
 
 ### Playlist ###
-`Hypem::Playlist` is the center of the Hypem API as it stands. It supports the following calls:
 
-- `Hypem.playlist.artist('artist_name')` --- the latest tracks from a given artist
+The `Playlist` object is the root of the Hypem API. Each `Playlist` has an array of `Hypem::Track`'s accessed via the `tracks` attribute. Pagination is supported with the `.next_page` and `.prev_page`, `page(num)` methods.
 
-- `Hypem.playlist.blog('blog_name')` --- the latest tracks from a given blog
+#### Querying #####
+General playlists can be accessed using the following methods. The last argument to each method is the desired page (default `1`).
 
-- `Hypem.playlist.search('query_string')` --- searches for tracks matching given string
+- `Hypem.playlist.artist('artist_name')` --- latest tracks from a given artist
 
-- `Hypem.playlist.tags(['tag_name','electro','indie'])` --- tracks matching given array of tags. *The API warns against combining too many different tags*
+- `Hypem.playlist.blog('blog_name')` --- latest tracks from a given blog name
+
+- `Hypem.playlist.search('query_string')` --- tracks matching string 
+
+- `Hypem.playlist.tags(['tag_name','electro','indie'])` --- tracks matching tags. *The API warns against combining too many different tags*
+
+- `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts the following filters:
+    - `'3day'` _default_ --- most popular over last 3 days
+    - `:lastweek` --- most popular over last week
+    - `:noremix` --- most popular non-remixed tracks over last 3 days
+    - `:artists` --- most popular artists' tracks over last 3 days
+    - `:twitter` --- most popular tweeted tracks over last 3 days
+
+- `Hypem.playlist.latest` --- the latest posted tracks. It accepts the following filters:
+    - `:all` _default_ --- all tracks, regardless of repost status
+    - `:fresh` --- only first posted tracks
+    - `:noremix` --- only non-remixed tracks
+    - `:remix` --- only remixed tracks
+
+#### Misc. ####
 
 - `Hypem.playlist.create_url([hypem_track1,hypem_track2])` --- create a custom Hypem-based playlist URL using array of `Hypem::Track`'s
-
-- `Hypem.playlist.popular` --- the most popular tracks over a certain timeframe or set. It accepts one of the following arguments:
-
-
-      <table>
-        <thead>
-          <tr>
-            <th> Argument </th>
-            <th> Response (Most Popular...) </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><code>'3day'</code> <em>default</em></td>
-            <td>tracks over the last 3 days</td>
-          </tr>
-          <tr>
-            <td><code>:lastweek</code></td>
-            <td>tracks over the last 7 days</td>
-          </tr>
-          <tr>
-            <td><code>:noremix</code></td>
-            <td>non-remixed tracks, over last 3 days</td>
-          </tr>
-          <tr>
-            <td><code>:artists</code></td>
-            <td>tracks by most-blogged artists over last 3 days</td>
-          </tr>
-          <tr>
-            <td><code>:twitter</code></td>
-            <td>tweeted tracks over last 3 days</td>
-          </tr>
-        </tbody>
-      </table>
-
-Each playlist has a `tracks` attribute containing an array of `Hypem::Tracks`'s. Pagination is supported with the `.next_page` and `.prev_page`, `page(num)` methods.
 
 ******
 
@@ -80,7 +63,7 @@ Users can be accessed via `Hypem.user('username')` and have various methods:
 ******
 
 ### Blog ###
-Blogs can be retrieved using a blog's unique id via `Hypem.blog(1234)` and has the following methods:
+Blogs can be retrieved using a blog's unique id via `Hypem.blog(1234)` and have the following methods:
 
 - `blog.get_info` -- retrieves extended information about a blog and sets `blog_image`, `blog_image_small`, `first_posted`, `followers`, `last_posted`, `site_name`, `site_url`, `total_tracks`, and `id`
 
