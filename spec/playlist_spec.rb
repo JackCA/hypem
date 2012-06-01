@@ -15,7 +15,7 @@ describe Hypem::Playlist do
   
   context "when initialized" do
     it "assigns the path attribute" do
-      playlist.path.should == "/playlist/time/today/json/1"
+      playlist.path.should == "/playlist/latest/all/json/1"
     end
 
     it "assigns proper path for blog" do

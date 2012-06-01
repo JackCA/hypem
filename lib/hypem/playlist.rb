@@ -39,8 +39,9 @@ module Hypem
       return Hypem::ROOT_PATH + playlist.path
     end
 
-    def self.latest(page=nil)
-      Playlist.new(:time,:today,page).tap(&:get)
+    def self.latest(filter=:all,page=nil)
+      raise ArgumentError unless [:all, :noremix, :remix, :fresh].include? filter
+      Playlist.new(:latest,filter,page).tap(&:get)
     end
 
     def self.popular(arg=POPULAR_ARGS.first,page=nil)
