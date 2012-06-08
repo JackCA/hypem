@@ -34,7 +34,7 @@ General playlists can be accessed using the following methods. The last argument
 
 #### Misc. ####
 
-- `Hypem.playlist.create_url([hypem_track1,hypem_track2])` --- create a custom Hypem-based playlist URL using array of `Hypem::Track`'s
+- `Hypem.playlist.new_from_tracks([hypem_track1,hypem_track2])` --- create a custom playlist from an array of `Hypem::Track`'s
 
 ******
 
