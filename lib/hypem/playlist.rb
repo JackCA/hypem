@@ -37,7 +37,7 @@ module Hypem
 
     def self.new_from_tracks(tracks)
       track_params = tracks.map(&:id).join(',')
-      Playlist.new('set',track_params)
+      Playlist.new('set',track_params).tap { |p| p.tracks = tracks }
     end
 
     def self.latest(filter=:all,page=nil)

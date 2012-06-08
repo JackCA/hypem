@@ -27,6 +27,7 @@ describe Hypem::Playlist do
     subject { Hypem::Playlist.new_from_tracks(tracks) }
     it { should be_a Hypem::Playlist }
     its(:path) { should == '/playlist/set/track1,track2/json/1' }
+    its(:tracks) { should_not be_empty }
   end
 
   describe ".latest" do
