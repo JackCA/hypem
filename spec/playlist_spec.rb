@@ -13,16 +13,13 @@ describe Hypem::Playlist do
 
   ########################################
   
-  context "when initialized" do
-    its(:path) { should == "/playlist/latest/all/json/1" }
+  its(:path) { should == "/playlist/latest/all/json/1" }
+  its(:tracks) { should_not be_empty }
 
-    it "assigns proper path for blog" do
-      blog_playlist.path.should == "/playlist/blog/1/json/1"
+  describe "#url" do
+    it "returns the correct playlist url " do
+      subject.url.should == 'http://hypem.com/playlist/latest/all/json/1'
     end
-  end
-
-  context "after get" do
-    its(:tracks) { should_not be_empty }
   end
 
   describe ".new_from_tracks" do
@@ -30,13 +27,6 @@ describe Hypem::Playlist do
     subject { Hypem::Playlist.new_from_tracks(tracks) }
     it { should be_a Hypem::Playlist }
     its(:path) { should == '/playlist/set/track1,track2/json/1' }
-
-  end
-
-  describe "#url" do
-    it "returns the correct playlist url " do
-      subject.url.should == 'http://hypem.com/playlist/latest/all/json/1'
-    end
   end
 
   describe ".latest" do
@@ -119,6 +109,43 @@ describe Hypem::Playlist do
       described_class.should_receive(:new).with(:artist,'name',5)
       described_class.artist('name',5)
     end
+  end
+
+  shared_examples_for "generic method" do
+    before do
+      Hypem::Playlist.any_instance.stub(:get)
+    end
+    specify { described_class.send(method,:an_argument).should be_a described_class }
+  end
+
+  describe ".blog" do
+    let(:method) { :blog }
+    it_should_behave_like "generic method"
+  end
+
+  describe ".search" do
+    let(:method) { :search }
+    it_should_behave_like "generic method"
+  end
+
+  describe ".artist" do
+    let(:method) { :artist }
+    it_should_behave_like "generic method"
+  end
+
+  describe ".feed" do
+    let(:method) { :feed }
+    it_should_behave_like "generic method"
+  end
+
+  describe ".loved" do
+    let(:method) { :loved }
+    it_should_behave_like "generic method"
+  end
+
+  describe ".obsessed" do
+    let(:method) { :obsessed }
+    it_should_behave_like "generic method"
   end
 
   describe "pagination" do

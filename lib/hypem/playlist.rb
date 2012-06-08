@@ -15,8 +15,7 @@ module Hypem
     def get
       response = Request.new(@path).tap(&:get).response
       @tracks = []
-      # getting rid of version cell
-      response.body.shift
+      response.body.shift # getting rid of version cell
       response.body.each_value{|v| @tracks << Track.new(v)}
     end
 
