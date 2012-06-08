@@ -14,9 +14,7 @@ describe Hypem::Playlist do
   ########################################
   
   context "when initialized" do
-    it "assigns the path attribute" do
-      playlist.path.should == "/playlist/latest/all/json/1"
-    end
+    its(:path) { should == "/playlist/latest/all/json/1" }
 
     it "assigns proper path for blog" do
       blog_playlist.path.should == "/playlist/blog/1/json/1"
@@ -27,16 +25,17 @@ describe Hypem::Playlist do
     its(:tracks) { should_not be_empty }
   end
 
-  describe ".create_url" do
+  describe ".new_from_tracks" do
     let(:tracks) {[mock('Hypem::Track',id: 'track1',), mock('Hypem::Track',id:'track2')]}
+    subject { Hypem::Playlist.new_from_tracks(tracks) }
+    it { should be_a Hypem::Playlist }
+    its(:path) { should == '/playlist/set/track1,track2/json/1' }
 
-    it "raises if not given an array of tracks" do
-      expect { described_class.create_url(['not_a_track'])}.to raise_error ArgumentError
-    end
+  end
 
+  describe "#url" do
     it "returns the correct playlist url " do
-      tracks.first.stub(:is_a?).and_return(true)
-      described_class.create_url(tracks).should == 'http://hypem.com/playlist/set/track1,track2/json/1'
+      subject.url.should == 'http://hypem.com/playlist/latest/all/json/1'
     end
   end
 

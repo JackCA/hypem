@@ -32,11 +32,13 @@ module Hypem
       Playlist.new(@type,@arg,num).tap(&:get)
     end
 
-    def self.create_url(tracks)
-      raise ArgumentError if (!tracks.is_a? Array) || (!tracks.first.is_a? Hypem::Track)
+    def url
+      Hypem::ROOT_PATH + path
+    end
+
+    def self.new_from_tracks(tracks)
       track_params = tracks.map(&:id).join(',')
-      playlist = Playlist.new('set',track_params)
-      return Hypem::ROOT_PATH + playlist.path
+      Playlist.new('set',track_params)
     end
 
     def self.latest(filter=:all,page=nil)
