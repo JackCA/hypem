@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/playlist/item/1jsw9/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      server:
+      - nginx/1.0.12
+      date:
+      - Sat, 09 Jun 2012 02:48:22 GMT
+      content-type:
+      - text/javascript; charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+      set-cookie:
+      - AUTH=03%3Ae48651417fd18bf71afd356c3c50506e%3A1339210102%3A1276002699%3ACA-US;
+        expires=Mon, 05-Jun-2028 02:48:22 GMT; path=/; domain=hypem.com
+      x-hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      access-control-allow-origin:
+      - ! '*'
+      access-control-allow-headers:
+      - ! '*'
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: ASCII-8BIT
+      string: ! '{"version":"1.1","0":{"mediaid":"1jsw9","artist":"Hot Chip","title":"Flutes","dateposted":1339199820,"siteid":16116,"sitename":"the
+        untz and the indie","posturl":"http:\/\/theuntzandtheindie.com\/2012\/06\/08\/hot-chip-party\/","postid":1835105,"loved_count":9049,"posted_count":33,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart2.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/16116.png","time":425,"description":"Today\u2019s
+        Indie: If I Was Your Girlfriend (Hot Chip Cover) \/ Prince \/\/\/ Motion Sickness
+        \/ Hot Chip \/\/\/ Flutes \/ Hot Chip So the indie extraordinaire and goddess
+        of all things awesome is out of town up in the Pac NW gettin silly and listening
+        to dAHnce music","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Hot%20Chip"}}'
+    http_version: 
+  recorded_at: Sat, 09 Jun 2012 02:48:27 GMT
+recorded_with: VCR 2.1.1

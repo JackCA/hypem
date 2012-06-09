@@ -1,35 +1,51 @@
-require 'hashie'
-
 module Hypem
+  class Track
+    attr_accessor :media_id
 
-  class Track < Hashie::Trash
-    property :media_id, from: :mediaid
-    property :artist
-    property :title
-    property :date_posted, from: :dateposted
-    property :site_id, from: :siteid
-    property :sitename
-    property :post_url, from: :posturl
-    property :post_url_first, from: :posturl_first
-    property :post_id, from: :postid
-    property :date_posted_first, from: :dateposted_first
-    property :site_id_first, from: :siteid_first
-    property :site_name_first, from: :sitename_first
-    property :post_id_first, from: :postid_first
-    property :loved_count
-    property :posted_count
-    property :thumb_url
-    property :thumb_url_large
-    property :time
-    property :description
-    property :itunes_link
-    property :date_played, from: :dateplayed
-    property :date_loved, from: :dateloved
-    property :user_name, from: :username
-    property :full_name, from: :fullname
-    property :via_query
-    property :plays #used by obsessed playlist
+    def initialize(arg)
+      if arg.is_a? Hash
+        keys_to_attributes arg
+      elsif arg.is_a? String
+        @media_id = arg
+      end
+    end
+
+    def get
+      request = Request.new("/playlist/item/#{media_id}/json/1").tap(&:get)
+      raw_hash = request.response.body.tap(&:shift)["0"]
+      keys_to_attributes raw_hash
+    end
+
+    KEY_CONVERSIONS = {
+      mediaid: :media_id,
+      dateposted: :dated_posted,
+      siteid: :site_id,
+      posturl: :post_url,
+      posturl_first: :post_url_first,
+      postid: :post_id,
+      postid_first: :post_id_first,
+      dateposted_first: :date_posted_first,
+      siteid_first: :site_id_first,
+      sitename: :site_name,
+      dateposted: :date_posted,
+      sitename_first: :site_name_first
+    }
+
+    DATETIME_CONVERSIONS = [:date_posted, :date_posted_first]
+
+    private
+
+    def keys_to_attributes(raw_hash)
+      raw_hash.each_pair do |key,value|
+        converted_key = KEY_CONVERSIONS[key.to_sym]
+        key = converted_key unless converted_key.nil?
+
+        value = Time.at(value).to_datetime if DATETIME_CONVERSIONS.include? key
+        instance_variable_set("@#{key}",value)
+
+        self.class.class_eval { attr_reader key }
+      end
+    end
 
   end
-
 end
