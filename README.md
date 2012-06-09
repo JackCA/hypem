@@ -70,31 +70,32 @@ Blogs can be retrieved using a blog's unique id via `Hypem.blog(1234)` and have 
 ******
 
 ### Track ###
-All Playlist objects have a `tracks` attribute containing an array of `Hypem::Track`'s. A sample object inspect is as follows:
+Tracks can be initialized using a known `media_id` via `Hypem.track('media_id')` and synced using the `get` method on any instance. Depending on the playlist type, some tracks may have more detailed attributes than other.
 
-      #<Hypem::Track
-        artist="Hot Chip"
-        date_loved=1332109580
-        date_posted=1332252311
-        description="O Hot Chip está de volta com um novo álbum, In Our Heads, que vai ser lançado oficialmente em junho, mas já conta com seu primeiro vídeo, “Flutes”, disponível para visualização. A faixa serve de abertura para o novo álbum dos já bem sucedidos garotos, e p"
-        itunes_link="http://hypem.com/go/itunes_search/Hot%20Chip"
-        loved_count=4912
-        media_id="1jsw9"
-        post_id=1753700
-        post_url="http://www.ohmyrock.net/2012/03/hot-chip-flutes/"
-        posted_count=14
-        site_id=14635
-        sitename="Oh My Rock"
-        thumb_url="http://static-ak.hypem.net/images/albumart4.gif"
-        thumb_url_large="http://static-ak.hypem.net/images/blog_images/14635.png"
-        time=425
-        title="Flutes">
+An example track object inspection is as follows:
+
+``` 
+@media_id="1jsw9",
+@artist="Hot Chip",
+@title="Flutes",
+@date_posted=#<DateTime: 2012-06-08T16:57:00-07:00 ((2456087j,86220s,0n),-25200s,2299161j)>,
+@site_id=16116,
+@site_name="the untz and the indie",
+@post_url="http://theuntzandtheindie.com/2012/06/08/hot-chip-party/",
+@post_id=1835105,
+@loved_count=9050,
+@posted_count=33,
+@thumb_url="http://static-ak.hypem.net/images/albumart0.gif",
+@thumb_url_large="http://static-ak.hypem.net/images/blog_images/16116.png",
+@time=425,
+@description="Today’s Indie: If I Was Your Girlfriend (Hot Chip Cover) / Prince /// Motion Sickness / Hot Chip /// Flutes / Hot Chip So the indie extraordinaire and goddess of all things awesome is out of town up in the Pac NW gettin silly and listening to dAHnce music",
+@itunes_link="http://hypem.com/go/itunes_search/Hot%20Chip"
+```
 
 ****** 
 
 ## TODO ###
 - Blogs with given tag
-- Single track info
 - Authenticated Requests
 - Favorite a track
 - Log Playback

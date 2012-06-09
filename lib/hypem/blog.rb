@@ -1,5 +1,3 @@
-require 'hashie'
-
 module Hypem
   class Blog
     attr_reader :blog_image, :blog_image_small, :first_posted,
