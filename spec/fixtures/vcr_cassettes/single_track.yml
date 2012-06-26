@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/playlist/item/1jsw9/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+      Cookie:
+      - AUTH=03%3A3434972140b8a74027c41a61a064650d%3A1340674882%3A1276002699%3ACA-US
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.12
+      Date:
+      - Tue, 26 Jun 2012 01:41:24 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"version":"1.1","0":{"mediaid":"1jsw9","artist":"Hot Chip","title":"Flutes","dateposted":1340129065,"siteid":14143,"sitename":"POP
+        ON AND ON","posturl":"http:\/\/poponandon.com\/must-listen-hot-chip-flutes\/","postid":1845339,"loved_count":9670,"posted_count":38,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1845339.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1845339_320.png","time":425,"description":"Hot
+        Chip released their latest studio album In Our Heads last week and I recently
+        had the chance to give it a listen. While it\u2019s not their best album,
+        the guys manage to deliver some seriously great tunes here. My favorite track
+        from In Our Heads has to b","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Hot%20Chip"}}'
+    http_version: 
+  recorded_at: Tue, 26 Jun 2012 01:41:50 GMT
+recorded_with: VCR 2.2.0

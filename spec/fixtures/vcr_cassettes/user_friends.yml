@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/api/get_friends?username=jackca
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.12
+      Date:
+      - Tue, 26 Jun 2012 01:41:18 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3Abdb22980d528e3813513de83b05ff08b%3A1340674876%3A1276002699%3ACA-US;
+        expires=Thu, 22-Jun-2028 01:41:16 GMT; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '[{"username":"zabby","dateadded":1334287367,"fullname":null,"profile_url":"http:\/\/hypem.com\/zabby","userpic":"http:\/\/static-ak.hypem.net\/images\/bg-album-art.gif","favorites_count":{"user":0,"item":9,"site":0,"query":0,"followers":1},"radio_avail":true},{"username":"anthony","dateadded":1331660275,"fullname":"Anthony","profile_url":"http:\/\/hypem.com\/anthony","userpic":"http:\/\/faces-s3.hypem.com\/20727986008_75.png","favorites_count":{"user":143,"item":369,"site":30,"query":14,"followers":2030},"radio_avail":true},{"username":"danielzarick","dateadded":null,"fullname":"Daniel
+        Zarick","profile_url":"http:\/\/hypem.com\/danielzarick","userpic":"http:\/\/faces-s3.hypem.com\/782356165259973_75.png","favorites_count":{"user":25,"item":9,"site":0,"query":4,"followers":13},"radio_avail":true},{"username":"jstreet","dateadded":null,"fullname":"Justin
+        Street","profile_url":"http:\/\/hypem.com\/jstreet","userpic":"http:\/\/faces-s3.hypem.com\/39640740001973_75.png","favorites_count":{"user":7,"item":368,"site":24,"query":0,"followers":7},"radio_avail":true},{"username":"janestar","dateadded":1292962523,"fullname":null,"profile_url":"http:\/\/hypem.com\/janestar","userpic":"http:\/\/static-ak.hypem.net\/images\/bg-album-art.gif","favorites_count":{"user":0,"item":4,"site":0,"query":0,"followers":4},"radio_avail":true},{"username":"Lmkahn","dateadded":1338353968,"fullname":null,"profile_url":"http:\/\/hypem.com\/Lmkahn","userpic":"http:\/\/static-ak.hypem.net\/images\/bg-album-art.gif","favorites_count":{"user":1,"item":0,"site":0,"query":0,"followers":1},"radio_avail":false}]'
+    http_version: 
+  recorded_at: Tue, 26 Jun 2012 01:41:44 GMT
+recorded_with: VCR 2.2.0

@@ -1,29 +1,25 @@
-require 'faraday'
+require 'httparty'
 
 module Hypem
-  ROOT_PATH = 'http://hypem.com'
   class Request
-    attr_reader :url
+    include HTTParty
 
-    def initialize(url)
-      @url = url
+    debug_output
+    base_uri 'http://api.hypem.com'
+    headers 'Accept' => 'text/html'
+    format :json
+
+    def self.get_resource(path, query=nil)
+      get('/api' + path, query: query)
     end
 
-    def get
-      @raw_response = connection.get(@url)
+    def self.get_data(path, page=1)
+      url = [path, 'json', page].join('/')
+      response = get(url)
+      response.delete("version")
+      values = response.values
+      values.size == 1 ? values.first : values
     end
 
-    def response
-      @response ||= Response.new(@raw_response)
-    end
-
-    private
-    
-    def connection
-      @@conn ||= Faraday.new(url: ROOT_PATH) do |builder|
-        builder.request :url_encoded
-        builder.adapter :net_http
-      end
-    end
   end
 end

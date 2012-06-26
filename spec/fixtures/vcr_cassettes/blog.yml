@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/api/get_site_info?siteid=4632
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.12
+      Date:
+      - Tue, 26 Jun 2012 02:52:09 GMT
+      Content-Type:
+      - text/html
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3Af1682d84385b013d5d5ddb49ad4b6aba%3A1340679128%3A1276002699%3ACA-US;
+        expires=Thu, 22-Jun-2028 02:52:08 GMT; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"siteid":"4632","sitename":"Pasta Primavera","siteurl":"http:\/\/pastaprima.net","followers":1359,"is_favorite":null,"total_tracks":4104,"last_posted":1340641909,"first_posted":1192804200,"blog_image":"http:\/\/static-ak.hypem.net\/images\/blog_images\/4632.jpg","blog_image_small":"http:\/\/static-ak.hypem.net\/images\/blog_images\/small\/4632.jpg"}'
+    http_version: 
+  recorded_at: Tue, 26 Jun 2012 02:52:38 GMT
+recorded_with: VCR 2.2.0

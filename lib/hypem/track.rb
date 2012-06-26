@@ -7,13 +7,16 @@ module Hypem
         keys_to_attributes arg
       elsif arg.is_a? String
         @media_id = arg
+      else
+        raise
       end
     end
 
     def get
-      request = Request.new("/playlist/item/#{media_id}/json/1").tap(&:get)
-      raw_hash = request.response.body.tap(&:shift)["0"]
-      keys_to_attributes raw_hash
+      response = Request.get_data("/playlist/item/#{media_id}")
+      raise if response.is_a? Array
+      keys_to_attributes response
+      self
     end
 
     KEY_CONVERSIONS = {

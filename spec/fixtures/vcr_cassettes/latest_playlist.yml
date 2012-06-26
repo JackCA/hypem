@@ -1,0 +1,238 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/playlist/latest/all/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.0.12
+      Date:
+      - Tue, 26 Jun 2012 01:45:26 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3A97b595fb42999cefb694f02ff7bc8318%3A1340675126%3A1276002699%3ACA-US;
+        expires=Thu, 22-Jun-2028 01:45:26 GMT; path=/; domain=hypem.com
+      X-Hacker:
+      - Hey, if you're reading this, you should drop us an email at hypem.com/contact,
+        maybe we can work together!
+      Last-Modified:
+      - Tue, 26 Jun 2012 00:11:43 GMT
+      Cache-Control:
+      - max-age=300
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"version":"1.1","0":{"mediaid":"1n2qh","artist":"I am bart(ek)","title":"happiness","dateposted":1340669503,"siteid":14392,"sitename":"Those
+        Who Dig","posturl":"http:\/\/www.thosewhodig.net\/article\/michael-the-blind-and-i-am-bartek\/840\/","postid":1851485,"dateposted_first":1340669503,"siteid_first":14392,"sitename_first":"Those
+        Who Dig","posturl_first":"http:\/\/www.thosewhodig.net\/article\/michael-the-blind-and-i-am-bartek\/840\/","postid_first":1851485,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/14392.jpg","time":328,"description":"Been
+        enjoying sharing little posts of pairs of tunes the past few weeks, so I don''t
+        see why I shouldn''t keep it going. Tonight we have Michael the Blind and
+        I Am Bart(ek).","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/I%20am%20bart(ek)"},"1":{"mediaid":"1n2qg","artist":"Johnny
+        BLK","title":"She Ain''t Like The Rest ft. Biggie (VOODOO FARM Remix)","dateposted":1340669496,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1340669496,"siteid_first":13271,"sitename_first":"Silence
+        Nogood","posturl_first":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid_first":1851482,"loved_count":5,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":231,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Johnny%20BLK"},"2":{"mediaid":"1ky2r","artist":"DVBBS","title":"DRVGS
+        ft. Hayley Gene (VOODOO FARM REMIX)","dateposted":1340669491,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1336188727,"siteid_first":11067,"sitename_first":"EARMILK","posturl_first":"http:\/\/www.earmilk.com\/2012\/05\/05\/dvbbs-drvgs-exclusive-remixes-video\/","postid_first":1800516,"loved_count":59,"posted_count":6,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":294,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/DVBBS"},"3":{"mediaid":"1n2qe","artist":"Azealia
+        Banks","title":"212 (VOODOO FARM Live Bootleg)","dateposted":1340669477,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1340669477,"siteid_first":13271,"sitename_first":"Silence
+        Nogood","posturl_first":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid_first":1851482,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":256,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Azealia%20Banks"},"4":{"mediaid":"1ajyx","artist":"Wiz
+        Khalifa","title":"Roll Up (VOODOO FARM Remix) featuring 2Pac","dateposted":1340669472,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1302561463,"siteid_first":1056,"sitename_first":"surviving
+        the golden age","posturl_first":"http:\/\/survivingthegoldenage.com\/new-wiz-khalifa-featuring-2pac-roll-up-voodoo-farm-remix\/","postid_first":1452648,"loved_count":433,"posted_count":7,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":230,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Wiz%20Khalifa"},"5":{"mediaid":"18yr9","artist":"The
+        Doors","title":"People Are Strange (Voodoo Farm Remix)","dateposted":1340669461,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1297305322,"siteid_first":1056,"sitename_first":"surviving
+        the golden age","posturl_first":"http:\/\/survivingthegoldenage.com\/new-voodoo-farm-remix-the-doors-people-are-strange\/","postid_first":1399010,"loved_count":392,"posted_count":10,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":212,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Doors"},"6":{"mediaid":"1hd74","artist":"The
+        Beatles","title":"A Day In The Life (VOODOO FARM DUBSTEP REMIX)","dateposted":1340669448,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1326821940,"siteid_first":1056,"sitename_first":"surviving
+        the golden age","posturl_first":"http:\/\/survivingthegoldenage.com\/new-voodoo-farm-remixes-the-beatles-a-day-in-the-life\/","postid_first":1691493,"loved_count":211,"posted_count":6,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":252,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/The%20Beatles"},"7":{"mediaid":"1a4w0","artist":"Voodoo
+        Farm","title":"Outkast ft. Lady Gaga - Wheelz of Steel (Voodoo Farm Remix)","dateposted":1340669445,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/voodoo-farm-remixtape\/","postid":1851482,"dateposted_first":1301042256,"siteid_first":12735,"sitename_first":"The
+        Wet Blog","posturl_first":"http:\/\/thewetblog.com\/post\/4079113998\/wheelz-of-steel-voodoo-farm-remix-outkast","postid_first":1437522,"loved_count":220,"posted_count":7,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851482_320.png","time":231,"description":"Voodoo
+        Farm is my main man for those raunchy dubstep remixes and now we get \u2018em
+        all packed up neat in his official VOODOO FARM REMIXTAPE. With newly-mastered
+        versions of 15 remixes + 7 unreleased ones, you\u2019d think we have some
+        new shit to romp around to f","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Voodoo%20Farm"},"8":{"mediaid":"1ejjf","artist":"To
+        Kill A King","title":"Bloody Shirt","dateposted":1340669432,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1316698156,"siteid_first":940,"sitename_first":"The
+        Blue Walrus","posturl_first":"http:\/\/www.thebluewalrus.com\/2011\/09\/22\/video-to-kill-a-king-we-used-to-protest-gamble\/","postid_first":1592060,"loved_count":40,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":226,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/To%20Kill%20A%20King"},"9":{"mediaid":"1hxq3","artist":"Seye
+        Adelekan","title":"White Noise","dateposted":1340669429,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1328720251,"siteid_first":11051,"sitename_first":"Dots
+        & Dashes","posturl_first":"http:\/\/www.dotsanddashes.co.uk\/2012\/02\/on-horizon-seye-it-again.html","postid_first":1713670,"loved_count":71,"posted_count":7,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":200,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Seye%20Adelekan"},"10":{"mediaid":"1hx39","artist":"Jakwob","title":"Electrify","dateposted":1340669426,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1328653749,"siteid_first":14560,"sitename_first":"Pick
+        Up The Headphones","posturl_first":"http:\/\/www.pickuptheheadphones.com\/2012\/02\/jakwob-electrify-feat-jetta.html","postid_first":1712827,"loved_count":95,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":224,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Jakwob"},"11":{"mediaid":"1n2q6","artist":"Follow
+        Your Lead","title":"Beech","dateposted":1340669423,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1340669423,"siteid_first":13012,"sitename_first":"A
+        Pocket Full Of Seeds","posturl_first":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid_first":1851481,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":202,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Follow%20Your%20Lead"},"12":{"mediaid":"1drc1","artist":"Let''s
+        Buy Happiness","title":"Dirty Lakes","dateposted":1340669418,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1313591727,"siteid_first":940,"sitename_first":"The
+        Blue Walrus","posturl_first":"http:\/\/www.thebluewalrus.com\/2011\/08\/17\/lets-buy-happiness-dirty-lakes\/","postid_first":1561086,"loved_count":52,"posted_count":8,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":165,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Let''s%20Buy%20Happiness"},"13":{"mediaid":"1gzcx","artist":"TomWilliamsBoat","title":"Too
+        Slow","dateposted":1340669385,"siteid":13012,"sitename":"A Pocket Full Of
+        Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1325338136,"siteid_first":10942,"sitename_first":"The
+        Mad Mackerel","posturl_first":"http:\/\/madmackerel.wordpress.com\/2011\/12\/31\/mad-mackerels-albums-of-the-year-part-3-10-1\/","postid_first":1677031,"loved_count":13,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":284,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/TomWilliamsBoat"},"14":{"mediaid":"150ks","artist":"Ghostpoet
+        x ROX","title":"To Something","dateposted":1340669381,"siteid":13012,"sitename":"A
+        Pocket Full Of Seeds","posturl":"http:\/\/apocketfullofseeds.com\/a-pocket-full-of-leefest-2012\/","postid":1851481,"dateposted_first":1284914088,"siteid_first":14173,"sitename_first":"TRUANTS","posturl_first":"http:\/\/truantsblog.com\/2010\/09\/19\/the-moving-principle\/","postid_first":1277409,"loved_count":42,"posted_count":2,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/1\/1851481_320.png","time":275,"description":"The
+        music at Leefest this year is the balls. Really good-looking, good hearing
+        balls. What\u2019s Leefest? A person called Lee created a festival in his
+        garden in South East London and now, 6 or 7 years later, the thing has most
+        definitely got out of hand, in ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ghostpoet%20x%20ROX"},"15":{"mediaid":"1n2q2","artist":"Monsoon
+        Season feat. Miss Bee","title":"Green On Blue (Original Mix) (PREVIEW)","dateposted":1340669368,"siteid":4576,"sitename":"Bizzies","posturl":"http:\/\/hotbizzies.com\/2012\/06\/25\/green-on-blue\/","postid":1851476,"dateposted_first":1340669368,"siteid_first":4576,"sitename_first":"Bizzies","posturl_first":"http:\/\/hotbizzies.com\/2012\/06\/25\/green-on-blue\/","postid_first":1851476,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1851476.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/6\/1851476_320.png","time":181,"description":"I\u2019m
+        pretty pumped for this Deep&Disco release. Not only did Monsoon Season and
+        Miss Bee produce a Top 10 Prospect, but I was given the opportunity to work
+        on the cover art (an honor). \u201cGreen On Blue\u201d reminded me of my short
+        time in Paris, so it felt like ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Monsoon%20Season%20feat.%20Miss%20Bee"},"16":{"mediaid":"1n2q1","artist":"Bingo
+        Players","title":"Don''t Blame The Party (Mode) (Firebeatz Remix)","dateposted":1340669361,"siteid":12063,"sitename":"Chubby
+        Beavers","posturl":"http:\/\/www.chubbybeavers.com\/dont-blame-the-party-remixes\/","postid":1851477,"dateposted_first":1340669361,"siteid_first":12063,"sitename_first":"Chubby
+        Beavers","posturl_first":"http:\/\/www.chubbybeavers.com\/dont-blame-the-party-remixes\/","postid_first":1851477,"loved_count":4,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1851477.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1851477_320.png","time":370,"description":"Man
+        I love the energy the Bingo Players bring. These guys have proven time and
+        time again that they are the real deal and can lay down a track with the best
+        of them. They carry a punk-rock, bad-ass attitude about them that is so outside
+        the box for the ED","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bingo%20Players"},"17":{"mediaid":"1n2q0","artist":"Bingo
+        Players","title":"Don''t Blame The Party (Mode) (Qulinez Remix)","dateposted":1340669334,"siteid":12063,"sitename":"Chubby
+        Beavers","posturl":"http:\/\/www.chubbybeavers.com\/dont-blame-the-party-remixes\/","postid":1851477,"dateposted_first":1340669334,"siteid_first":12063,"sitename_first":"Chubby
+        Beavers","posturl_first":"http:\/\/www.chubbybeavers.com\/dont-blame-the-party-remixes\/","postid_first":1851477,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1851477.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/7\/1851477_320.png","time":387,"description":"Man
+        I love the energy the Bingo Players bring. These guys have proven time and
+        time again that they are the real deal and can lay down a track with the best
+        of them. They carry a punk-rock, bad-ass attitude about them that is so outside
+        the box for the ED","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bingo%20Players"},"18":{"mediaid":"1n2pz","artist":"Keaton
+        Henson","title":"To Your Health","dateposted":1340669296,"siteid":17046,"sitename":"Emergency
+        Broadcast Songs","posturl":"http:\/\/www.ebs.fm\/post\/25887678821\/new-keaton-henson-to-your-health","postid":1851491,"dateposted_first":1340669296,"siteid_first":17046,"sitename_first":"Emergency
+        Broadcast Songs","posturl_first":"http:\/\/www.ebs.fm\/post\/25887678821\/new-keaton-henson-to-your-health","postid_first":1851491,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart4.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/17046.png","time":197,"description":"Beautiful
+        piece of music right here - and for good measure, here\u2019s a video of Keaton
+        performing the song.","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Keaton%20Henson"},"19":{"mediaid":"1n2py","artist":"Svenska","title":"ElectroNews,
+        Riverman","dateposted":1340669293,"siteid":13454,"sitename":"Laser Magazine","posturl":"http:\/\/lasermag.net\/svenska-i-am-svenska-ep\/","postid":1851483,"dateposted_first":1340669293,"siteid_first":13454,"sitename_first":"Laser
+        Magazine","posturl_first":"http:\/\/lasermag.net\/svenska-i-am-svenska-ep\/","postid_first":1851483,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart0.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/13454.png","time":290,"description":"SvenskA
+        is Jean-Antoine Jarno, hailing from France. A up and rising 17-year-old electro
+        \/ house producer and this is his latest free EP \u201cI Am SvenskA\u201d
+        which was released today on Electro News Records. The whole EP is filled with
+        powerfull glitching-electr","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Svenska"},"20":{"mediaid":"1n2px","artist":"Mic
+        Legacy","title":"Things I Said I''d Never Do (Prod. by Trot)","dateposted":1340668803,"siteid":3748,"sitename":"GRANDGOOD","posturl":"http:\/\/grandgood.com\/2012\/06\/25\/mic-legacy-things-i-said-id-never-do\/","postid":1851470,"dateposted_first":1340668803,"siteid_first":3748,"sitename_first":"GRANDGOOD","posturl_first":"http:\/\/grandgood.com\/2012\/06\/25\/mic-legacy-things-i-said-id-never-do\/","postid_first":1851470,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1851470.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/0\/1851470_320.png","time":269,"description":"Produced
+        by Trot","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Mic%20Legacy"},"21":{"mediaid":"1n2pw","artist":"Kanye
+        West","title":"Mercy feat. Big Sean, Pusha T & 2 Chainz (JAM3S K3NN3DY Remix)","dateposted":1340668787,"siteid":10215,"sitename":"gottadancedirty","posturl":"http:\/\/www.gottadancedirty.com\/2012\/06\/25\/download-kanye-west-mercy-ft-big-sean-pushat-2chainz-jam3s-k3nn3dy-remix\/","postid":1851474,"dateposted_first":1340668787,"siteid_first":10215,"sitename_first":"gottadancedirty","posturl_first":"http:\/\/www.gottadancedirty.com\/2012\/06\/25\/download-kanye-west-mercy-ft-big-sean-pushat-2chainz-jam3s-k3nn3dy-remix\/","postid_first":1851474,"loved_count":2,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1851474.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/4\/1851474_320.png","time":209,"description":"For
+        you bassheads out there that wanted a bit more bump and grunge to the thumpy
+        new track from Kanye & co., here\u2019s a Dubstep remix of \u2018Mercy\u2019
+        from JAM3S K3NN3DY that will satisfy your needs. James is an up and comer
+        working as a sound engineer for Inters","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Kanye%20West"},"22":{"mediaid":"1myvy","artist":"Owl
+        City and Carly Rae Jepsen","title":"Good Time","dateposted":1340668776,"siteid":1652,"sitename":"Number
+        1 Hits From Another Planet","posturl":"http:\/\/alienhits.blogspot.com\/2012\/06\/carly-rae-jepsen-owl-city-good-time.html","postid":1851465,"dateposted_first":1340191715,"siteid_first":971,"sitename_first":"arjanwrites
+        music blog","posturl_first":"http:\/\/www.arjanwrites.com\/arjanwrites\/2012\/06\/new-owl-city-duets-with-carly-rae-jepsen-on-new-single-good-time-.html","postid_first":1846116,"loved_count":1301,"posted_count":5,"thumb_url":"http:\/\/static-ak.hypem.net\/images\/albumart3.gif","thumb_url_large":"http:\/\/static-ak.hypem.net\/images\/blog_images\/1652.png","time":207,"description":"
+        \"We don''t even have to try\" Carly Rae Jepsen is taking over music around
+        the world right now. Call Me Maybe shows no signs of abating, and has really
+        secured its place as the song of Summer 2012. Hot on its heels, though, is
+        this new duet with Owl City. ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Owl%20City%20and%20Carly%20Rae%20Jepsen"},"23":{"mediaid":"1n2pt","artist":"BADBADNOTGOOD","title":"Hard
+        In Da Paint \/ Wow Rare","dateposted":1340668773,"siteid":5920,"sitename":"A
+        Volta","posturl":"http:\/\/avoltabr.com\/2012\/06\/26\/feature-a-volta-radar-08-feat-ryan-hemsworth-badbadnotgood\/","postid":1851469,"dateposted_first":1340668773,"siteid_first":5920,"sitename_first":"A
+        Volta","posturl_first":"http:\/\/avoltabr.com\/2012\/06\/26\/feature-a-volta-radar-08-feat-ryan-hemsworth-badbadnotgood\/","postid_first":1851469,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469_320.png","time":179,"description":"Na
+        s\u00e9rie A Volta Radar voc\u00ea vai encontrar sugest\u00f5es sobre novas
+        m\u00fasicas, \u00e1lbuns e artistas. Traremos opini\u00f5es de pessoas envolvidas
+        em diferentes cenas musicais, revelando a voc\u00eas quem ou quais s\u00e3o
+        as coisas que voc\u00ea deveria estar ouvindo no momento. In A","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/BADBADNOTGOOD"},"24":{"mediaid":"1n2ps","artist":"Bad
+        Bad Not Good","title":"Mass Appeal \/ Transmission","dateposted":1340668769,"siteid":5920,"sitename":"A
+        Volta","posturl":"http:\/\/avoltabr.com\/2012\/06\/26\/feature-a-volta-radar-08-feat-ryan-hemsworth-badbadnotgood\/","postid":1851469,"dateposted_first":1340668769,"siteid_first":5920,"sitename_first":"A
+        Volta","posturl_first":"http:\/\/avoltabr.com\/2012\/06\/26\/feature-a-volta-radar-08-feat-ryan-hemsworth-badbadnotgood\/","postid_first":1851469,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469_320.png","time":291,"description":"Na
+        s\u00e9rie A Volta Radar voc\u00ea vai encontrar sugest\u00f5es sobre novas
+        m\u00fasicas, \u00e1lbuns e artistas. Traremos opini\u00f5es de pessoas envolvidas
+        em diferentes cenas musicais, revelando a voc\u00eas quem ou quais s\u00e3o
+        as coisas que voc\u00ea deveria estar ouvindo no momento. In A","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Bad%20Bad%20Not%20Good"},"25":{"mediaid":"1mphb","artist":"Ryan
+        Hemsworth","title":"Cold & Tempted","dateposted":1340668765,"siteid":5920,"sitename":"A
+        Volta","posturl":"http:\/\/avoltabr.com\/2012\/06\/26\/feature-a-volta-radar-08-feat-ryan-hemsworth-badbadnotgood\/","postid":1851469,"dateposted_first":1339172216,"siteid_first":10441,"sitename_first":"The
+        405","posturl_first":"http:\/\/thefourohfive.com\/news\/article\/ryan-hemsworth-cold-tempted-listen","postid_first":1834632,"loved_count":502,"posted_count":11,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/9\/1851469_320.png","time":206,"description":"Na
+        s\u00e9rie A Volta Radar voc\u00ea vai encontrar sugest\u00f5es sobre novas
+        m\u00fasicas, \u00e1lbuns e artistas. Traremos opini\u00f5es de pessoas envolvidas
+        em diferentes cenas musicais, revelando a voc\u00eas quem ou quais s\u00e3o
+        as coisas que voc\u00ea deveria estar ouvindo no momento. In A","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Ryan%20Hemsworth"},"26":{"mediaid":"1n2pq","artist":"LDRU","title":"It''s
+        Showtime (Craig Williams Remix)","dateposted":1340668761,"siteid":10215,"sitename":"gottadancedirty","posturl":"http:\/\/www.gottadancedirty.com\/2012\/06\/25\/ldru-its-showtime-craig-williams-remix\/","postid":1851472,"dateposted_first":1340668761,"siteid_first":10215,"sitename_first":"gottadancedirty","posturl_first":"http:\/\/www.gottadancedirty.com\/2012\/06\/25\/ldru-its-showtime-craig-williams-remix\/","postid_first":1851472,"loved_count":1,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851472.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/2\/1851472_320.png","time":309,"description":"Sydney
+        native Drew Carmody, known as LDRU to the dance music world, has put out his
+        latest single, \u2018It\u2019s Showtime,\u2019 out on the Brisbane imprint,
+        Hi-Tech Records, this past week, accompanied by an incredibly bouncy Tech
+        remix from our good friend, Craig Wi","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/LDRU"},"27":{"mediaid":"1n2pp","artist":"Passion
+        Pit","title":"Take A Walk (Sinden Remix)","dateposted":1340668757,"siteid":6988,"sitename":"Salacious
+        Sound","posturl":"http:\/\/salacioussound.com\/2012\/06\/sinden-the-m-machine-remix-passion-pits-take-a-walk\/","postid":1851473,"dateposted_first":1340668757,"siteid_first":6988,"sitename_first":"Salacious
+        Sound","posturl_first":"http:\/\/salacioussound.com\/2012\/06\/sinden-the-m-machine-remix-passion-pits-take-a-walk\/","postid_first":1851473,"loved_count":0,"posted_count":1,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1851473.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1851473_320.png","time":292,"description":"Passion
+        Pit\u2018s new record \u201cGossamer\u201d is set to be released in a few
+        weeks and judging from lead single \u201cTake a Walk\u201d, it will be bursting
+        at the seams with sugary indie-pop goodness. Now for those of you who have
+        a hard time swallowing Passion Pit\u2018s candy-","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Passion%20Pit"},"28":{"mediaid":"1n16a","artist":"Passion
+        Pit","title":"Take A Walk (The M Machine Remix)","dateposted":1340668754,"siteid":6988,"sitename":"Salacious
+        Sound","posturl":"http:\/\/salacioussound.com\/2012\/06\/sinden-the-m-machine-remix-passion-pits-take-a-walk\/","postid":1851473,"dateposted_first":1340397043,"siteid_first":11626,"sitename_first":"Indie
+        Shuffle","posturl_first":"http:\/\/www.indieshuffle.com\/passion-pit-take-a-walk-the-m-machine-remix\/","postid_first":1849320,"loved_count":1939,"posted_count":11,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1851473.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/3\/1851473_320.png","time":275,"description":"Passion
+        Pit\u2018s new record \u201cGossamer\u201d is set to be released in a few
+        weeks and judging from lead single \u201cTake a Walk\u201d, it will be bursting
+        at the seams with sugary indie-pop goodness. Now for those of you who have
+        a hard time swallowing Passion Pit\u2018s candy-","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Passion%20Pit"},"29":{"mediaid":"1mkbg","artist":"Brodinski
+        (feat. Louisahhh!!!)","title":"Nobody Rules The Streets","dateposted":1340668750,"siteid":5920,"sitename":"A
+        Volta","posturl":"http:\/\/avoltabr.com\/2012\/06\/25\/audio-danny-brown-die-like-a-rockstar-brodinski-remix\/","postid":1851468,"dateposted_first":1338667686,"siteid_first":12870,"sitename_first":"Avenge
+        the Virgins","posturl_first":"http:\/\/avengethevirgins.net\/brodinski-feat-louisahhh-nobody-rules-the-streets\/","postid_first":1828513,"loved_count":808,"posted_count":18,"thumb_url":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1851468.png","thumb_url_large":"http:\/\/static-ak.hypem.net\/thumbs\/8\/1851468_320.png","time":268,"description":"Esse
+        \u00e9 o vers\u00e3o bass\/trap\/house\/rap do Brodinski para Die Like a Rockstar
+        do Danny Brown. Ou\u00e7a tamb\u00e9m abaixo o single Nobody Rules The Street,
+        lan\u00e7ado no inicio do m\u00eas pela Bromance Records.      ","itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Brodinski%20(feat.%20Louisahhh!!!)"}}'
+    http_version: 
+  recorded_at: Tue, 26 Jun 2012 01:45:52 GMT
+recorded_with: VCR 2.2.0

@@ -57,10 +57,10 @@ describe Hypem::User do
     its(:location) {should == 'San Francisco, CA, US'}
     its(:twitter_username) {should == 'janderson'}
     its(:image_url) {should == 'http://faces-s3.hypem.com/123376863051420_75.png'}
-    its(:followed_users_count) {should == 4}
-    its(:followed_items_count) {should == 430}
-    its(:followed_sites_count) {should == 32}
-    its(:followed_queries_count) {should == 15}
+    its(:followed_users_count) {should be_an Integer}
+    its(:followed_items_count) {should be_an Integer}
+    its(:followed_sites_count) {should be_an Integer}
+    its(:followed_queries_count) {should be_an Integer}
   end
 
   describe "#friends" do

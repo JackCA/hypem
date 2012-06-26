@@ -13,20 +13,14 @@ describe Hypem::Playlist do
 
   ########################################
   
-  its(:path) { should == "/playlist/latest/all/json/1" }
+  its(:path) { should == "/playlist/latest/all" }
   its(:tracks) { should_not be_empty }
-
-  describe "#url" do
-    it "returns the correct playlist url " do
-      subject.url.should == 'http://hypem.com/playlist/latest/all/json/1'
-    end
-  end
 
   describe ".new_from_tracks" do
     let(:tracks) {[mock('Hypem::Track',id: 'track1',), mock('Hypem::Track',id:'track2')]}
     subject { Hypem::Playlist.new_from_tracks(tracks) }
     it { should be_a Hypem::Playlist }
-    its(:path) { should == '/playlist/set/track1,track2/json/1' }
+    its(:path) { should == '/playlist/set/track1,track2' }
     its(:tracks) { should_not be_empty }
   end
 

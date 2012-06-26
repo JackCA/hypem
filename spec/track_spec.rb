@@ -3,10 +3,7 @@ require 'spec_helper'
 describe Hypem::Track do
   let(:track_hash) do
     VCR.use_cassette('latest_playlist') do
-      Hypem::Playlist.any_instance.stub(:get)
-      path = Hypem::Playlist.latest.path
-      # TODO this is fucking gross
-      Hypem::Request.new(path).tap(&:get).response.body.tap(&:shift)["0"]
+      Hypem::Request.get('/playlist/latest/all/json/1')["0"]
     end
   end
 
@@ -55,7 +52,7 @@ describe Hypem::Track do
 
   describe "#get" do
     subject do
-      VCR.use_cassette("single_track") { track_from_string.tap(&:get) }
+      VCR.use_cassette("single_track") { track_from_string.get }
     end
     it_should_behave_like "a basic synced instance"
   end

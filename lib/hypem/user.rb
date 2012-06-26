@@ -9,15 +9,13 @@ module Hypem
       @name = name
     end
 
-    def api_request(path)
-      request = Request.new("/api/#{path}?username=#{@name}")
-      request.get
-      request.response.body
+    def get(resource)
+      Request.get_resource("#{resource}?username=#{@name}")
     end
 
     def get_profile
       unless @has_profile
-        response = api_request('get_profile')
+        response = get('/get_profile')
         update_from_response(response)
         @has_profile = true
       end
@@ -25,7 +23,7 @@ module Hypem
     end
 
     def get_favorite_blogs
-      response = api_request('get_favorite_blogs')
+      response = get('/get_favorite_blogs')
 
       response.map do |r|
         blog = Hypem::Blog.new(r['siteid'])
@@ -39,7 +37,7 @@ module Hypem
     end
 
     def get_friends
-      response = api_request('get_friends')
+      response = get('/get_friends')
 
       response.map do |r|
         user = User.new(r['username'])

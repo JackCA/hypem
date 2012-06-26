@@ -12,7 +12,7 @@ module Hypem
 
     def get_info
       unless @has_info
-        response = Request.new("/api/get_site_info?siteid=#{@id}").tap(&:get).response.body
+        response = Request.get_resource("/get_site_info?siteid=#{id}")
         update_from_response(response)
         @has_info = true
       end
@@ -35,7 +35,7 @@ module Hypem
     end
 
     def self.all
-      response = Request.new("/api/get_all_blogs").tap(&:get).response.body
+      response = Request.get_resource("/get_all_blogs")
       response.map { |b| self.new.tap {|blog| blog.update_from_response(b) } }
     end
   end

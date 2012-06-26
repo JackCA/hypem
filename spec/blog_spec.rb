@@ -21,10 +21,10 @@ describe Hypem::Blog do
       specify {subject.blog_image.should == 'http://static-ak.hypem.net/images/blog_images/4632.jpg'}
       specify {subject.blog_image_small.should == 'http://static-ak.hypem.net/images/blog_images/small/4632.jpg'}
       specify {subject.site_url.should == 'http://pastaprima.net'}
-      specify {subject.total_tracks.should == 4026}
+      specify {subject.total_tracks.should be_an Integer}
       specify {subject.first_posted.should be_a Time}
       specify {subject.last_posted.should be_a Time}
-      specify {subject.followers.should == 1345}
+      specify {subject.followers.should be_an Integer}
 
       it "caches its response" do
         subject

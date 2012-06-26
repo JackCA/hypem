@@ -9,30 +9,26 @@ module Hypem
       @type = type
       @arg = arg
       @page = page
-      @path = "/playlist/#{@type}/#{@arg}/json/#{@page}"
+      @path = "/playlist/#{@type}/#{@arg}"
     end
 
     def get
-      response = Request.new(@path).tap(&:get).response
-      @tracks = []
-      response.body.shift # getting rid of version cell
-      response.body.each_value{|v| @tracks << Track.new(v)}
+      response = Request.get_data(path)
+      @tracks ||= []
+      response.each{|v| tracks << Track.new(v)}
+      self
     end
 
     def next_page
-      Playlist.new(@type,@arg,@page+1).tap(&:get)
+      Playlist.new(@type,@arg,@page+1).get
     end
 
     def prev_page
-      Playlist.new(@type,@arg,@page-1).tap(&:get)
+      Playlist.new(@type,@arg,@page-1).get
     end
 
     def page(num)
-      Playlist.new(@type,@arg,num).tap(&:get)
-    end
-
-    def url
-      Hypem::ROOT_PATH + path
+      Playlist.new(@type,@arg,num).get
     end
 
     def self.new_from_tracks(tracks)
@@ -42,7 +38,7 @@ module Hypem
 
     def self.latest(filter=:all,page=nil)
       raise ArgumentError unless [:all, :noremix, :remix, :fresh].include? filter
-      Playlist.new(:latest,filter,page).tap(&:get)
+      Playlist.new(:latest,filter,page).get
     end
 
     def self.popular(arg=POPULAR_ARGS.first,page=nil)
@@ -52,11 +48,11 @@ module Hypem
     end
 
     def self.friends_history(user,page=nil)
-      Playlist.new(:people_history,user,page).tap(&:get)
+      Playlist.new(:people_history,user,page)
     end
 
     def self.friends_favorites(user,page=nil)
-      Playlist.new(:people,user,page).tap(&:get)
+      Playlist.new(:people,user,page)
     end
 
     def self.tags(list,page)
@@ -69,7 +65,7 @@ module Hypem
     # meta method definitions for generic playlists
     GENERIC_METHODS.each do |method|
       define_singleton_method(method) do |arg,page=nil|
-        Playlist.new(method,arg,page).tap(&:get)
+        Playlist.new(method,arg,page)
       end
     end
 
