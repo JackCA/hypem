@@ -17,7 +17,7 @@ module Hypem
     def get_profile
       response = get_resource('/get_profile')
       flattened_response = flatten_response(response)
-      update_from_response(response)
+      update_from_response(flattened_response)
       self
     end
 
