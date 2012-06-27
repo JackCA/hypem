@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "webmock"
   s.add_development_dependency "rake"
   s.add_dependency 'httparty'
+  s.add_dependency 'andand'
   s.add_dependency 'multi_json', '~> 1.1'
 
 end

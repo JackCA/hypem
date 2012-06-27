@@ -53,7 +53,7 @@ describe Hypem::User do
     subject {user_with_profile}
 
     its(:full_name) {should == "Jack Anderson"}
-    its(:joined_at) {should == Time.parse('2009-03-29 17:06:55 -0700')}
+    its(:joined_at) {should be_a DateTime}
     its(:location) {should == 'San Francisco, CA, US'}
     its(:twitter_username) {should == 'janderson'}
     its(:image_url) {should == 'http://faces-s3.hypem.com/123376863051420_75.png'}

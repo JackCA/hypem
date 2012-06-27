@@ -1,25 +1,10 @@
 module Hypem
   class Track
+    include Helper
+
     attr_accessor :media_id
 
-    def initialize(arg)
-      if arg.is_a? Hash
-        keys_to_attributes arg
-      elsif arg.is_a? String
-        @media_id = arg
-      else
-        raise
-      end
-    end
-
-    def get
-      response = Request.get_data("/playlist/item/#{media_id}")
-      raise if response.is_a? Array
-      keys_to_attributes response
-      self
-    end
-
-    KEY_CONVERSIONS = {
+    convert_keys(
       mediaid: :media_id,
       dateposted: :dated_posted,
       siteid: :site_id,
@@ -32,23 +17,26 @@ module Hypem
       sitename: :site_name,
       dateposted: :date_posted,
       sitename_first: :site_name_first
-    }
+    )
 
-    DATETIME_CONVERSIONS = [:date_posted, :date_posted_first]
+    convert_datetimes :date_posted, :date_posted_first
 
-    private
-
-    def keys_to_attributes(raw_hash)
-      raw_hash.each_pair do |key,value|
-        converted_key = KEY_CONVERSIONS[key.to_sym]
-        key = converted_key unless converted_key.nil?
-
-        value = Time.at(value).to_datetime if DATETIME_CONVERSIONS.include? key
-        instance_variable_set("@#{key}",value)
-
-        self.class.class_eval { attr_reader key }
+    def initialize(arg)
+      if arg.is_a? Hash
+        update_from_response arg
+      elsif arg.is_a? String
+        @media_id = arg
+      else
+        raise
       end
     end
+
+    def get
+      response = Request.get_data("/playlist/item/#{media_id}")
+      update_from_response response
+      self
+    end
+
 
   end
 end

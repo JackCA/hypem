@@ -14,7 +14,7 @@ describe Hypem::Blog do
 
     describe "#get_info" do
       subject do
-        VCR.use_cassette('blog') {blog.tap(&:get_info)}
+        VCR.use_cassette('blog') {blog.get_info}
       end
       specify {subject.should be_a Hypem::Blog}
       specify {subject.site_name.should == 'Pasta Primavera'}
@@ -22,15 +22,9 @@ describe Hypem::Blog do
       specify {subject.blog_image_small.should == 'http://static-ak.hypem.net/images/blog_images/small/4632.jpg'}
       specify {subject.site_url.should == 'http://pastaprima.net'}
       specify {subject.total_tracks.should be_an Integer}
-      specify {subject.first_posted.should be_a Time}
-      specify {subject.last_posted.should be_a Time}
+      specify {subject.first_posted.should be_a DateTime}
+      specify {subject.last_posted.should be_a DateTime}
       specify {subject.followers.should be_an Integer}
-
-      it "caches its response" do
-        subject
-        Hypem::Request.should_not_receive :new
-        VCR.use_cassette('blog') { blog.get_info }
-      end
 
     end
 
