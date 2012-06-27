@@ -14,7 +14,6 @@ module Hypem
       @name = name
     end
 
-
     def get_profile
       response = get_resource('/get_profile')
       flattened_response = flatten_response(response)
