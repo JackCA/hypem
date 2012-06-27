@@ -14,19 +14,16 @@ module Hypem
       @name = name
     end
 
-    def get(resource)
-      Request.get_resource("#{resource}?username=#{@name}")
-    end
 
     def get_profile
-      response = get('/get_profile')
+      response = get_resource('/get_profile')
       flattened_response = flatten_response(response)
       update_from_response(response)
       self
     end
 
     def favorite_blogs
-      response = get('/get_favorite_blogs')
+      response = get_resource('/get_favorite_blogs')
 
       response.map do |r|
         blog = Hypem::Blog.new(r['siteid'])
@@ -36,7 +33,7 @@ module Hypem
     end
 
     def friends
-      response = get('/get_friends')
+      response = get_resource('/get_friends')
 
       response.map do |r|
         user = User.new(r['username'])
@@ -44,7 +41,6 @@ module Hypem
         user
       end
     end
-
 
     #playlist requests
 
@@ -77,6 +73,10 @@ module Hypem
         response["followed_#{pluralized_key}_count"] = v
       end
       response
+    end
+
+    def get_resource(resource)
+      Request.get_resource("#{resource}?username=#{@name}")
     end
   end
 end
