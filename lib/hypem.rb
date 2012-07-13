@@ -5,7 +5,7 @@ require "hypem/user"
 require "hypem/track"
 require "hypem/playlist"
 require "hypem/blog"
-require "exceptions"
+require "hypem/exceptions"
 
 module Hypem
 

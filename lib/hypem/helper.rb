@@ -7,9 +7,7 @@ module Hypem
 
     def update_from_response(raw_hash)
       raw_hash.each_pair do |key,value|
-        key = key.to_sym
-        new_key = self.class.key_conversions[key]
-        key = new_key unless new_key.nil?
+        key = self.class.key_conversions[key.to_sym] || key.to_sym
 
         if self.class.datetime_conversions.andand.include? key
           value = Time.at(value).to_datetime 
