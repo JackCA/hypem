@@ -1,0 +1,80 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hypem.com/inc/serve_activity_info.php?id=1jsw9&limit=20&skip=0&ts=1350518333&type=favorites
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.2.3
+      Date:
+      - Wed, 17 Oct 2012 23:58:53 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+    body:
+      encoding: US-ASCII
+      string: ! '<div class="favcountlist"><div class="close-this"></div><h4>Loved
+        By</h4><ul><li ><a  href="/Celia_BL"><img src=''http://faces-s3.hypem.com/1240942225538552_75.png''
+        class="avatar-s" width="30" height="30" title=''Celia_BL loved this 4 days
+        ago''/> <span>Celia_BL</span></a><li ><a  href="/stephronson"><img src=''http://faces-s3.hypem.com/2208821703498672_75.png''
+        class="avatar-s" width="30" height="30" title=''stephronson loved this 5 days
+        ago''/> <span>stephronson</span></a><li ><a  href="/patchouli89"><img src=''http://faces-s3.hypem.com/915584976021997_75.png''
+        class="avatar-s" width="30" height="30" title=''patchouli89 loved this last
+        week''/> <span>patchouli89</span></a><li ><a  href="/DubTasticSemen"><img
+        src=''http://faces-s3.hypem.com/4899791450234933_75.png'' class="avatar-s"
+        width="30" height="30" title=''DubTasticSemen loved this last week''/> <span>DubTasticSemen</span></a><li
+        ><a  href="/katiep"><img src=''http://faces-s3.hypem.com/183261887691666_75.png''
+        class="avatar-s" width="30" height="30" title=''katiep loved this on Oct 1st''/>
+        <span>katiep</span></a><li ><a  href="/Darktrain"><img src=''http://faces-s3.hypem.com/129147371270505_75.png''
+        class="avatar-s" width="30" height="30" title=''Darktrain loved this on Oct
+        1st''/> <span>Darktrain</span></a><li ><a  href="/aubreycamille"><img src=''http://faces-s3.hypem.com/443902290006435_75.png''
+        class="avatar-s" width="30" height="30" title=''aubreycamille loved this on
+        Sep 30th''/> <span>aubreycamille</span></a><li ><a  href="/Makailax"><img
+        src=''http://faces-s3.hypem.com/6829031078555215_75.png'' class="avatar-s"
+        width="30" height="30" title=''Makailax loved this on Sep 26th''/> <span>Makailax</span></a><li
+        ><a  href="/picapwel"><img src=''http://faces-s3.hypem.com/861286451970126_75.png''
+        class="avatar-s" width="30" height="30" title=''picapwel loved this on Sep
+        26th''/> <span>picapwel</span></a><li ><a  href="/SpaghettiArms"><img src=''http://faces-s3.hypem.com/802561691180543_75.png''
+        class="avatar-s" width="30" height="30" title=''SpaghettiArms loved this on
+        Sep 24th''/> <span>SpaghettiArms</span></a><li ><a  href="/vachco"><img src=''http://faces-s3.hypem.com/11657621703909853_75.png''
+        class="avatar-s" width="30" height="30" title=''vachco loved this on Sep 21st''/>
+        <span>vachco</span></a><li ><a  href="/jrodney"><img src=''http://faces-s3.hypem.com/3629451415173087_75.png''
+        class="avatar-s" width="30" height="30" title=''jrodney loved this on Sep
+        21st''/> <span>jrodney</span></a><li ><a  href="/ciscogoya"><img src=''http://faces-s3.hypem.com/69212976015486_75.png''
+        class="avatar-s" width="30" height="30" title=''ciscogoya loved this on Sep
+        21st''/> <span>ciscogoya</span></a><li ><a  href="/jillian8"><img src=''http://faces-s3.hypem.com/6808391081805987_75.png''
+        class="avatar-s" width="30" height="30" title=''jillian8 loved this on Sep
+        20th''/> <span>jillian8</span></a><li ><a  href="/jennagordon"><img src=''http://faces-s3.hypem.com/12569241449517956_75.png''
+        class="avatar-s" width="30" height="30" title=''jennagordon loved this on
+        Sep 20th''/> <span>jennagordon</span></a><li ><a  href="/fnezrob"><img src=''http://faces-s3.hypem.com/1010779881277052_75.png''
+        class="avatar-s" width="30" height="30" title=''fnezrob loved this on Sep
+        17th''/> <span>fnezrob</span></a><li ><a  href="/Terijan"><img src=''http://faces-s3.hypem.com/7834091852750270_75.png''
+        class="avatar-s" width="30" height="30" title=''Terijan loved this on Sep
+        17th''/> <span>Terijan</span></a><li ><a  href="/randoo"><img src=''http://faces-s3.hypem.com/9562582079546783_75.png''
+        class="avatar-s" width="30" height="30" title=''randoo loved this on Sep 17th''/>
+        <span>randoo</span></a><li ><a  href="/hhoneymoon"><img src=''http://faces-s3.hypem.com/1279187495880144_75.png''
+        class="avatar-s" width="30" height="30" title=''hhoneymoon loved this on Sep
+        17th''/> <span>hhoneymoon</span></a><li ><a  href="/Tunch"><img src=''http://faces-s3.hypem.com/3887221963549886_75.png''
+        class="avatar-s" width="30" height="30" title=''Tunch loved this on Sep 17th''/>
+        <span>Tunch</span></a></ul><a href="" onclick="update_item_activity(''favorites'',
+        ''1jsw9'', ''20'', ''20''); return false;" class="fav-paging">Next 20 &raquo;</a><script
+        type="text/javascript">jQuery(".avatar-s img[title]").tooltip({ position:
+        "top center", offset: [-2,0]});</script></div>'
+    http_version: 
+  recorded_at: Wed, 17 Oct 2012 23:58:53 GMT
+recorded_with: VCR 2.2.5
