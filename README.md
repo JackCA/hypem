@@ -94,6 +94,15 @@ An example track object inspection is as follows:
 
 ****** 
 
+### Track Favorites ###
+The people who liked a track can be retrieved via `Hypem::TrackFavorites('trackid')` or `track.favorites` and synced using the `get` method.
+
+Their pagination is supplied via the same methods as the `Hypem::Playlist` ones, and they also accept the desired page as the last argument at initialization : `Hypem::TrackFavorites('trackid', page)`
+
+The `Hypem::Users` present in each page can be retrieved via the `users` instance method
+
+****** 
+
 ## TODO ###
 - Blogs with given tag
 - Authenticated Requests

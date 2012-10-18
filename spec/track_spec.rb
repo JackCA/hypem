@@ -6,7 +6,7 @@ describe Hypem::Track do
       Hypem::Request.get('/playlist/latest/all/json/1')["0"]
     end
   end
-
+  
   let(:media_id) { '1jsw9' }
   let(:track_from_hash) { described_class.new(track_hash) }
   let(:track_from_string) { described_class.new(media_id) }

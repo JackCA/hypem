@@ -37,6 +37,9 @@ module Hypem
       self
     end
 
+    def favorites(page=nil)
+      @track_favorites ||= TrackFavorites.new(@media_id)
+    end
 
   end
 end
