@@ -1,6 +1,6 @@
 # Hypem Ruby Gem [![travis](https://secure.travis-ci.org/JackCA/hypem.png?branch=master)](http://travis-ci.org/JackCA/hypem) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/JackCA/hypem)#
 ## Introduction ##
-This is an unoffical Ruby gem for the **Hype Machine** read-only API. It currently only supports Ruby `1.9.x`.
+This is an unoffical Ruby gem for the **Hype Machine** read-only API. It currently only supports Ruby `>= 1.9.2`.
 
 ## Usage ##
 
