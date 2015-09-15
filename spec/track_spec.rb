@@ -55,6 +55,17 @@ describe Hypem::Track do
       VCR.use_cassette("single_track") { track_from_string.get }
     end
     it_should_behave_like "a basic synced instance"
+
+    it "handles problematic get, when Array returned while Hash expected" do
+      media_id = '2d0p7'
+      VCR.use_cassette("problematic_track_with_array_pair") do
+        expect {
+          track = described_class.new(media_id)
+          track.get
+        }.to_not raise_error(NoMethodError)
+      end
+    end
   end
+
 
 end
