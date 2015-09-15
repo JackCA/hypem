@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.hypem.com/playlist/item/2d0p7/json/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - text/html
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Tue, 15 Sep 2015 21:53:21 GMT
+      Content-Type:
+      - text/javascript; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Set-Cookie:
+      - AUTH=03%3A597901c702460a48ec4797cc119fdfb7%3A1442354001%3A1239411909%3ACA-US;
+        expires=Thu, 11-Sep-2031 21:53:21 GMT; Max-Age=504576000; path=/; domain=hypem.com
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Access-Control-Allow-Headers:
+      - ! '*'
+    body:
+      encoding: US-ASCII
+      string: ! '{"version":"1.1","0":{"mediaid":"2d0p7","artist":"Galantis","title":"Runaway
+        (U & I) (Ookay remix)","dateposted":1440861721,"siteid":15512,"sitename":"Dancing
+        Astronaut","posturl":"http:\/\/www.dancingastronaut.com\/2015\/08\/galantis-runaway-u-ookay-remix-free-download\/","postid":2752136,"loved_count":703,"posted_count":1,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/88\/2752136.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/88\/2752136_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/88\/2752136_320.jpg","thumb_url_artist":null,"time":259,"description":"Late
+        last year, songwriting and producing duo Galantis brought \u201cRunaway,\u201d
+        an uplifting and wildly successful single to the spotlight of the electronic
+        music community. Since the track\u2019s debut, there have been a number of
+        remix attempts that aim to capture","tags":["house","electronic","pop","dance","swedish"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"1":{"mediaid":"2703f","artist":"Galantis","title":"Runaway
+        (U & I)","dateposted":1432368861,"siteid":10192,"sitename":"One A Day","posturl":"http:\/\/www.1songday.com\/2015\/05\/galantis-runaway-u-i\/","postid":2687534,"loved_count":24193,"posted_count":12,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/2e\/2687534.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/2e\/2687534_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/2e\/2687534_320.jpg","thumb_url_artist":null,"time":227,"description":"It\u2019s
+        quite likely that Swedish duo Galantis had an unfair advantage as far as likelihood
+        of being featured on this blog is concerned. In fact, Galantis likely have
+        an unfair advantage as far as creating a worldwide EDM hit is concerned. Earlier
+        in the wee","tags":["house","electronic","dance","pop","swedish"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"2":{"mediaid":"2acwp","artist":"Galantis","title":"Runaway
+        (U & I) (East & Young Remix)","dateposted":1427485341,"siteid":4987,"sitename":"D
+        SQUARED","posturl":"http:\/\/danideahl.com\/galantis-runaway-u-i-east-young-remix\/","postid":2651714,"loved_count":442,"posted_count":1,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/42\/2651714.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/42\/2651714_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/images\/albumart\/320\/0.png","thumb_url_artist":null,"time":274,"description":"If
+        there\u2019s anything harder than remixing a song no one has heard of, it\u2019s
+        remixing one that everyone\u2019s heard a million times and a thousand remixes
+        already exist for. Such is the case with Galantis\u2019 \u201cRunaway\u201d
+        but East & Young absolutely nail this version ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"3":{"mediaid":"288bk","artist":"Galantis","title":"Runaway
+        (U & I) (J-Kraken Remix)","dateposted":1426797034,"siteid":13271,"sitename":"Silence
+        Nogood","posturl":"http:\/\/silencenogood.net\/kawaii-trap-jersey-club\/","postid":2646522,"loved_count":154,"posted_count":2,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/fa\/2646522.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/fa\/2646522_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/fa\/2646522_320.jpg","thumb_url_artist":null,"time":221,"description":"With
+        our first VAPOR playlist, we wanted to figure out what this sound is called.
+        We made up a few names of our own, but thought vapor fit best. Turns out it\u2019s
+        called Kawaii, and Jersey Club. Kawaii actually means cute in Japanese, which
+        makes most sense ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"4":{"mediaid":"2a71n","artist":"Galantis","title":"Runaway
+        (U & I) (Ansolo Remix)","dateposted":1426704994,"siteid":15512,"sitename":"Dancing
+        Astronaut","posturl":"http:\/\/www.dancingastronaut.com\/2015\/03\/galantis-runaway-u-ansolo-remix\/","postid":2645796,"loved_count":68,"posted_count":1,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/24\/2645796.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/24\/2645796_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/24\/2645796_320.jpg","thumb_url_artist":null,"time":316,"description":"When
+        Galantis announced the remix competition for \u201cRunaway (U&I),\u201d the
+        flood gates opened wide as a rush of producers hit their bedroom and professional
+        studios in hopes of impressing the Swedish duo with their abilities. But,
+        with every pool of remixes, ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"5":{"mediaid":"2933e","artist":"Galantis","title":"Runaway
+        (U & I)(Qrion Bootleg Remix)","dateposted":1422831636,"siteid":17657,"sitename":"acid
+        stag","posturl":"http:\/\/acidstag.com\/2015\/02\/02\/non-mixtape-mixes-volume-59\/","postid":2613324,"loved_count":60,"posted_count":2,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/4c\/2613324.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/4c\/2613324_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/4c\/2613324_320.jpg","thumb_url_artist":null,"time":207,"description":"Each
+        week we collect a stack of great remixes from all around the world that simply
+        wouldn\u2019t work in a Friday MixTape, but they are still 100% worthy of
+        a mention and your attention. So we have the Non-MixTape Mixes set up to showcase
+        some of these great ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"6":{"mediaid":"28sr1","artist":"Galantis","title":"Runaway
+        (U & I) (Dave Edwards Remix)","dateposted":1422503796,"siteid":4987,"sitename":"D
+        SQUARED","posturl":"http:\/\/danideahl.com\/galantis-runaway-u-i-dave-edwards-remix\/","postid":2611214,"loved_count":1432,"posted_count":5,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/e\/2611214.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/e\/2611214_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/9f\/2601631_320.jpg","thumb_url_artist":null,"time":236,"description":"Dave
+        Edwards is a huge Galantis fan. He says of \u201cRunaway,\u201d \u201cI loved
+        everything about the original from the first time I heard it\u2026the formant
+        adjusted vocals, the super mellow breakdowns that flow into massive drops,
+        the unusual chord progression, the weir","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"7":{"mediaid":"28gtt","artist":"Galantis","title":"Runaway
+        (U & I) (HLM Remix)","dateposted":1419291750,"siteid":4987,"sitename":"D SQUARED","posturl":"http:\/\/danideahl.com\/galantis-runaway-u-i-hlm-remix\/","postid":2590946,"loved_count":54,"posted_count":1,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/e2\/2590946.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/e2\/2590946_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/images\/albumart\/320\/3.png","thumb_url_artist":null,"time":318,"description":"Yup
+        there are a million versions of Galantis\u2019 \u201cRunaway\u201d floating
+        around right now, but I love when that happens and I find new, amazing versions
+        that give another dimension to the song. HLM, who is no stranger to this blog,
+        provides a proggy, big room sla","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"8":{"mediaid":"28ek2","artist":"Galantis","title":"Runaway
+        (U & I) (Dillon Francis Remix)","dateposted":1419009255,"siteid":12821,"sitename":"Kick
+        Kick Snare","posturl":"http:\/\/kickkicksnare.com\/2014\/12\/19\/hello-friday-remixes-47\/","postid":2589820,"loved_count":1111,"posted_count":3,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/7c\/2589820.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/7c\/2589820_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/7c\/2589820_320.jpg","thumb_url_artist":null,"time":213,"description":"Well,
+        everyone else in the world has remixed Galantis\u2019 \u201cRunaway (U & I)\u201d
+        so it only makes sense for Dillon Francis to step in now and do one better.
+        Personally, I\u2019m still waiting for him to top his remix of Toddla T\u2019s
+        \u201cTake It Back\u201d but I\u2019m not sure that\u2019","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"9":{"mediaid":"2865h","artist":"Galantis","title":"Runaway
+        (U & I) (LBCK Remix)","dateposted":1417999783,"siteid":5148,"sitename":"Stoney
+        Roads","posturl":"http:\/\/stoneyroads.com\/2014\/12\/galantis-runaway-u-i-lbck-remix","postid":2582344,"loved_count":4007,"posted_count":9,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/48\/2582344.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/48\/2582344_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/48\/2582344_320.jpg","thumb_url_artist":null,"time":227,"description":"I
+        know we\u2019re certainly on the tail end of \u201cRunaway (U+I)\u201d remixes
+        for their competition that has seemingly taken over the internet, but this
+        groovy rendition from LBCK is too good not to share. The electro funk duo
+        from Long Beach lay chunky guitar riffs ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"10":{"mediaid":"287j2","artist":"Galantis","title":"Runaway
+        (U & I) (Jess Marquis Remix)","dateposted":1417820836,"siteid":16496,"sitename":"Heilewelt","posturl":"http:\/\/heilewelt.tumblr.com\/post\/104428285371\/galantis-runaway-u-i-jess-marquis-remix","postid":2581762,"loved_count":34,"posted_count":1,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/2\/2581762.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/2\/2581762_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/2\/2581762_320.jpg","thumb_url_artist":null,"time":252,"description":"Galantis
+        - Runaway (U&I) (Jess Marquis Remix) Yes, I know, I said don\u2019t send me
+        EDM or anything like that, but you still do and I listen to it and still find
+        most of it boring. This one not. Maybe it\u2019s because I listened to a lot
+        of Techno and House when ","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"11":{"mediaid":"27s37","artist":"Galantis","title":"Runaway
+        (U & I) (Lash Remix)","dateposted":1416297648,"siteid":16373,"sitename":"Your
+        Music Radar","posturl":"http:\/\/www.yourmusicradar.com\/galantis-runaway-u-i-lash-remix\/","postid":2570148,"loved_count":2733,"posted_count":7,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/a4\/2570148.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/a4\/2570148_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/a4\/2570148_320.jpg","thumb_url_artist":null,"time":296,"description":"This
+        one\u2019s going off online at the moment and rightly so. You should make
+        sure you get lashings of this in your soul.","tags":["house","electronic","dance","swedish","pop"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"},"12":{"mediaid":"27drt","artist":"Galantis","title":"Runaway
+        (U & I) (Kaskade Remix)","dateposted":1414575741,"siteid":16373,"sitename":"Your
+        Music Radar","posturl":"http:\/\/www.yourmusicradar.com\/galantis-runaway-u-i\/","postid":2557272,"loved_count":1912,"posted_count":2,"thumb_url":"http:\/\/static.hypem.net\/thumbs_new\/58\/2557272.jpg","thumb_url_medium":"http:\/\/static.hypem.net\/thumbs_new\/58\/2557272_120.jpg","thumb_url_large":"http:\/\/static.hypem.net\/thumbs_new\/58\/2557272_320.jpg","thumb_url_artist":null,"time":315,"description":"In
+        a rare turn of events, we completely bypassed blogging about the sensational
+        track Runaway U & I from Galantis and went straight to the stream on Spotify
+        of which we\u2019ve been playing daily on multiple occasions. If you have
+        missed out on this killer ant","tags":["house","electronic","dance","pop","swedish"],"itunes_link":"http:\/\/hypem.com\/go\/itunes_search\/Galantis"}}'
+    http_version: 
+  recorded_at: Tue, 15 Sep 2015 21:53:21 GMT
+recorded_with: VCR 2.9.3

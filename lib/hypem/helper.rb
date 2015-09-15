@@ -6,7 +6,11 @@ module Hypem
     end
 
     def update_from_response(raw_hash)
-      raw_hash.each_pair do |key,value|
+      # Remixes in particular can return multiple hashes...
+      # For our purposes, let's just use the first?
+      response_hash = raw_hash.kind_of?(Array) ? raw_hash.first : raw_hash
+
+      response_hash.each_pair do |key,value|
         key = self.class.key_conversions[key.to_sym] || key.to_sym
 
         if self.class.datetime_conversions.andand.include? key
